@@ -1,11 +1,6 @@
 {
   "eras": [
     {
-      "id": "late_han",
-      "name": "汉末",
-      "description": "东汉末年军阀割据，曹操与袁绍对峙北方"
-    },
-    {
       "id": "three_kingdoms",
       "name": "三国",
       "description": "魏蜀吴三分天下，郡县林立"
