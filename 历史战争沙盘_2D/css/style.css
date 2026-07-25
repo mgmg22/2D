@@ -1,0 +1,746 @@
+/* ===== 全局样式 ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.hidden {
+  display: none !important;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC",
+    "Microsoft YaHei", sans-serif;
+  background: #1a1a2e;
+  color: #e0e0e0;
+  overflow: hidden;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ===== 战役选择面板 ===== */
+#battle-selector {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000;
+  background: rgba(26, 26, 46, 0.95);
+  border: 1px solid #3a3a5c;
+  border-radius: 12px;
+  padding: 12px 20px;
+  text-align: center;
+  backdrop-filter: blur(10px);
+}
+
+#battle-selector h2 {
+  font-size: 16px;
+  margin-bottom: 8px;
+  color: #c9a96e;
+  letter-spacing: 2px;
+}
+
+#era-list {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* ===== 地图模式切换 ===== */
+#map-mode {
+  display: flex;
+  gap: 6px;
+  justify-content: center;
+  margin-top: 8px;
+}
+
+.map-mode-btn {
+  padding: 4px 12px;
+  border: 1px solid #5a5a7c;
+  border-radius: 6px;
+  background: rgba(42, 42, 66, 0.8);
+  color: #ccc;
+  cursor: pointer;
+  font-size: 12px;
+  transition: all 0.2s;
+  font-family: inherit;
+}
+
+.map-mode-btn:hover {
+  background: #3a3a5c;
+  border-color: #c9a96e;
+  color: #fff;
+}
+
+.map-mode-btn.active {
+  background: #c9a96e;
+  color: #1a1a2e;
+  border-color: #c9a96e;
+  font-weight: bold;
+}
+
+.era-btn {
+  padding: 6px 16px;
+  border: 1px solid #5a5a7c;
+  border-radius: 6px;
+  background: rgba(42, 42, 66, 0.8);
+  color: #ccc;
+  cursor: pointer;
+  font-size: 13px;
+  transition: all 0.2s;
+  font-family: inherit;
+}
+
+.era-btn:hover {
+  background: #3a3a5c;
+  border-color: #c9a96e;
+  color: #fff;
+}
+
+.era-btn.active {
+  background: #c9a96e;
+  color: #1a1a2e;
+  border-color: #c9a96e;
+  font-weight: bold;
+}
+
+.era-btn:disabled,
+.era-btn--loading {
+  opacity: 0.6;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+.era-btn--error {
+  border-color: #c0392b;
+  color: #e74c3c;
+}
+
+.era-btn--loading::after {
+  content: "";
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin-left: 6px;
+  border: 2px solid currentColor;
+  border-top-color: transparent;
+  border-radius: 50%;
+  vertical-align: -1px;
+  animation: eraBtnSpin 0.8s linear infinite;
+}
+
+@keyframes eraBtnSpin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/* manifest 加载失败时的重试按钮 */
+.era-retry-btn {
+  padding: 6px 16px;
+  border: 1px solid #c0392b;
+  border-radius: 6px;
+  background: rgba(192, 57, 43, 0.2);
+  color: #e74c3c;
+  cursor: pointer;
+  font-size: 13px;
+  font-family: inherit;
+  transition: all 0.2s;
+}
+
+.era-retry-btn:hover {
+  background: rgba(192, 57, 43, 0.4);
+  color: #fff;
+}
+
+/* ===== 地图容器 ===== */
+#map-container {
+  flex: 1;
+  position: relative;
+}
+
+#map {
+  width: 100%;
+  height: 100%;
+}
+
+.leaflet-container {
+  background: #e8dcc8 !important;
+}
+
+/* ===== 底部控制面板 ===== */
+#control-panel {
+  background: rgba(26, 26, 46, 0.95);
+  border-top: 1px solid #3a3a5c;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+  backdrop-filter: blur(10px);
+}
+
+#campaign-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 160px;
+}
+
+#campaign-name {
+  font-size: 14px;
+  font-weight: bold;
+  color: #c9a96e;
+}
+
+#era-description {
+  font-size: 12px;
+  color: #aaa;
+}
+
+#era-status {
+  font-size: 12px;
+  color: #e74c3c;
+}
+
+#time-display {
+  font-size: 12px;
+  color: #aaa;
+}
+
+/* ===== 事件弹窗 ===== */
+#event-popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 2000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  backdrop-filter: blur(4px);
+}
+
+#event-popup.hidden {
+  display: none;
+}
+
+#event-popup-content {
+  background: rgba(26, 26, 46, 0.98);
+  border: 2px solid #c9a96e;
+  border-radius: 16px;
+  padding: 24px 32px;
+  max-width: 420px;
+  text-align: center;
+  animation: popupIn 0.3s ease;
+}
+
+@keyframes popupIn {
+  from {
+    transform: scale(0.8);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+#event-popup-content h3 {
+  font-size: 20px;
+  color: #c9a96e;
+  margin-bottom: 12px;
+}
+
+#event-popup-content p {
+  font-size: 14px;
+  color: #ccc;
+  line-height: 1.6;
+  margin-bottom: 16px;
+}
+
+#event-close {
+  padding: 8px 32px;
+  border: none;
+  border-radius: 8px;
+  background: #c9a96e;
+  color: #1a1a2e;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s;
+  font-family: inherit;
+}
+
+#event-close:hover {
+  background: #e8c97a;
+}
+
+/* ===== 兵力信息面板 ===== */
+#troop-info {
+  position: absolute;
+  top: 120px;
+  right: 10px;
+  z-index: 1000;
+  background: rgba(26, 26, 46, 0.92);
+  border: 1px solid #3a3a5c;
+  border-radius: 10px;
+  padding: 12px;
+  min-width: 180px;
+  backdrop-filter: blur(10px);
+}
+
+#troop-info h4 {
+  font-size: 13px;
+  color: #c9a96e;
+  margin-bottom: 8px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid #3a3a5c;
+}
+
+#troop-list {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.troop-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  padding: 4px 8px;
+  border-radius: 4px;
+  background: rgba(42, 42, 66, 0.5);
+}
+
+.troop-item .troop-name {
+  font-weight: bold;
+}
+
+.troop-item .troop-strength {
+  color: #e8c97a;
+}
+
+/* ===== 省份详情面板 ===== */
+#province-detail {
+  position: absolute;
+  top: 120px;
+  right: 10px;
+  z-index: 1000;
+  background: rgba(26, 26, 46, 0.95);
+  border: 1px solid #c9a96e;
+  border-radius: 10px;
+  padding: 12px;
+  min-width: 200px;
+  max-width: 260px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+#province-detail-close {
+  position: absolute;
+  top: 6px;
+  right: 8px;
+  width: 22px;
+  height: 22px;
+  line-height: 18px;
+  text-align: center;
+  border: 1px solid #5a5a7c;
+  border-radius: 4px;
+  background: rgba(42, 42, 66, 0.8);
+  color: #ccc;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 0;
+  font-family: inherit;
+  transition: all 0.2s;
+}
+
+#province-detail-close:hover {
+  background: #c0392b;
+  border-color: #c0392b;
+  color: #fff;
+}
+
+#province-detail h3 {
+  font-family: "Songti SC", "STSong", "SimSun", serif;
+  font-size: 16px;
+  color: #c9a96e;
+  margin-bottom: 6px;
+  padding-right: 24px;
+  letter-spacing: 1px;
+}
+
+#province-detail-faction {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+#province-detail-source {
+  font-size: 11px;
+  font-style: italic;
+  color: #aaa;
+  margin-bottom: 8px;
+  line-height: 1.5;
+}
+
+#province-detail h4 {
+  font-size: 12px;
+  color: #c9a96e;
+  margin-bottom: 6px;
+  padding-bottom: 4px;
+  border-bottom: 1px solid #3a3a5c;
+}
+
+#province-detail-cities {
+  list-style: none;
+  max-height: 200px;
+  overflow-y: auto;
+  font-size: 12px;
+  color: #e0e0e0;
+}
+
+#province-detail-cities li {
+  padding: 3px 6px;
+  border-radius: 3px;
+  background: rgba(42, 42, 66, 0.5);
+  margin-bottom: 3px;
+}
+
+#province-detail-cities li:hover {
+  background: rgba(42, 42, 66, 0.8);
+}
+
+/* ===== 战斗闪烁动画 ===== */
+@keyframes battleFlash {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.3; }
+}
+
+.battle-flash {
+  animation: battleFlash 0.5s ease-in-out 3;
+}
+
+/* ===== 自定义 Leaflet 弹窗 ===== */
+.leaflet-popup-content-wrapper {
+  background: rgba(26, 26, 46, 0.95) !important;
+  color: #e0e0e0 !important;
+  border: 1px solid #3a3a5c !important;
+  border-radius: 8px !important;
+}
+
+.leaflet-popup-tip {
+  background: rgba(26, 26, 46, 0.95) !important;
+}
+
+/* ===== 响应式 ===== */
+@media (max-width: 768px) {
+  #battle-selector {
+    padding: 8px 12px;
+  }
+  #battle-selector h2 {
+    font-size: 14px;
+  }
+  .era-btn {
+    padding: 4px 10px;
+    font-size: 11px;
+  }
+  #control-panel {
+    padding: 8px 12px;
+    gap: 8px;
+  }
+  #troop-info {
+    top: 100px;
+    right: 4px;
+    min-width: 140px;
+    padding: 8px;
+    font-size: 11px;
+  }
+}
+
+.label-plain, .city-marker-plain {
+  background: transparent !important;
+  border: none !important;
+}
+
+/* ===== 省名/国名标签层 ===== */
+.province-label {
+  background: transparent !important;
+  border: none !important;
+  font-family: "Songti SC", "STSong", "SimSun", serif;
+  font-size: 11px;
+  color: #3a2a1a;
+  font-weight: 600;
+  text-shadow: 0 0 2px rgba(255,255,255,0.7), 0 0 1px rgba(255,255,255,0.5);
+  white-space: nowrap;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+.province-label > div {
+  transform: translate(-50%, -50%);
+  display: inline-block;
+}
+.faction-label {
+  background: transparent !important;
+  border: none !important;
+  font-family: "Songti SC", "STSong", "SimSun", serif;
+  font-size: 17px;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.9), -1px -1px 2px rgba(0,0,0,0.9), 0 0 4px rgba(0,0,0,0.5);
+  white-space: nowrap;
+  pointer-events: none;
+  letter-spacing: 1px;
+  transition: opacity 0.3s ease;
+}
+.faction-label > div {
+  transform: translate(-50%, -50%);
+  display: inline-block;
+}
+
+/* ===== 城市标记 ===== */
+.city-marker {
+  background: transparent !important;
+  border: none !important;
+  white-space: nowrap;
+  font-family: "Songti SC", "STSong", "SimSun", serif;
+  transition: opacity 0.3s ease;
+}
+.city-marker > div {
+  transform: translate(-50%, -100%);
+  display: inline-block;
+}
+.city-marker-capital > div {
+  font-size: 13px;
+  font-weight: bold;
+  border-radius: 3px;
+  padding: 2px 8px;
+  background: rgba(26,26,46,0.88);
+  border: 1.5px solid var(--city-color);
+  color: var(--city-color);
+  text-shadow: none;
+  white-space: nowrap;
+}
+.city-marker-regular > div {
+  font-size: 11px;
+  font-weight: bold;
+  background: transparent;
+  border: none;
+  color: var(--city-color);
+  text-shadow: 0 0 3px rgba(0,0,0,0.9), 0 0 2px rgba(0,0,0,0.7), 1px 1px 2px rgba(0,0,0,0.5);
+  white-space: nowrap;
+}
+
+/* ===== 剧情时间轴 ===== */
+#scenario-timeline {
+  position: fixed;
+  right: 10px;
+  top: 280px;
+  width: 260px;
+  max-height: calc(100vh - 320px);
+  background: rgba(15,15,25,0.92);
+  border: 1px solid #C5A55A;
+  border-radius: 6px;
+  padding: 12px;
+  z-index: 1000;
+  overflow-y: auto;
+  font-family: 'Songti SC','SimSun',serif;
+  color: #d4c5a0;
+  font-size: 12px;
+}
+#scenario-timeline.hidden { display: none; }
+.timeline-header {
+  text-align: center;
+  color: #D4AF37;
+  font-size: 16px;
+  font-weight: bold;
+  padding-bottom: 8px;
+  border-bottom: 1px solid rgba(197,165,90,0.3);
+  margin-bottom: 8px;
+}
+.timeline-header small { color: #a09070; font-size: 11px; font-weight:normal; }
+.phase-header {
+  color: var(--phase-color, #C0392B);
+  font-weight: bold;
+  margin: 10px 0 6px 0;
+  font-size: 12px;
+  padding-left: 4px;
+  border-left: 3px solid var(--phase-color, #C0392B);
+}
+.event-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 4px 6px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background 0.2s;
+}
+.event-item:hover { background: rgba(197,165,90,0.15); }
+.event-item.active { background: rgba(212,175,55,0.2); }
+.event-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  margin-top: 4px;
+  flex-shrink: 0;
+  border: 2px solid transparent;
+  transition: all 0.2s;
+}
+.event-item.active .event-dot {
+  width: 12px;
+  height: 12px;
+  border-color: #FFD700;
+  margin-top: 2px;
+  box-shadow: 0 0 6px rgba(255,215,0,0.6);
+}
+.event-content { flex: 1; min-width:0; }
+.event-item-title { color: #c8b88e; font-size:12px; line-height: 1.4; }
+.event-item.active .event-item-title { color: #FFD700; font-weight: bold; }
+.event-item-date { color: #80705a; font-size: 10px; margin-top:1px; }
+.timeline-controls {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 12px;
+  padding-top: 10px;
+  border-top: 1px solid rgba(197,165,90,0.3);
+}
+.timeline-controls button {
+  background: linear-gradient(180deg, #5a4520 0%, #3a2d15 100%);
+  color: #D4AF37;
+  border: 1px solid #8B7355;
+  border-radius: 4px;
+  width: 32px;
+  height: 28px;
+  cursor: pointer;
+  font-size: 13px;
+  transition: all 0.2s;
+}
+.timeline-controls button:hover { background: linear-gradient(180deg, #7a5d2a 0%, #4a3a1d 100%); border-color:#D4AF37; }
+
+/* ===== 事件详情面板 ===== */
+#event-detail {
+  position: fixed;
+  left: 10px;
+  bottom: 50px;
+  width: 380px;
+  max-height: calc(100vh - 200px);
+  background: rgba(12,12,20,0.94);
+  border: 1px solid #C5A55A;
+  border-radius: 6px;
+  padding: 16px;
+  z-index: 1001;
+  overflow-y: auto;
+  font-family: 'Songti SC','SimSun',serif;
+  color: #d4c5a0;
+  font-size: 13px;
+  opacity: 0;
+  transform: translateY(20px);
+  pointer-events: none;
+  transition: opacity 0.3s, transform 0.3s;
+}
+#event-detail.visible {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+}
+#event-detail.hidden { display: none; }
+#event-detail-close {
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  background: none;
+  border: none;
+  color: #8B7355;
+  font-size: 20px;
+  cursor: pointer;
+  line-height: 1;
+}
+#event-detail-close:hover { color: #D4AF37; }
+#event-title {
+  color: #D4AF37;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 6px;
+  padding-right: 24px;
+}
+#event-meta {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  margin-bottom: 10px;
+  font-size: 12px;
+}
+#event-date { color: #a09070; }
+#event-type {
+  padding: 2px 8px;
+  border-radius: 3px;
+  font-size: 11px;
+  color: #fff;
+  font-weight: bold;
+}
+#event-desc {
+  line-height: 1.7;
+  color: #c8b88e;
+  margin-bottom: 12px;
+  padding: 8px;
+  background: rgba(197,165,90,0.08);
+  border-left: 3px solid #C5A55A;
+  border-radius: 0 4px 4px 0;
+}
+.event-section { margin-top: 10px; }
+.event-section-title {
+  color: #C5A55A;
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: 6px;
+  border-bottom: 1px dotted rgba(197,165,90,0.3);
+  padding-bottom: 3px;
+}
+.source-quote {
+  margin-bottom: 8px;
+  padding: 6px 10px;
+  background: rgba(245,235,215,0.08);
+  border-left: 3px solid #8B7355;
+  border-radius: 0 4px 4px 0;
+}
+.source-book {
+  color: #D4AF37;
+  font-size: 11px;
+  font-weight: bold;
+  margin-bottom: 3px;
+}
+.source-text {
+  font-family: 'Kaiti SC','KaiTi',serif;
+  color: #b8a880;
+  font-size: 12px;
+  line-height: 1.6;
+  font-style: italic;
+}
+.figure-tag {
+  display: inline-block;
+  padding: 2px 8px;
+  margin: 2px 4px 2px 0;
+  border: 1px solid #8B7355;
+  border-radius: 3px;
+  font-size: 11px;
+  background: rgba(0,0,0,0.3);
+}
+.figure-tag strong { color: #D4AF37; margin-right:4px; }
+.force-item {
+  padding: 3px 0;
+  font-size: 12px;
+  color: #b8a880;
+}
+.force-item .force-count { color: #C0392B; font-weight: bold; margin:0 4px; }
+.force-item .force-role { color: #80705a; font-size:11px; }
+
+/* 路线箭头不需要额外样式，divIcon已内联 */
+.route-arrow, .route-label { pointer-events: none; }

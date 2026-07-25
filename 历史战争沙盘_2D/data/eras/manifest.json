@@ -1,0 +1,29 @@
+{
+  "eras": [
+    {
+      "id": "spring_autumn_warring",
+      "name": "春秋战国",
+      "description": "诸侯争霸、百家争鸣，秦楚齐燕赵魏韩并立"
+    },
+    {
+      "id": "late_han",
+      "name": "汉末",
+      "description": "东汉末年军阀割据，曹操与袁绍对峙北方"
+    },
+    {
+      "id": "three_kingdoms",
+      "name": "三国",
+      "description": "魏蜀吴三分天下，郡县林立"
+    },
+    {
+      "id": "jin_unification",
+      "name": "三家归晋",
+      "description": "魏景元四年（263年），司马昭大举伐蜀，三分归一之始"
+    },
+    {
+      "id": "eastern_jin",
+      "name": "东晋",
+      "description": "淝水之战前后，前秦与东晋南北对峙"
+    }
+  ]
+}

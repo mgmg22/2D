@@ -1,0 +1,10864 @@
+{
+  "name": "汉末群雄",
+  "description": "建安二年（公元197年），袁术僭号称帝于淮南，曹操迎天子于许都，袁绍据河北四州，刘表镇荆州，孙策定江东，吕布据徐州，刘璋守益州，马腾韩遂割据凉州，群雄割据之势成。据《后汉书·郡国志》《三国志》编订。",
+  "center": [
+    34.0,
+    112.0
+  ],
+  "zoom": 5,
+  "factions": {
+    "cao": {
+      "name": "曹操",
+      "color": "#8B0000"
+    },
+    "yuan": {
+      "name": "袁绍",
+      "color": "#4169E1"
+    },
+    "shu_sun": {
+      "name": "孙策",
+      "color": "#2E8B57"
+    },
+    "liu_biao": {
+      "name": "刘表",
+      "color": "#DAA520"
+    },
+    "lv_bu": {
+      "name": "吕布",
+      "color": "#8B4513"
+    },
+    "yuan_shu": {
+      "name": "袁术",
+      "color": "#9370DB"
+    },
+    "liu_zhang": {
+      "name": "刘璋",
+      "color": "#8B7355"
+    },
+    "zhang_lu": {
+      "name": "张鲁",
+      "color": "#5F9EA0"
+    },
+    "ma_teng": {
+      "name": "马腾韩遂",
+      "color": "#B8860B"
+    },
+    "gongsun": {
+      "name": "公孙度",
+      "color": "#6B8E23"
+    },
+    "zhang_xiu": {
+      "name": "张绣",
+      "color": "#708090"
+    },
+    "barbarian": {
+      "name": "外族",
+      "color": "#757575"
+    },
+    "zhang_yang": {
+      "name": "张杨",
+      "color": "#D2691E"
+    },
+    "shi_xie": {
+      "name": "士燮",
+      "color": "#6B4423"
+    }
+  },
+  "provinces": [
+    {
+      "id": "daixian_wei",
+      "name": "代郡",
+      "faction": "yuan",
+      "seed": [
+        40,
+        114.5
+      ],
+      "size": 1.5,
+      "cities": [
+        {
+          "name": "高柳",
+          "coord": [
+            40.1,
+            114.2
+          ],
+          "capital": true,
+          "level": 2
+        },
+        {
+          "name": "代",
+          "coord": [
+            40.0,
+            114.6
+          ],
+          "level": 3
+        },
+        {
+          "name": "当城",
+          "coord": [
+            40.2,
+            114.8
+          ],
+          "level": 3
+        },
+        {
+          "name": "马城",
+          "coord": [
+            40.3,
+            114.9
+          ],
+          "level": 3
+        },
+        {
+          "name": "班氏",
+          "coord": [
+            39.9,
+            114.0
+          ],
+          "level": 3
+        },
+        {
+          "name": "狋氏",
+          "coord": [
+            39.8,
+            114.4
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    },
+    {
+      "id": "shanggu",
+      "name": "上谷",
+      "faction": "yuan",
+      "seed": [
+        40.5,
+        115.8
+      ],
+      "size": 1.6,
+      "cities": [
+        {
+          "name": "沮阳",
+          "coord": [
+            40.4,
+            115.8
+          ],
+          "capital": true,
+          "level": 2
+        },
+        {
+          "name": "居庸",
+          "coord": [
+            40.3,
+            115.9
+          ],
+          "level": 3
+        },
+        {
+          "name": "涿鹿",
+          "coord": [
+            40.2,
+            115.2
+          ],
+          "level": 3
+        },
+        {
+          "name": "潘",
+          "coord": [
+            40.0,
+            115.5
+          ],
+          "level": 3
+        },
+        {
+          "name": "下落",
+          "coord": [
+            40.3,
+            115.5
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    },
+    {
+      "id": "yuyang",
+      "name": "渔阳",
+      "faction": "yuan",
+      "seed": [
+        40.3,
+        117
+      ],
+      "size": 1.5,
+      "cities": [
+        {
+          "name": "渔阳",
+          "coord": [
+            40.4,
+            117.1
+          ],
+          "capital": true,
+          "level": 2
+        },
+        {
+          "name": "犷平",
+          "coord": [
+            40.2,
+            116.8
+          ],
+          "level": 3
+        },
+        {
+          "name": "雍奴",
+          "coord": [
+            39.8,
+            117.0
+          ],
+          "level": 3
+        },
+        {
+          "name": "泉州",
+          "coord": [
+            39.5,
+            117.1
+          ],
+          "level": 3
+        },
+        {
+          "name": "安乐",
+          "coord": [
+            40.1,
+            116.7
+          ],
+          "level": 3
+        },
+        {
+          "name": "虒奚",
+          "coord": [
+            40.6,
+            117.3
+          ],
+          "level": 3
+        },
+        {
+          "name": "狐奴",
+          "coord": [
+            40.1,
+            116.9
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    },
+    {
+      "id": "youbeiping",
+      "name": "右北平",
+      "faction": "yuan",
+      "seed": [
+        40.2,
+        118.5
+      ],
+      "size": 1.6,
+      "cities": [
+        {
+          "name": "土垠",
+          "coord": [
+            40.0,
+            118.1
+          ],
+          "capital": true,
+          "level": 2
+        },
+        {
+          "name": "徐无",
+          "coord": [
+            40.2,
+            117.7
+          ],
+          "level": 3
+        },
+        {
+          "name": "俊靡",
+          "coord": [
+            40.3,
+            117.9
+          ],
+          "level": 3
+        },
+        {
+          "name": "无终",
+          "coord": [
+            39.9,
+            117.5
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    },
+    {
+      "id": "liaoxi",
+      "name": "辽西",
+      "faction": "yuan",
+      "seed": [
+        40.8,
+        120.5
+      ],
+      "size": 1.8,
+      "cities": [
+        {
+          "name": "阳乐",
+          "coord": [
+            40.3,
+            120.2
+          ],
+          "capital": true,
+          "level": 2
+        },
+        {
+          "name": "海阳",
+          "coord": [
+            39.8,
+            119.3
+          ],
+          "level": 3
+        },
+        {
+          "name": "令支",
+          "coord": [
+            39.9,
+            118.8
+          ],
+          "level": 3
+        },
+        {
+          "name": "肥如",
+          "coord": [
+            40.0,
+            118.9
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    },
+    {
+      "id": "liaodong",
+      "name": "辽东",
+      "faction": "gongsun",
+      "seed": [
+        40.8,
+        123.5
+      ],
+      "size": 2,
+      "cities": [
+        {
+          "name": "襄平",
+          "coord": [
+            41.28,
+            123.24
+          ],
+          "capital": true,
+          "level": 2
+        },
+        {
+          "name": "辽隧",
+          "coord": [
+            41.0,
+            122.8
+          ],
+          "level": 3
+        },
+        {
+          "name": "安市",
+          "coord": [
+            40.9,
+            122.5
+          ],
+          "level": 3
+        },
+        {
+          "name": "新昌",
+          "coord": [
+            41.1,
+            122.6
+          ],
+          "level": 3
+        },
+        {
+          "name": "平郭",
+          "coord": [
+            40.4,
+            122.4
+          ],
+          "level": 3
+        },
+        {
+          "name": "西安平",
+          "coord": [
+            40.2,
+            124.3
+          ],
+          "level": 3
+        },
+        {
+          "name": "汶",
+          "coord": [
+            40.5,
+            122.8
+          ],
+          "level": 3
+        },
+        {
+          "name": "沓氏",
+          "coord": [
+            39.4,
+            121.9
+          ],
+          "level": 3
+        },
+        {
+          "name": "东沓",
+          "coord": [
+            39.2,
+            121.8
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    },
+    {
+      "id": "xuantu",
+      "name": "玄菟",
+      "faction": "gongsun",
+      "seed": [
+        41.8,
+        124.5
+      ],
+      "size": 1.3,
+      "cities": [
+        {
+          "name": "高句骊",
+          "coord": [
+            41.8,
+            124.5
+          ],
+          "capital": true,
+          "level": 2
+        },
+        {
+          "name": "西盖马",
+          "coord": [
+            41.5,
+            125.8
+          ],
+          "level": 3
+        },
+        {
+          "name": "上殷台",
+          "coord": [
+            42.0,
+            126.0
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    },
+    {
+      "id": "lelang",
+      "name": "乐浪",
+      "faction": "gongsun",
+      "seed": [
+        39.5,
+        125.8
+      ],
+      "size": 1.5,
+      "cities": [
+        {
+          "name": "朝鲜",
+          "coord": [
+            39.03,
+            125.76
+          ],
+          "capital": true,
+          "level": 2
+        },
+        {
+          "name": "𬇙水",
+          "coord": [
+            39.3,
+            125.5
+          ],
+          "level": 3
+        },
+        {
+          "name": "含资",
+          "coord": [
+            39.2,
+            125.6
+          ],
+          "level": 3
+        },
+        {
+          "name": "占蝉",
+          "coord": [
+            39.6,
+            125.7
+          ],
+          "level": 3
+        },
+        {
+          "name": "遂城",
+          "coord": [
+            39.7,
+            125.5
+          ],
+          "level": 3
+        },
+        {
+          "name": "增地",
+          "coord": [
+            39.4,
+            125.3
+          ],
+          "level": 3
+        },
+        {
+          "name": "带方",
+          "coord": [
+            39.0,
+            125.5
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    },
+    {
+      "id": "changli",
+      "name": "昌黎",
+      "faction": "yuan",
+      "seed": [
+        41,
+        121
+      ],
+      "size": 1.2,
+      "cities": [
+        {
+          "name": "昌黎",
+          "coord": [
+            41.0,
+            121.0
+          ],
+          "capital": true,
+          "level": 2
+        },
+        {
+          "name": "宾徒",
+          "coord": [
+            41.3,
+            121.3
+          ],
+          "level": 3
+        },
+        {
+          "name": "徒河",
+          "coord": [
+            41.5,
+            121.2
+          ],
+          "level": 3
+        },
+        {
+          "name": "柳城",
+          "coord": [
+            41.5,
+            120.7
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    },
+    {
+      "id": "daifang",
+      "name": "带方",
+      "faction": "gongsun",
+      "seed": [
+        38.8,
+        125.3
+      ],
+      "size": 1,
+      "cities": [
+        {
+          "name": "带方",
+          "coord": [
+            38.8,
+            125.3
+          ],
+          "capital": true,
+          "level": 2
+        },
+        {
+          "name": "列口",
+          "coord": [
+            38.7,
+            125.2
+          ],
+          "level": 3
+        },
+        {
+          "name": "长岑",
+          "coord": [
+            39.0,
+            125.4
+          ],
+          "level": 3
+        },
+        {
+          "name": "提奚",
+          "coord": [
+            38.9,
+            125.5
+          ],
+          "level": 3
+        },
+        {
+          "name": "海冥",
+          "coord": [
+            38.6,
+            125.3
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    },
+    {
+      "id": "yan",
+      "name": "燕国",
+      "faction": "yuan",
+      "seed": [
+        39.8,
+        116.4
+      ],
+      "size": 1.3,
+      "cities": [
+        {
+          "name": "蓟",
+          "coord": [
+            39.91,
+            116.4
+          ],
+          "capital": true,
+          "level": 1
+        },
+        {
+          "name": "涿",
+          "coord": [
+            39.5,
+            116.0
+          ],
+          "level": 1,
+          "capital": true
+        },
+        {
+          "name": "良乡",
+          "coord": [
+            39.7,
+            116.1
+          ],
+          "level": 3
+        },
+        {
+          "name": "方城",
+          "coord": [
+            39.4,
+            116.2
+          ],
+          "level": 3
+        },
+        {
+          "name": "安次",
+          "coord": [
+            39.5,
+            116.7
+          ],
+          "level": 3
+        },
+        {
+          "name": "潞",
+          "coord": [
+            39.9,
+            116.8
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    },
+    {
+      "id": "jizhou_wei",
+      "name": "冀州魏",
+      "faction": "yuan",
+      "seed": [
+        36.3,
+        114.5
+      ],
+      "size": 1.8,
+      "cities": [
+        {
+          "name": "邺",
+          "coord": [
+            36.33,
+            114.4
+          ],
+          "capital": true,
+          "level": 1
+        },
+        {
+          "name": "魏郡",
+          "coord": [
+            36.2,
+            114.5
+          ],
+          "level": 3
+        },
+        {
+          "name": "斥丘",
+          "coord": [
+            36.4,
+            114.7
+          ],
+          "level": 3
+        },
+        {
+          "name": "内黄",
+          "coord": [
+            35.9,
+            114.9
+          ],
+          "level": 3
+        },
+        {
+          "name": "黎阳",
+          "coord": [
+            35.7,
+            114.5
+          ],
+          "level": 3
+        },
+        {
+          "name": "汤阴",
+          "coord": [
+            35.9,
+            114.4
+          ],
+          "level": 3
+        },
+        {
+          "name": "荡阴",
+          "coord": [
+            35.9,
+            114.4
+          ],
+          "level": 3
+        },
+        {
+          "name": "安阳",
+          "coord": [
+            36.1,
+            114.4
+          ],
+          "level": 3
+        },
+        {
+          "name": "阴安",
+          "coord": [
+            36.0,
+            115.2
+          ],
+          "level": 3
+        },
+        {
+          "name": "馆陶",
+          "coord": [
+            36.5,
+            115.3
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    },
+    {
+      "id": "zhao_wei",
+      "name": "赵国",
+      "faction": "yuan",
+      "seed": [
+        36.7,
+        114.5
+      ],
+      "size": 1.2,
+      "cities": [
+        {
+          "name": "邯郸",
+          "coord": [
+            36.62,
+            114.49
+          ],
+          "capital": true,
+          "level": 1
+        },
+        {
+          "name": "易阳",
+          "coord": [
+            36.8,
+            114.5
+          ],
+          "level": 3
+        },
+        {
+          "name": "襄国",
+          "coord": [
+            37.1,
+            114.5
+          ],
+          "level": 3
+        },
+        {
+          "name": "中丘",
+          "coord": [
+            37.3,
+            114.6
+          ],
+          "level": 3
+        },
+        {
+          "name": "柏人",
+          "coord": [
+            37.4,
+            114.7
+          ],
+          "level": 3
+        },
+        {
+          "name": "房子",
+          "coord": [
+            37.7,
+            114.5
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    },
+    {
+      "id": "julu",
+      "name": "巨鹿",
+      "faction": "yuan",
+      "seed": [
+        37.2,
+        115
+      ],
+      "size": 1.3,
+      "cities": [
+        {
+          "name": "廮陶",
+          "coord": [
+            37.2,
+            115.0
+          ],
+          "capital": true,
+          "level": 2
+        },
+        {
+          "name": "巨鹿",
+          "coord": [
+            37.3,
+            115.1
+          ],
+          "level": 3
+        },
+        {
+          "name": "杨氏",
+          "coord": [
+            37.1,
+            115.1
+          ],
+          "level": 3
+        },
+        {
+          "name": "鄡",
+          "coord": [
+            38.0,
+            115.2
+          ],
+          "level": 3
+        },
+        {
+          "name": "下曲阳",
+          "coord": [
+            38.2,
+            114.9
+          ],
+          "level": 3
+        },
+        {
+          "name": "南䜌",
+          "coord": [
+            37.5,
+            115.0
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    },
+    {
+      "id": "anping",
+      "name": "安平",
+      "faction": "yuan",
+      "seed": [
+        37.6,
+        115.6
+      ],
+      "size": 1.1,
+      "cities": [
+        {
+          "name": "信都",
+          "coord": [
+            37.7,
+            115.6
+          ],
+          "capital": true,
+          "level": 2
+        },
+        {
+          "name": "安平",
+          "coord": [
+            37.7,
+            115.5
+          ],
+          "level": 3
+        },
+        {
+          "name": "饶阳",
+          "coord": [
+            38.2,
+            115.7
+          ],
+          "level": 3
+        },
+        {
+          "name": "南深泽",
+          "coord": [
+            38.2,
+            115.4
+          ],
+          "level": 3
+        },
+        {
+          "name": "阜城",
+          "coord": [
+            37.9,
+            116.3
+          ],
+          "level": 3
+        },
+        {
+          "name": "南宫",
+          "coord": [
+            37.4,
+            115.4
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    },
+    {
+      "id": "boling",
+      "name": "博陵",
+      "faction": "yuan",
+      "seed": [
+        38.2,
+        115.6
+      ],
+      "size": 1,
+      "cities": [
+        {
+          "name": "博陵",
+          "coord": [
+            38.2,
+            115.6
+          ],
+          "capital": true,
+          "level": 2
+        },
+        {
+          "name": "安平",
+          "coord": [
+            38.3,
+            115.5
+          ],
+          "level": 3
+        },
+        {
+          "name": "南深泽",
+          "coord": [
+            38.2,
+            115.4
+          ],
+          "level": 3
+        },
+        {
+          "name": "安国",
+          "coord": [
+            38.4,
+            115.3
+          ],
+          "level": 3
+        },
+        {
+          "name": "蠡吾",
+          "coord": [
+            38.5,
+            115.6
+          ],
+          "level": 3
+        },
+        {
+          "name": "高阳",
+          "coord": [
+            38.7,
+            115.8
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    },
+    {
+      "id": "bohai",
+      "name": "勃海",
+      "faction": "yuan",
+      "seed": [
+        38,
+        117
+      ],
+      "size": 1.4,
+      "cities": [
+        {
+          "name": "南皮",
+          "coord": [
+            38.0,
+            116.9
+          ],
+          "capital": true,
+          "level": 2
+        },
+        {
+          "name": "浮阳",
+          "coord": [
+            38.3,
+            116.9
+          ],
+          "level": 3
+        },
+        {
+          "name": "章武",
+          "coord": [
+            38.5,
+            117.1
+          ],
+          "level": 3
+        },
+        {
+          "name": "束州",
+          "coord": [
+            38.5,
+            116.6
+          ],
+          "level": 3
+        },
+        {
+          "name": "文安",
+          "coord": [
+            38.8,
+            116.5
+          ],
+          "level": 3
+        },
+        {
+          "name": "重合",
+          "coord": [
+            37.9,
+            117.3
+          ],
+          "level": 3
+        },
+        {
+          "name": "高成",
+          "coord": [
+            38.0,
+            117.5
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    },
+    {
+      "id": "zhangwu",
+      "name": "章武",
+      "faction": "yuan",
+      "seed": [
+        38.7,
+        116.8
+      ],
+      "size": 0.9,
+      "cities": [
+        {
+          "name": "东平舒",
+          "coord": [
+            38.6,
+            116.8
+          ],
+          "capital": true,
+          "level": 2
+        },
+        {
+          "name": "文安",
+          "coord": [
+            38.8,
+            116.5
+          ],
+          "level": 3
+        },
+        {
+          "name": "束州",
+          "coord": [
+            38.5,
+            116.6
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    },
+    {
+      "id": "hejian",
+      "name": "河间",
+      "faction": "yuan",
+      "seed": [
+        38.4,
+        116.2
+      ],
+      "size": 1,
+      "cities": [
+        {
+          "name": "乐成",
+          "coord": [
+            38.3,
+            116.2
+          ],
+          "capital": true,
+          "level": 2
+        },
+        {
+          "name": "弓高",
+          "coord": [
+            38.1,
+            116.3
+          ],
+          "level": 3
+        },
+        {
+          "name": "侯井",
+          "coord": [
+            38.0,
+            116.1
+          ],
+          "level": 3
+        },
+        {
+          "name": "武垣",
+          "coord": [
+            38.5,
+            116.3
+          ],
+          "level": 3
+        },
+        {
+          "name": "中水",
+          "coord": [
+            38.0,
+            116.0
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    },
+    {
+      "id": "qinghe",
+      "name": "清河",
+      "faction": "yuan",
+      "seed": [
+        37,
+        115.7
+      ],
+      "size": 1.1,
+      "cities": [
+        {
+          "name": "清河",
+          "coord": [
+            37.0,
+            115.7
+          ],
+          "capital": true,
+          "level": 2
+        },
+        {
+          "name": "东武城",
+          "coord": [
+            37.3,
+            115.8
+          ],
+          "level": 3
+        },
+        {
+          "name": "绎幕",
+          "coord": [
+            37.2,
+            116.0
+          ],
+          "level": 3
+        },
+        {
+          "name": "贝丘",
+          "coord": [
+            36.8,
+            115.8
+          ],
+          "level": 3
+        },
+        {
+          "name": "鄃",
+          "coord": [
+            36.9,
+            116.2
+          ],
+          "level": 3
+        },
+        {
+          "name": "灵",
+          "coord": [
+            36.7,
+            116.2
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    },
+    {
+      "id": "zhongshan",
+      "name": "中山",
+      "faction": "yuan",
+      "seed": [
+        38.5,
+        115
+      ],
+      "size": 1.2,
+      "cities": [
+        {
+          "name": "卢奴",
+          "coord": [
+            38.5,
+            115.0
+          ],
+          "capital": true,
+          "level": 2
+        },
+        {
+          "name": "北平",
+          "coord": [
+            38.7,
+            115.1
+          ],
+          "level": 3
+        },
+        {
+          "name": "新市",
+          "coord": [
+            38.4,
+            114.6
+          ],
+          "level": 3
+        },
+        {
+          "name": "毋极",
+          "coord": [
+            38.3,
+            114.8
+          ],
+          "level": 3
+        },
+        {
+          "name": "安喜",
+          "coord": [
+            38.6,
+            114.9
+          ],
+          "level": 3
+        },
+        {
+          "name": "望都",
+          "coord": [
+            38.7,
+            115.2
+          ],
+          "level": 3
+        },
+        {
+          "name": "唐",
+          "coord": [
+            38.8,
+            114.9
+          ],
+          "level": 3
+        },
+        {
+          "name": "苦陉",
+          "coord": [
+            38.3,
+            115.0
+          ],
+          "level": 3
+        },
+        {
+          "name": "汉昌",
+          "coord": [
+            38.6,
+            115.3
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    },
+    {
+      "id": "changshan",
+      "name": "常山",
+      "faction": "yuan",
+      "seed": [
+        38.2,
+        114.5
+      ],
+      "size": 1.4,
+      "cities": [
+        {
+          "name": "真定",
+          "coord": [
+            38.2,
+            114.6
+          ],
+          "capital": true,
+          "level": 2
+        },
+        {
+          "name": "元氏",
+          "coord": [
+            37.8,
+            114.4
+          ],
+          "level": 3
+        },
+        {
+          "name": "石邑",
+          "coord": [
+            38.0,
+            114.3
+          ],
+          "level": 3
+        },
+        {
+          "name": "灵寿",
+          "coord": [
+            38.3,
+            114.2
+          ],
+          "level": 3
+        },
+        {
+          "name": "蒲吾",
+          "coord": [
+            38.2,
+            114.1
+          ],
+          "level": 3
+        },
+        {
+          "name": "井陉",
+          "coord": [
+            38.0,
+            114.0
+          ],
+          "level": 3
+        },
+        {
+          "name": "九门",
+          "coord": [
+            38.2,
+            114.7
+          ],
+          "level": 3
+        },
+        {
+          "name": "房子",
+          "coord": [
+            37.7,
+            114.5
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    },
+    {
+      "id": "pingyuan",
+      "name": "平原",
+      "faction": "yuan",
+      "seed": [
+        37.2,
+        116.5
+      ],
+      "size": 1.2,
+      "cities": [
+        {
+          "name": "平原",
+          "coord": [
+            37.2,
+            116.5
+          ],
+          "capital": true,
+          "level": 2
+        },
+        {
+          "name": "高唐",
+          "coord": [
+            36.9,
+            116.3
+          ],
+          "level": 3
+        },
+        {
+          "name": "般",
+          "coord": [
+            37.1,
+            116.7
+          ],
+          "level": 3
+        },
+        {
+          "name": "鬲",
+          "coord": [
+            37.4,
+            116.8
+          ],
+          "level": 3
+        },
+        {
+          "name": "祝阿",
+          "coord": [
+            36.8,
+            116.8
+          ],
+          "level": 3
+        },
+        {
+          "name": "漯阴",
+          "coord": [
+            36.9,
+            117.0
+          ],
+          "level": 3
+        },
+        {
+          "name": "安德",
+          "coord": [
+            37.4,
+            116.6
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    },
+    {
+      "id": "leling",
+      "name": "乐陵",
+      "faction": "yuan",
+      "seed": [
+        37.8,
+        117.3
+      ],
+      "size": 1,
+      "cities": [
+        {
+          "name": "厌次",
+          "coord": [
+            37.8,
+            117.3
+          ],
+          "capital": true,
+          "level": 2
+        },
+        {
+          "name": "乐陵",
+          "coord": [
+            37.7,
+            117.2
+          ],
+          "level": 3
+        },
+        {
+          "name": "阳信",
+          "coord": [
+            37.6,
+            117.6
+          ],
+          "level": 3
+        },
+        {
+          "name": "新乐",
+          "coord": [
+            37.9,
+            117.4
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    },
+    {
+      "id": "jinan",
+      "name": "济南",
+      "faction": "yuan",
+      "seed": [
+        36.7,
+        117.4
+      ],
+      "size": 1.1,
+      "cities": [
+        {
+          "name": "东平陵",
+          "coord": [
+            36.7,
+            117.4
+          ],
+          "capital": true,
+          "level": 2
+        },
+        {
+          "name": "著",
+          "coord": [
+            36.8,
+            117.3
+          ],
+          "level": 3
+        },
+        {
+          "name": "于陵",
+          "coord": [
+            36.8,
+            117.7
+          ],
+          "level": 3
+        },
+        {
+          "name": "台",
+          "coord": [
+            36.6,
+            117.5
+          ],
+          "level": 3
+        },
+        {
+          "name": "菅",
+          "coord": [
+            36.9,
+            117.4
+          ],
+          "level": 3
+        },
+        {
+          "name": "土鼓",
+          "coord": [
+            36.6,
+            117.6
+          ],
+          "level": 3
+        },
+        {
+          "name": "梁邹",
+          "coord": [
+            36.9,
+            117.6
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    },
+    {
+      "id": "lean",
+      "name": "乐安",
+      "faction": "yuan",
+      "seed": [
+        37.1,
+        118
+      ],
+      "size": 1.1,
+      "cities": [
+        {
+          "name": "临济",
+          "coord": [
+            37.1,
+            118.0
+          ],
+          "capital": true,
+          "level": 2
+        },
+        {
+          "name": "千乘",
+          "coord": [
+            37.1,
+            117.8
+          ],
+          "level": 3
+        },
+        {
+          "name": "高菀",
+          "coord": [
+            37.0,
+            117.9
+          ],
+          "level": 3
+        },
+        {
+          "name": "乐安",
+          "coord": [
+            37.2,
+            118.1
+          ],
+          "level": 3
+        },
+        {
+          "name": "博昌",
+          "coord": [
+            37.1,
+            118.3
+          ],
+          "level": 3
+        },
+        {
+          "name": "蓼城",
+          "coord": [
+            37.3,
+            118.2
+          ],
+          "level": 3
+        },
+        {
+          "name": "利",
+          "coord": [
+            37.4,
+            118.3
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    },
+    {
+      "id": "qi_wei",
+      "name": "齐国",
+      "faction": "yuan",
+      "seed": [
+        36.8,
+        118.3
+      ],
+      "size": 1,
+      "cities": [
+        {
+          "name": "临菑",
+          "coord": [
+            36.82,
+            118.33
+          ],
+          "capital": true,
+          "level": 1
+        },
+        {
+          "name": "西安",
+          "coord": [
+            36.9,
+            118.2
+          ],
+          "level": 3
+        },
+        {
+          "name": "昌国",
+          "coord": [
+            36.7,
+            118.1
+          ],
+          "level": 3
+        },
+        {
+          "name": "般阳",
+          "coord": [
+            36.6,
+            117.9
+          ],
+          "level": 3
+        },
+        {
+          "name": "广",
+          "coord": [
+            36.9,
+            118.4
+          ],
+          "level": 3
+        },
+        {
+          "name": "东安平",
+          "coord": [
+            37.0,
+            118.2
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    },
+    {
+      "id": "beihai",
+      "name": "北海",
+      "faction": "yuan",
+      "seed": [
+        36.8,
+        119
+      ],
+      "size": 1.2,
+      "cities": [
+        {
+          "name": "剧",
+          "coord": [
+            36.7,
+            119.0
+          ],
+          "capital": true,
+          "level": 2
+        },
+        {
+          "name": "营陵",
+          "coord": [
+            36.6,
+            118.8
+          ],
+          "level": 3
+        },
+        {
+          "name": "平寿",
+          "coord": [
+            36.7,
+            119.1
+          ],
+          "level": 3
+        },
+        {
+          "name": "都昌",
+          "coord": [
+            36.9,
+            119.2
+          ],
+          "level": 3
+        },
+        {
+          "name": "安丘",
+          "coord": [
+            36.4,
+            119.2
+          ],
+          "level": 3
+        },
+        {
+          "name": "淳于",
+          "coord": [
+            36.5,
+            119.3
+          ],
+          "level": 3
+        },
+        {
+          "name": "高密",
+          "coord": [
+            36.4,
+            119.6
+          ],
+          "level": 3
+        },
+        {
+          "name": "壮武",
+          "coord": [
+            36.7,
+            120.1
+          ],
+          "level": 3
+        },
+        {
+          "name": "下密",
+          "coord": [
+            36.9,
+            119.5
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    },
+    {
+      "id": "donglai",
+      "name": "东莱",
+      "faction": "yuan",
+      "seed": [
+        37.5,
+        121
+      ],
+      "size": 1.5,
+      "cities": [
+        {
+          "name": "黄",
+          "coord": [
+            37.6,
+            120.6
+          ],
+          "capital": true,
+          "level": 2
+        },
+        {
+          "name": "牟平",
+          "coord": [
+            37.4,
+            121.6
+          ],
+          "level": 3
+        },
+        {
+          "name": "惤",
+          "coord": [
+            37.3,
+            120.3
+          ],
+          "level": 3
+        },
+        {
+          "name": "曲成",
+          "coord": [
+            37.4,
+            120.2
+          ],
+          "level": 3
+        },
+        {
+          "name": "掖",
+          "coord": [
+            37.2,
+            119.9
+          ],
+          "level": 3
+        },
+        {
+          "name": "当利",
+          "coord": [
+            37.1,
+            119.8
+          ],
+          "level": 3
+        },
+        {
+          "name": "东牟",
+          "coord": [
+            37.4,
+            121.7
+          ],
+          "level": 3
+        },
+        {
+          "name": "昌阳",
+          "coord": [
+            37.0,
+            121.0
+          ],
+          "level": 3
+        },
+        {
+          "name": "长广",
+          "coord": [
+            36.8,
+            120.7
+          ],
+          "level": 3
+        },
+        {
+          "name": "不其",
+          "coord": [
+            36.3,
+            120.4
+          ],
+          "level": 3
+        },
+        {
+          "name": "黔陬",
+          "coord": [
+            36.1,
+            119.9
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    },
+    {
+      "id": "chengyang",
+      "name": "城阳",
+      "faction": "lv_bu",
+      "seed": [
+        35.8,
+        119.6
+      ],
+      "size": 1.2,
+      "cities": [
+        {
+          "name": "东武",
+          "coord": [
+            36.0,
+            119.4
+          ],
+          "capital": true,
+          "level": 2
+        },
+        {
+          "name": "莒",
+          "coord": [
+            35.6,
+            118.8
+          ],
+          "level": 3
+        },
+        {
+          "name": "诸",
+          "coord": [
+            36.0,
+            119.5
+          ],
+          "level": 3
+        },
+        {
+          "name": "姑幕",
+          "coord": [
+            35.8,
+            119.2
+          ],
+          "level": 3
+        },
+        {
+          "name": "东莞",
+          "coord": [
+            35.7,
+            118.7
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    },
+    {
+      "id": "shangdang_bing",
+      "name": "上党",
+      "faction": "yuan",
+      "seed": [
+        36.2,
+        113.1
+      ],
+      "size": 1.8,
+      "cities": [
+        {
+          "name": "壶关",
+          "coord": [
+            36.1,
+            113.2
+          ],
+          "capital": true,
+          "level": 2
+        },
+        {
+          "name": "长子",
+          "coord": [
+            36.1,
+            112.9
+          ],
+          "level": 3
+        },
+        {
+          "name": "屯留",
+          "coord": [
+            36.3,
+            112.9
+          ],
+          "level": 3
+        },
+        {
+          "name": "铜鞮",
+          "coord": [
+            36.7,
+            112.8
+          ],
+          "level": 3
+        },
+        {
+          "name": "襄垣",
+          "coord": [
+            36.5,
+            113.0
+          ],
+          "level": 3
+        },
+        {
+          "name": "潞",
+          "coord": [
+            36.4,
+            113.4
+          ],
+          "level": 3
+        },
+        {
+          "name": "泫氏",
+          "coord": [
+            35.8,
+            112.9
+          ],
+          "level": 3
+        },
+        {
+          "name": "高都",
+          "coord": [
+            35.5,
+            112.8
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    },
+    {
+      "id": "xihe_bing",
+      "name": "西河",
+      "faction": "yuan",
+      "seed": [
+        37.5,
+        111.2
+      ],
+      "size": 1.7,
+      "cities": [
+        {
+          "name": "离石",
+          "coord": [
+            37.5,
+            111.1
+          ],
+          "capital": true,
+          "level": 2
+        },
+        {
+          "name": "中阳",
+          "coord": [
+            37.4,
+            111.2
+          ],
+          "level": 3
+        },
+        {
+          "name": "平周",
+          "coord": [
+            37.3,
+            111.3
+          ],
+          "level": 3
+        },
+        {
+          "name": "蔺",
+          "coord": [
+            37.6,
+            110.8
+          ],
+          "level": 3
+        },
+        {
+          "name": "隰成",
+          "coord": [
+            37.1,
+            111.1
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    },
+    {
+      "id": "taiyuan_bing",
+      "name": "太原",
+      "faction": "yuan",
+      "seed": [
+        37.8,
+        112.5
+      ],
+      "size": 1.5,
+      "cities": [
+        {
+          "name": "晋阳",
+          "coord": [
+            37.8,
+            112.5
+          ],
+          "capital": true,
+          "level": 1
+        },
+        {
+          "name": "界休",
+          "coord": [
+            37.0,
+            111.9
+          ],
+          "level": 3
+        },
+        {
+          "name": "榆次",
+          "coord": [
+            37.7,
+            112.7
+          ],
+          "level": 3
+        },
+        {
+          "name": "中都",
+          "coord": [
+            37.8,
+            112.6
+          ],
+          "level": 3
+        },
+        {
+          "name": "兹氏",
+          "coord": [
+            37.3,
+            111.8
+          ],
+          "level": 3
+        },
+        {
+          "name": "狼孟",
+          "coord": [
+            38.0,
+            112.5
+          ],
+          "level": 3
+        },
+        {
+          "name": "阳曲",
+          "coord": [
+            38.1,
+            112.6
+          ],
+          "level": 3
+        },
+        {
+          "name": "祁",
+          "coord": [
+            37.4,
+            112.3
+          ],
+          "level": 3
+        },
+        {
+          "name": "平陶",
+          "coord": [
+            37.3,
+            112.2
+          ],
+          "level": 3
+        },
+        {
+          "name": "大陵",
+          "coord": [
+            37.5,
+            112.0
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    },
+    {
+      "id": "yanmen_bing",
+      "name": "雁门",
+      "faction": "yuan",
+      "seed": [
+        39.2,
+        112.5
+      ],
+      "size": 1.7,
+      "cities": [
+        {
+          "name": "阴馆",
+          "coord": [
+            39.2,
+            112.6
+          ],
+          "capital": true,
+          "level": 2
+        },
+        {
+          "name": "马邑",
+          "coord": [
+            39.4,
+            112.5
+          ],
+          "level": 3
+        },
+        {
+          "name": "剧阳",
+          "coord": [
+            39.5,
+            112.6
+          ],
+          "level": 3
+        },
+        {
+          "name": "楼烦",
+          "coord": [
+            38.9,
+            112.0
+          ],
+          "level": 3
+        },
+        {
+          "name": "繁畤",
+          "coord": [
+            39.3,
+            113.0
+          ],
+          "level": 3
+        },
+        {
+          "name": "崞",
+          "coord": [
+            39.2,
+            112.9
+          ],
+          "level": 3
+        },
+        {
+          "name": "汪陶",
+          "coord": [
+            39.1,
+            112.7
+          ],
+          "level": 3
+        },
+        {
+          "name": "平城",
+          "coord": [
+            40.1,
+            113.2
+          ],
+          "level": 3
+        },
+        {
+          "name": "埒",
+          "coord": [
+            39.6,
+            112.8
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    },
+    {
+      "id": "xinxing",
+      "name": "新兴",
+      "faction": "barbarian",
+      "seed": [
+        38.5,
+        112.5
+      ],
+      "size": 1.2,
+      "cities": [
+        {
+          "name": "九原",
+          "coord": [
+            38.3,
+            112.3
+          ],
+          "capital": true,
+          "level": 2
+        },
+        {
+          "name": "定襄",
+          "coord": [
+            38.5,
+            112.4
+          ],
+          "level": 3
+        },
+        {
+          "name": "云中",
+          "coord": [
+            38.6,
+            112.4
+          ],
+          "level": 3
+        },
+        {
+          "name": "广牧",
+          "coord": [
+            39.5,
+            112.0
+          ],
+          "level": 3
+        },
+        {
+          "name": "晋昌",
+          "coord": [
+            38.4,
+            112.5
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    },
+    {
+      "id": "shuofang",
+      "name": "朔方",
+      "faction": "barbarian",
+      "seed": [
+        40.2,
+        108
+      ],
+      "size": 1.5,
+      "cities": [
+        {
+          "name": "临戎",
+          "coord": [
+            40.2,
+            107.7
+          ],
+          "capital": true,
+          "level": 2
+        },
+        {
+          "name": "朔方",
+          "coord": [
+            40.5,
+            108.5
+          ],
+          "level": 3
+        },
+        {
+          "name": "沃野",
+          "coord": [
+            40.9,
+            107.5
+          ],
+          "level": 3
+        },
+        {
+          "name": "三封",
+          "coord": [
+            40.0,
+            106.9
+          ],
+          "level": 3
+        },
+        {
+          "name": "窳浑",
+          "coord": [
+            40.6,
+            107.0
+          ],
+          "level": 3
+        },
+        {
+          "name": "广牧",
+          "coord": [
+            40.1,
+            108.2
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    },
+    {
+      "id": "wuyuan",
+      "name": "五原",
+      "faction": "barbarian",
+      "seed": [
+        40.7,
+        109.6
+      ],
+      "size": 1.3,
+      "cities": [
+        {
+          "name": "九原",
+          "coord": [
+            40.6,
+            109.8
+          ],
+          "capital": true,
+          "level": 2
+        },
+        {
+          "name": "五原",
+          "coord": [
+            40.8,
+            109.5
+          ],
+          "level": 3
+        },
+        {
+          "name": "临沃",
+          "coord": [
+            40.5,
+            109.9
+          ],
+          "level": 3
+        },
+        {
+          "name": "成宜",
+          "coord": [
+            40.9,
+            109.0
+          ],
+          "level": 3
+        },
+        {
+          "name": "西安阳",
+          "coord": [
+            40.7,
+            109.0
+          ],
+          "level": 3
+        },
+        {
+          "name": "河阴",
+          "coord": [
+            40.5,
+            109.2
+          ],
+          "level": 3
+        },
+        {
+          "name": "曼柏",
+          "coord": [
+            40.3,
+            109.8
+          ],
+          "level": 3
+        },
+        {
+          "name": "宜梁",
+          "coord": [
+            40.6,
+            109.3
+          ],
+          "level": 3
+        },
+        {
+          "name": "武都",
+          "coord": [
+            41.2,
+            109.9
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    },
+    {
+      "id": "yunzhong_bing",
+      "name": "云中",
+      "faction": "barbarian",
+      "seed": [
+        40.5,
+        111.5
+      ],
+      "size": 1.4,
+      "cities": [
+        {
+          "name": "云中",
+          "coord": [
+            40.5,
+            111.5
+          ],
+          "capital": true,
+          "level": 2
+        },
+        {
+          "name": "咸阳",
+          "coord": [
+            40.4,
+            111.6
+          ],
+          "level": 3
+        },
+        {
+          "name": "箕陵",
+          "coord": [
+            40.2,
+            111.8
+          ],
+          "level": 3
+        },
+        {
+          "name": "沙陵",
+          "coord": [
+            40.3,
+            111.3
+          ],
+          "level": 3
+        },
+        {
+          "name": "沙南",
+          "coord": [
+            40.4,
+            111.2
+          ],
+          "level": 3
+        },
+        {
+          "name": "北舆",
+          "coord": [
+            40.6,
+            111.4
+          ],
+          "level": 3
+        },
+        {
+          "name": "武泉",
+          "coord": [
+            40.7,
+            111.6
+          ],
+          "level": 3
+        },
+        {
+          "name": "原阳",
+          "coord": [
+            40.8,
+            111.3
+          ],
+          "level": 3
+        },
+        {
+          "name": "定襄",
+          "coord": [
+            40.7,
+            112.0
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    },
+    {
+      "id": "dingxiang",
+      "name": "定襄",
+      "faction": "barbarian",
+      "seed": [
+        39.6,
+        112
+      ],
+      "size": 1.1,
+      "cities": [
+        {
+          "name": "善无",
+          "coord": [
+            39.6,
+            112.0
+          ],
+          "capital": true,
+          "level": 2
+        },
+        {
+          "name": "桐过",
+          "coord": [
+            39.8,
+            111.8
+          ],
+          "level": 3
+        },
+        {
+          "name": "武成",
+          "coord": [
+            39.7,
+            111.9
+          ],
+          "level": 3
+        },
+        {
+          "name": "骆",
+          "coord": [
+            39.5,
+            111.9
+          ],
+          "level": 3
+        },
+        {
+          "name": "中陵",
+          "coord": [
+            39.6,
+            112.2
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    },
+    {
+      "id": "dongjun",
+      "name": "东郡",
+      "faction": "cao",
+      "seed": [
+        35.7,
+        115.2
+      ],
+      "size": 1.4,
+      "cities": [
+        {
+          "name": "濮阳",
+          "coord": [
+            35.7,
+            115.0
+          ],
+          "capital": true,
+          "level": 2
+        },
+        {
+          "name": "白马",
+          "coord": [
+            35.6,
+            115.1
+          ],
+          "level": 3
+        },
+        {
+          "name": "燕",
+          "coord": [
+            35.5,
+            115.3
+          ],
+          "level": 3
+        },
+        {
+          "name": "酸枣",
+          "coord": [
+            35.3,
+            114.3
+          ],
+          "level": 3
+        },
+        {
+          "name": "东阿",
+          "coord": [
+            36.1,
+            116.3
+          ],
+          "level": 3
+        },
+        {
+          "name": "东武阳",
+          "coord": [
+            36.2,
+            115.7
+          ],
+          "level": 3
+        },
+        {
+          "name": "范",
+          "coord": [
+            35.9,
+            115.6
+          ],
+          "level": 3
+        },
+        {
+          "name": "廪丘",
+          "coord": [
+            35.6,
+            115.8
+          ],
+          "level": 3
+        },
+        {
+          "name": "鄄城",
+          "coord": [
+            35.6,
+            115.5
+          ],
+          "level": 1,
+          "capital": true
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    },
+    {
+      "id": "dongping",
+      "name": "东平",
+      "faction": "cao",
+      "seed": [
+        35.9,
+        116.4
+      ],
+      "size": 0.9,
+      "cities": [
+        {
+          "name": "寿张",
+          "coord": [
+            35.9,
+            116.4
+          ],
+          "capital": true,
+          "level": 2
+        },
+        {
+          "name": "无盐",
+          "coord": [
+            35.9,
+            116.5
+          ],
+          "level": 3
+        },
+        {
+          "name": "东平陆",
+          "coord": [
+            35.8,
+            116.4
+          ],
+          "level": 3
+        },
+        {
+          "name": "富城",
+          "coord": [
+            36.0,
+            116.5
+          ],
+          "level": 3
+        },
+        {
+          "name": "章",
+          "coord": [
+            36.0,
+            116.3
+          ],
+          "level": 3
+        },
+        {
+          "name": "宁阳",
+          "coord": [
+            35.8,
+            116.8
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    },
+    {
+      "id": "rencheng",
+      "name": "任城",
+      "faction": "cao",
+      "seed": [
+        35.4,
+        116.5
+      ],
+      "size": 0.7,
+      "cities": [
+        {
+          "name": "任城",
+          "coord": [
+            35.4,
+            116.5
+          ],
+          "capital": true,
+          "level": 2
+        },
+        {
+          "name": "亢父",
+          "coord": [
+            35.3,
+            116.6
+          ],
+          "level": 3
+        },
+        {
+          "name": "任城南",
+          "coord": [
+            35.3,
+            116.5
+          ],
+          "level": 3
+        },
+        {
+          "name": "任城北",
+          "coord": [
+            35.5,
+            116.5
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    },
+    {
+      "id": "taishan",
+      "name": "泰山",
+      "faction": "cao",
+      "seed": [
+        36.1,
+        117.1
+      ],
+      "size": 1.2,
+      "cities": [
+        {
+          "name": "奉高",
+          "coord": [
+            36.2,
+            117.1
+          ],
+          "capital": true,
+          "level": 2
+        },
+        {
+          "name": "博",
+          "coord": [
+            36.3,
+            117.2
+          ],
+          "level": 3
+        },
+        {
+          "name": "梁父",
+          "coord": [
+            36.1,
+            117.3
+          ],
+          "level": 3
+        },
+        {
+          "name": "巨平",
+          "coord": [
+            36.0,
+            117.2
+          ],
+          "level": 3
+        },
+        {
+          "name": "嬴",
+          "coord": [
+            36.2,
+            117.4
+          ],
+          "level": 3
+        },
+        {
+          "name": "莱芜",
+          "coord": [
+            36.4,
+            117.7
+          ],
+          "level": 3
+        },
+        {
+          "name": "盖",
+          "coord": [
+            36.1,
+            117.8
+          ],
+          "level": 3
+        },
+        {
+          "name": "南城",
+          "coord": [
+            35.6,
+            117.6
+          ],
+          "level": 3
+        },
+        {
+          "name": "牟",
+          "coord": [
+            36.2,
+            117.6
+          ],
+          "level": 3
+        },
+        {
+          "name": "华",
+          "coord": [
+            36.2,
+            117.0
+          ],
+          "level": 3
+        },
+        {
+          "name": "钜平",
+          "coord": [
+            36.0,
+            117.1
+          ],
+          "level": 3
+        },
+        {
+          "name": "山茌",
+          "coord": [
+            36.4,
+            116.7
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    },
+    {
+      "id": "jibei",
+      "name": "济北",
+      "faction": "cao",
+      "seed": [
+        36.2,
+        116.5
+      ],
+      "size": 1,
+      "cities": [
+        {
+          "name": "卢",
+          "coord": [
+            36.2,
+            116.5
+          ],
+          "capital": true,
+          "level": 2
+        },
+        {
+          "name": "蛇丘",
+          "coord": [
+            36.1,
+            116.7
+          ],
+          "level": 3
+        },
+        {
+          "name": "刚",
+          "coord": [
+            36.0,
+            116.7
+          ],
+          "level": 3
+        },
+        {
+          "name": "成",
+          "coord": [
+            36.1,
+            116.4
+          ],
+          "level": 3
+        },
+        {
+          "name": "茌平",
+          "coord": [
+            36.5,
+            116.3
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    },
+    {
+      "id": "shanyang",
+      "name": "山阳",
+      "faction": "cao",
+      "seed": [
+        35.3,
+        116.4
+      ],
+      "size": 1.1,
+      "cities": [
+        {
+          "name": "昌邑",
+          "coord": [
+            35.3,
+            116.4
+          ],
+          "capital": true,
+          "level": 1
+        },
+        {
+          "name": "东缗",
+          "coord": [
+            35.1,
+            116.6
+          ],
+          "level": 3
+        },
+        {
+          "name": "金乡",
+          "coord": [
+            35.1,
+            116.3
+          ],
+          "level": 3
+        },
+        {
+          "name": "巨野",
+          "coord": [
+            35.4,
+            116.2
+          ],
+          "level": 3
+        },
+        {
+          "name": "高平",
+          "coord": [
+            35.3,
+            116.9
+          ],
+          "level": 3
+        },
+        {
+          "name": "湖陆",
+          "coord": [
+            35.0,
+            116.8
+          ],
+          "level": 3
+        },
+        {
+          "name": "南平阳",
+          "coord": [
+            35.4,
+            116.9
+          ],
+          "level": 3
+        },
+        {
+          "name": "方与",
+          "coord": [
+            35.0,
+            116.4
+          ],
+          "level": 3
+        },
+        {
+          "name": "瑕丘",
+          "coord": [
+            35.5,
+            116.8
+          ],
+          "level": 3
+        },
+        {
+          "name": "任城",
+          "coord": [
+            35.4,
+            116.5
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    },
+    {
+      "id": "jiyin",
+      "name": "济阴",
+      "faction": "cao",
+      "seed": [
+        35.2,
+        115.6
+      ],
+      "size": 0.9,
+      "cities": [
+        {
+          "name": "定陶",
+          "coord": [
+            35.1,
+            115.6
+          ],
+          "capital": true,
+          "level": 2
+        },
+        {
+          "name": "冤句",
+          "coord": [
+            35.2,
+            115.3
+          ],
+          "level": 3
+        },
+        {
+          "name": "成阳",
+          "coord": [
+            35.3,
+            115.4
+          ],
+          "level": 3
+        },
+        {
+          "name": "乘氏",
+          "coord": [
+            35.3,
+            115.7
+          ],
+          "level": 3
+        },
+        {
+          "name": "句阳",
+          "coord": [
+            35.3,
+            115.5
+          ],
+          "level": 3
+        },
+        {
+          "name": "鄄城",
+          "coord": [
+            35.6,
+            115.5
+          ],
+          "level": 1,
+          "capital": true
+        },
+        {
+          "name": "离狐",
+          "coord": [
+            35.0,
+            115.5
+          ],
+          "level": 3
+        },
+        {
+          "name": "单父",
+          "coord": [
+            34.8,
+            116.1
+          ],
+          "level": 3
+        },
+        {
+          "name": "成武",
+          "coord": [
+            34.9,
+            116.0
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    },
+    {
+      "id": "yingchuan",
+      "name": "颍川",
+      "faction": "cao",
+      "seed": [
+        34.2,
+        113.7
+      ],
+      "size": 1.3,
+      "cities": [
+        {
+          "name": "许昌",
+          "coord": [
+            34.03,
+            113.86
+          ],
+          "capital": true,
+          "level": 0
+        },
+        {
+          "name": "阳翟",
+          "coord": [
+            34.2,
+            113.5
+          ],
+          "level": 3
+        },
+        {
+          "name": "长社",
+          "coord": [
+            34.2,
+            113.8
+          ],
+          "level": 3
+        },
+        {
+          "name": "颍阴",
+          "coord": [
+            34.0,
+            113.9
+          ],
+          "level": 3
+        },
+        {
+          "name": "临颍",
+          "coord": [
+            33.9,
+            113.9
+          ],
+          "level": 3
+        },
+        {
+          "name": "襄城",
+          "coord": [
+            33.8,
+            113.5
+          ],
+          "level": 3
+        },
+        {
+          "name": "郏",
+          "coord": [
+            33.9,
+            113.2
+          ],
+          "level": 3
+        },
+        {
+          "name": "父城",
+          "coord": [
+            33.8,
+            113.1
+          ],
+          "level": 3
+        },
+        {
+          "name": "舞阳",
+          "coord": [
+            33.4,
+            113.7
+          ],
+          "level": 3
+        },
+        {
+          "name": "郾",
+          "coord": [
+            33.6,
+            114.0
+          ],
+          "level": 3
+        },
+        {
+          "name": "召陵",
+          "coord": [
+            33.6,
+            114.1
+          ],
+          "level": 3
+        },
+        {
+          "name": "新汲",
+          "coord": [
+            34.1,
+            114.1
+          ],
+          "level": 3
+        },
+        {
+          "name": "鄢陵",
+          "coord": [
+            34.1,
+            114.2
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    },
+    {
+      "id": "liang_yu",
+      "name": "梁国",
+      "faction": "cao",
+      "seed": [
+        34.5,
+        115.7
+      ],
+      "size": 1.1,
+      "cities": [
+        {
+          "name": "睢阳",
+          "coord": [
+            34.4,
+            115.6
+          ],
+          "capital": true,
+          "level": 2
+        },
+        {
+          "name": "下邑",
+          "coord": [
+            34.4,
+            116.4
+          ],
+          "level": 3
+        },
+        {
+          "name": "虞",
+          "coord": [
+            34.5,
+            115.8
+          ],
+          "level": 3
+        },
+        {
+          "name": "砀山",
+          "coord": [
+            34.4,
+            116.3
+          ],
+          "level": 3
+        },
+        {
+          "name": "蒙",
+          "coord": [
+            34.5,
+            115.8
+          ],
+          "level": 3
+        },
+        {
+          "name": "宁陵",
+          "coord": [
+            34.5,
+            115.3
+          ],
+          "level": 3
+        },
+        {
+          "name": "鄢",
+          "coord": [
+            34.2,
+            114.2
+          ],
+          "level": 3
+        },
+        {
+          "name": "陈留",
+          "coord": [
+            34.8,
+            114.9
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    },
+    {
+      "id": "pei_yu",
+      "name": "沛国",
+      "faction": "cao",
+      "seed": [
+        33.8,
+        116.6
+      ],
+      "size": 1.4,
+      "cities": [
+        {
+          "name": "谯",
+          "coord": [
+            33.9,
+            115.8
+          ],
+          "capital": true,
+          "level": 1
+        },
+        {
+          "name": "相",
+          "coord": [
+            33.9,
+            116.8
+          ],
+          "level": 3
+        },
+        {
+          "name": "萧",
+          "coord": [
+            34.2,
+            116.9
+          ],
+          "level": 3
+        },
+        {
+          "name": "丰",
+          "coord": [
+            34.7,
+            116.6
+          ],
+          "level": 3
+        },
+        {
+          "name": "沛",
+          "coord": [
+            34.7,
+            116.9
+          ],
+          "level": 3
+        },
+        {
+          "name": "铚",
+          "coord": [
+            33.9,
+            116.8
+          ],
+          "level": 3
+        },
+        {
+          "name": "竹邑",
+          "coord": [
+            33.8,
+            116.9
+          ],
+          "level": 3
+        },
+        {
+          "name": "符离",
+          "coord": [
+            33.8,
+            117.0
+          ],
+          "level": 3
+        },
+        {
+          "name": "洨",
+          "coord": [
+            33.6,
+            117.3
+          ],
+          "level": 3
+        },
+        {
+          "name": "虹",
+          "coord": [
+            33.7,
+            117.6
+          ],
+          "level": 3
+        },
+        {
+          "name": "彭城",
+          "coord": [
+            34.27,
+            117.18
+          ],
+          "level": 1,
+          "capital": true
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    },
+    {
+      "id": "chenjun_yu",
+      "name": "陈郡",
+      "faction": "cao",
+      "seed": [
+        33.7,
+        114.8
+      ],
+      "size": 1,
+      "cities": [
+        {
+          "name": "陈",
+          "coord": [
+            33.7,
+            114.8
+          ],
+          "capital": true,
+          "level": 2
+        },
+        {
+          "name": "阳夏",
+          "coord": [
+            34.1,
+            114.8
+          ],
+          "level": 3
+        },
+        {
+          "name": "宁平",
+          "coord": [
+            33.5,
+            115.1
+          ],
+          "level": 3
+        },
+        {
+          "name": "苦",
+          "coord": [
+            33.8,
+            115.3
+          ],
+          "level": 3
+        },
+        {
+          "name": "柘",
+          "coord": [
+            34.1,
+            115.3
+          ],
+          "level": 3
+        },
+        {
+          "name": "新平",
+          "coord": [
+            33.6,
+            114.9
+          ],
+          "level": 3
+        },
+        {
+          "name": "武平",
+          "coord": [
+            33.9,
+            115.2
+          ],
+          "level": 3
+        },
+        {
+          "name": "长平",
+          "coord": [
+            33.7,
+            115.1
+          ],
+          "level": 3
+        },
+        {
+          "name": "项",
+          "coord": [
+            33.3,
+            114.9
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    },
+    {
+      "id": "lu_yu",
+      "name": "鲁国",
+      "faction": "cao",
+      "seed": [
+        35.6,
+        117
+      ],
+      "size": 0.8,
+      "cities": [
+        {
+          "name": "鲁",
+          "coord": [
+            35.6,
+            117.0
+          ],
+          "capital": true,
+          "level": 2
+        },
+        {
+          "name": "驺",
+          "coord": [
+            35.4,
+            117.0
+          ],
+          "level": 3
+        },
+        {
+          "name": "蕃",
+          "coord": [
+            35.3,
+            117.2
+          ],
+          "level": 3
+        },
+        {
+          "name": "薛",
+          "coord": [
+            35.1,
+            117.3
+          ],
+          "level": 3
+        },
+        {
+          "name": "汶阳",
+          "coord": [
+            35.8,
+            117.0
+          ],
+          "level": 3
+        },
+        {
+          "name": "卞",
+          "coord": [
+            35.6,
+            117.4
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    },
+    {
+      "id": "runan",
+      "name": "汝南",
+      "faction": "cao",
+      "seed": [
+        33,
+        114.6
+      ],
+      "size": 1.8,
+      "cities": [
+        {
+          "name": "平舆",
+          "coord": [
+            33.0,
+            114.6
+          ],
+          "capital": true,
+          "level": 2
+        },
+        {
+          "name": "新蔡",
+          "coord": [
+            32.8,
+            114.9
+          ],
+          "level": 3
+        },
+        {
+          "name": "上蔡",
+          "coord": [
+            33.2,
+            114.3
+          ],
+          "level": 3
+        },
+        {
+          "name": "南顿",
+          "coord": [
+            33.3,
+            114.7
+          ],
+          "level": 3
+        },
+        {
+          "name": "汝阴",
+          "coord": [
+            32.9,
+            115.8
+          ],
+          "level": 3
+        },
+        {
+          "name": "慎阳",
+          "coord": [
+            32.6,
+            114.4
+          ],
+          "level": 3
+        },
+        {
+          "name": "安阳",
+          "coord": [
+            32.9,
+            114.4
+          ],
+          "level": 3
+        },
+        {
+          "name": "新息",
+          "coord": [
+            32.4,
+            114.7
+          ],
+          "level": 3
+        },
+        {
+          "name": "期思",
+          "coord": [
+            32.4,
+            115.4
+          ],
+          "level": 3
+        },
+        {
+          "name": "弋阳",
+          "coord": [
+            32.2,
+            115.0
+          ],
+          "level": 3
+        },
+        {
+          "name": "西平",
+          "coord": [
+            33.3,
+            113.9
+          ],
+          "level": 3
+        },
+        {
+          "name": "西华",
+          "coord": [
+            33.4,
+            114.5
+          ],
+          "level": 3
+        },
+        {
+          "name": "项",
+          "coord": [
+            33.3,
+            114.9
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    },
+    {
+      "id": "yiyang",
+      "name": "弋阳",
+      "faction": "cao",
+      "seed": [
+        32.2,
+        115
+      ],
+      "size": 1,
+      "cities": [
+        {
+          "name": "弋阳",
+          "coord": [
+            32.2,
+            115.0
+          ],
+          "capital": true,
+          "level": 2
+        },
+        {
+          "name": "期思",
+          "coord": [
+            32.4,
+            115.4
+          ],
+          "level": 3
+        },
+        {
+          "name": "轪",
+          "coord": [
+            32.1,
+            115.1
+          ],
+          "level": 3
+        },
+        {
+          "name": "西阳",
+          "coord": [
+            32.5,
+            115.2
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    },
+    {
+      "id": "chenliu",
+      "name": "陈留",
+      "faction": "cao",
+      "seed": [
+        34.8,
+        114.9
+      ],
+      "size": 1.1,
+      "cities": [
+        {
+          "name": "陈留",
+          "coord": [
+            34.8,
+            114.9
+          ],
+          "capital": true,
+          "level": 2
+        },
+        {
+          "name": "浚仪",
+          "coord": [
+            34.8,
+            114.4
+          ],
+          "level": 3
+        },
+        {
+          "name": "尉氏",
+          "coord": [
+            34.4,
+            114.2
+          ],
+          "level": 3
+        },
+        {
+          "name": "雍丘",
+          "coord": [
+            34.6,
+            114.8
+          ],
+          "level": 3
+        },
+        {
+          "name": "襄邑",
+          "coord": [
+            34.5,
+            115.0
+          ],
+          "level": 3
+        },
+        {
+          "name": "外黄",
+          "coord": [
+            34.9,
+            115.0
+          ],
+          "level": 3
+        },
+        {
+          "name": "封丘",
+          "coord": [
+            35.0,
+            114.4
+          ],
+          "level": 3
+        },
+        {
+          "name": "酸枣",
+          "coord": [
+            35.3,
+            114.3
+          ],
+          "level": 3
+        },
+        {
+          "name": "长垣",
+          "coord": [
+            35.2,
+            114.7
+          ],
+          "level": 3
+        },
+        {
+          "name": "济阳",
+          "coord": [
+            35.0,
+            114.9
+          ],
+          "level": 3
+        },
+        {
+          "name": "考城",
+          "coord": [
+            34.7,
+            115.1
+          ],
+          "level": 3
+        },
+        {
+          "name": "圉",
+          "coord": [
+            34.5,
+            114.7
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    },
+    {
+      "id": "donghai",
+      "name": "东海",
+      "faction": "lv_bu",
+      "seed": [
+        34.6,
+        118.5
+      ],
+      "size": 1.2,
+      "cities": [
+        {
+          "name": "郯",
+          "coord": [
+            34.6,
+            118.3
+          ],
+          "capital": true,
+          "level": 2
+        },
+        {
+          "name": "朐",
+          "coord": [
+            34.7,
+            118.9
+          ],
+          "level": 3
+        },
+        {
+          "name": "襄贲",
+          "coord": [
+            34.8,
+            118.6
+          ],
+          "level": 3
+        },
+        {
+          "name": "兰陵",
+          "coord": [
+            34.8,
+            117.8
+          ],
+          "level": 3
+        },
+        {
+          "name": "承",
+          "coord": [
+            34.7,
+            117.7
+          ],
+          "level": 3
+        },
+        {
+          "name": "戚",
+          "coord": [
+            34.9,
+            118.0
+          ],
+          "level": 3
+        },
+        {
+          "name": "祝其",
+          "coord": [
+            34.9,
+            118.9
+          ],
+          "level": 3
+        },
+        {
+          "name": "利城",
+          "coord": [
+            34.8,
+            118.9
+          ],
+          "level": 3
+        },
+        {
+          "name": "合乡",
+          "coord": [
+            35.1,
+            117.7
+          ],
+          "level": 3
+        },
+        {
+          "name": "昌虑",
+          "coord": [
+            35.0,
+            117.5
+          ],
+          "level": 3
+        },
+        {
+          "name": "厚丘",
+          "coord": [
+            34.6,
+            118.7
+          ],
+          "level": 3
+        },
+        {
+          "name": "赣榆",
+          "coord": [
+            34.9,
+            119.2
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    },
+    {
+      "id": "dongguan",
+      "name": "东莞",
+      "faction": "lv_bu",
+      "seed": [
+        35.7,
+        118.7
+      ],
+      "size": 0.8,
+      "cities": [
+        {
+          "name": "东莞",
+          "coord": [
+            35.7,
+            118.7
+          ],
+          "capital": true,
+          "level": 2
+        },
+        {
+          "name": "东安",
+          "coord": [
+            35.6,
+            118.8
+          ],
+          "level": 3
+        },
+        {
+          "name": "蒙阴",
+          "coord": [
+            35.6,
+            118.0
+          ],
+          "level": 3
+        },
+        {
+          "name": "盖",
+          "coord": [
+            36.1,
+            117.8
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    },
+    {
+      "id": "guangling",
+      "name": "广陵",
+      "faction": "cao",
+      "seed": [
+        33.4,
+        119.4
+      ],
+      "size": 1.5,
+      "cities": [
+        {
+          "name": "淮阴",
+          "coord": [
+            33.6,
+            119.0
+          ],
+          "capital": true,
+          "level": 2
+        },
+        {
+          "name": "广陵",
+          "coord": [
+            32.4,
+            119.4
+          ],
+          "level": 3
+        },
+        {
+          "name": "江都",
+          "coord": [
+            32.4,
+            119.6
+          ],
+          "level": 3
+        },
+        {
+          "name": "高邮",
+          "coord": [
+            32.8,
+            119.5
+          ],
+          "level": 3
+        },
+        {
+          "name": "平安",
+          "coord": [
+            33.1,
+            119.2
+          ],
+          "level": 3
+        },
+        {
+          "name": "海陵",
+          "coord": [
+            32.5,
+            120.0
+          ],
+          "level": 3
+        },
+        {
+          "name": "堂邑",
+          "coord": [
+            32.4,
+            118.7
+          ],
+          "level": 3
+        },
+        {
+          "name": "舆",
+          "coord": [
+            32.6,
+            119.3
+          ],
+          "level": 3
+        },
+        {
+          "name": "东阳",
+          "coord": [
+            32.9,
+            118.9
+          ],
+          "level": 3
+        },
+        {
+          "name": "射阳",
+          "coord": [
+            33.4,
+            119.6
+          ],
+          "level": 3
+        },
+        {
+          "name": "盐渎",
+          "coord": [
+            33.4,
+            120.2
+          ],
+          "level": 3
+        },
+        {
+          "name": "淮浦",
+          "coord": [
+            33.8,
+            119.3
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    },
+    {
+      "id": "pengcheng",
+      "name": "彭城",
+      "faction": "lv_bu",
+      "seed": [
+        34.3,
+        117.2
+      ],
+      "size": 1,
+      "cities": [
+        {
+          "name": "彭城",
+          "coord": [
+            34.27,
+            117.18
+          ],
+          "capital": true,
+          "level": 1
+        },
+        {
+          "name": "留",
+          "coord": [
+            34.5,
+            117.0
+          ],
+          "level": 3
+        },
+        {
+          "name": "梧",
+          "coord": [
+            34.2,
+            117.3
+          ],
+          "level": 3
+        },
+        {
+          "name": "甾丘",
+          "coord": [
+            34.1,
+            117.1
+          ],
+          "level": 3
+        },
+        {
+          "name": "武原",
+          "coord": [
+            34.5,
+            117.6
+          ],
+          "level": 3
+        },
+        {
+          "name": "吕",
+          "coord": [
+            34.3,
+            117.4
+          ],
+          "level": 3
+        },
+        {
+          "name": "广戚",
+          "coord": [
+            34.7,
+            117.0
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    },
+    {
+      "id": "xiapi",
+      "name": "下邳",
+      "faction": "lv_bu",
+      "seed": [
+        34.2,
+        118
+      ],
+      "size": 1.2,
+      "cities": [
+        {
+          "name": "下邳",
+          "coord": [
+            34.2,
+            118.0
+          ],
+          "capital": true,
+          "level": 1
+        },
+        {
+          "name": "良成",
+          "coord": [
+            34.4,
+            118.0
+          ],
+          "level": 3
+        },
+        {
+          "name": "司吾",
+          "coord": [
+            34.4,
+            118.3
+          ],
+          "level": 3
+        },
+        {
+          "name": "曲阳",
+          "coord": [
+            34.2,
+            117.9
+          ],
+          "level": 3
+        },
+        {
+          "name": "睢陵",
+          "coord": [
+            34.0,
+            118.0
+          ],
+          "level": 3
+        },
+        {
+          "name": "下相",
+          "coord": [
+            33.9,
+            118.3
+          ],
+          "level": 3
+        },
+        {
+          "name": "取虑",
+          "coord": [
+            33.8,
+            117.8
+          ],
+          "level": 3
+        },
+        {
+          "name": "夏丘",
+          "coord": [
+            33.7,
+            117.8
+          ],
+          "level": 3
+        },
+        {
+          "name": "徐",
+          "coord": [
+            34.1,
+            117.7
+          ],
+          "level": 3
+        },
+        {
+          "name": "僮",
+          "coord": [
+            33.8,
+            118.0
+          ],
+          "level": 3
+        },
+        {
+          "name": "淮阴",
+          "coord": [
+            33.6,
+            119.0
+          ],
+          "level": 3
+        },
+        {
+          "name": "凌",
+          "coord": [
+            33.9,
+            118.2
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    },
+    {
+      "id": "langya",
+      "name": "琅邪",
+      "faction": "lv_bu",
+      "seed": [
+        35.6,
+        118.8
+      ],
+      "size": 1.2,
+      "cities": [
+        {
+          "name": "开阳",
+          "coord": [
+            35.3,
+            118.5
+          ],
+          "capital": true,
+          "level": 2
+        },
+        {
+          "name": "临沂",
+          "coord": [
+            35.1,
+            118.3
+          ],
+          "level": 3
+        },
+        {
+          "name": "即丘",
+          "coord": [
+            35.0,
+            118.4
+          ],
+          "level": 3
+        },
+        {
+          "name": "缯",
+          "coord": [
+            35.0,
+            118.0
+          ],
+          "level": 3
+        },
+        {
+          "name": "姑幕",
+          "coord": [
+            35.8,
+            119.2
+          ],
+          "level": 3
+        },
+        {
+          "name": "东莞",
+          "coord": [
+            35.7,
+            118.7
+          ],
+          "level": 3
+        },
+        {
+          "name": "诸",
+          "coord": [
+            36.0,
+            119.5
+          ],
+          "level": 3
+        },
+        {
+          "name": "东武",
+          "coord": [
+            36.0,
+            119.4
+          ],
+          "level": 3
+        },
+        {
+          "name": "莒",
+          "coord": [
+            35.6,
+            118.8
+          ],
+          "level": 3
+        },
+        {
+          "name": "西海",
+          "coord": [
+            35.3,
+            119.2
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    },
+    {
+      "id": "huainan",
+      "name": "淮南",
+      "faction": "yuan_shu",
+      "seed": [
+        32.5,
+        116.7
+      ],
+      "size": 1.4,
+      "cities": [
+        {
+          "name": "寿春",
+          "coord": [
+            32.58,
+            116.78
+          ],
+          "capital": true,
+          "level": 1
+        },
+        {
+          "name": "合肥",
+          "coord": [
+            31.8,
+            117.3
+          ],
+          "level": 3
+        },
+        {
+          "name": "成德",
+          "coord": [
+            32.5,
+            116.8
+          ],
+          "level": 3
+        },
+        {
+          "name": "阴陵",
+          "coord": [
+            32.5,
+            117.4
+          ],
+          "level": 3
+        },
+        {
+          "name": "历阳",
+          "coord": [
+            31.7,
+            118.3
+          ],
+          "level": 1,
+          "capital": true
+        },
+        {
+          "name": "当涂",
+          "coord": [
+            32.8,
+            117.4
+          ],
+          "level": 3
+        },
+        {
+          "name": "钟离",
+          "coord": [
+            32.9,
+            117.6
+          ],
+          "level": 3
+        },
+        {
+          "name": "下蔡",
+          "coord": [
+            32.7,
+            116.7
+          ],
+          "level": 3
+        },
+        {
+          "name": "平阿",
+          "coord": [
+            32.8,
+            116.9
+          ],
+          "level": 3
+        },
+        {
+          "name": "义成",
+          "coord": [
+            32.9,
+            117.0
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    },
+    {
+      "id": "lujiang",
+      "name": "庐江",
+      "faction": "yuan_shu",
+      "seed": [
+        31.5,
+        116.7
+      ],
+      "size": 1.5,
+      "cities": [
+        {
+          "name": "六安",
+          "coord": [
+            31.7,
+            116.5
+          ],
+          "capital": true,
+          "level": 2
+        },
+        {
+          "name": "皖",
+          "coord": [
+            30.5,
+            116.7
+          ],
+          "level": 3
+        },
+        {
+          "name": "寻阳",
+          "coord": [
+            30.1,
+            116.1
+          ],
+          "level": 3
+        },
+        {
+          "name": "居巢",
+          "coord": [
+            31.6,
+            117.9
+          ],
+          "level": 3
+        },
+        {
+          "name": "舒",
+          "coord": [
+            31.3,
+            116.9
+          ],
+          "level": 3
+        },
+        {
+          "name": "龙舒",
+          "coord": [
+            31.2,
+            116.9
+          ],
+          "level": 3
+        },
+        {
+          "name": "灊",
+          "coord": [
+            30.9,
+            116.5
+          ],
+          "level": 3
+        },
+        {
+          "name": "雩娄",
+          "coord": [
+            31.7,
+            115.8
+          ],
+          "level": 3
+        },
+        {
+          "name": "松滋",
+          "coord": [
+            30.2,
+            116.3
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    },
+    {
+      "id": "danyang",
+      "name": "丹杨",
+      "faction": "shu_sun",
+      "seed": [
+        31.5,
+        118.8
+      ],
+      "size": 1.8,
+      "cities": [
+        {
+          "name": "建业",
+          "coord": [
+            32.1,
+            118.8
+          ],
+          "capital": true,
+          "level": 2
+        },
+        {
+          "name": "宛陵",
+          "coord": [
+            31.0,
+            118.8
+          ],
+          "level": 3
+        },
+        {
+          "name": "秣陵",
+          "coord": [
+            31.9,
+            118.8
+          ],
+          "level": 3
+        },
+        {
+          "name": "芜湖",
+          "coord": [
+            31.3,
+            118.4
+          ],
+          "level": 3
+        },
+        {
+          "name": "句容",
+          "coord": [
+            31.8,
+            119.2
+          ],
+          "level": 3
+        },
+        {
+          "name": "丹阳",
+          "coord": [
+            31.2,
+            119.1
+          ],
+          "level": 3
+        },
+        {
+          "name": "溧阳",
+          "coord": [
+            31.4,
+            119.5
+          ],
+          "level": 3
+        },
+        {
+          "name": "歙",
+          "coord": [
+            30.0,
+            118.4
+          ],
+          "level": 3
+        },
+        {
+          "name": "黟",
+          "coord": [
+            29.9,
+            118.0
+          ],
+          "level": 3
+        },
+        {
+          "name": "宣城",
+          "coord": [
+            30.9,
+            118.8
+          ],
+          "level": 3
+        },
+        {
+          "name": "故鄣",
+          "coord": [
+            30.9,
+            119.6
+          ],
+          "level": 3
+        },
+        {
+          "name": "于潜",
+          "coord": [
+            30.4,
+            119.4
+          ],
+          "level": 3
+        },
+        {
+          "name": "安吉",
+          "coord": [
+            30.7,
+            119.7
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    },
+    {
+      "id": "wujun",
+      "name": "吴郡",
+      "faction": "shu_sun",
+      "seed": [
+        31.3,
+        120.6
+      ],
+      "size": 1.5,
+      "cities": [
+        {
+          "name": "吴",
+          "coord": [
+            31.3,
+            120.6
+          ],
+          "capital": true,
+          "level": 1
+        },
+        {
+          "name": "娄",
+          "coord": [
+            31.5,
+            121.1
+          ],
+          "level": 3
+        },
+        {
+          "name": "由拳",
+          "coord": [
+            30.8,
+            120.7
+          ],
+          "level": 3
+        },
+        {
+          "name": "海盐",
+          "coord": [
+            30.5,
+            121.0
+          ],
+          "level": 3
+        },
+        {
+          "name": "余杭",
+          "coord": [
+            30.3,
+            120.0
+          ],
+          "level": 3
+        },
+        {
+          "name": "钱唐",
+          "coord": [
+            30.3,
+            120.1
+          ],
+          "level": 3
+        },
+        {
+          "name": "富春",
+          "coord": [
+            30.0,
+            119.9
+          ],
+          "level": 3
+        },
+        {
+          "name": "乌程",
+          "coord": [
+            30.9,
+            120.1
+          ],
+          "level": 3
+        },
+        {
+          "name": "毗陵",
+          "coord": [
+            31.8,
+            120.0
+          ],
+          "level": 3
+        },
+        {
+          "name": "曲阿",
+          "coord": [
+            32.0,
+            119.6
+          ],
+          "level": 3
+        },
+        {
+          "name": "丹徒",
+          "coord": [
+            32.2,
+            119.4
+          ],
+          "level": 3
+        },
+        {
+          "name": "阳羡",
+          "coord": [
+            31.4,
+            119.8
+          ],
+          "level": 3
+        },
+        {
+          "name": "无锡",
+          "coord": [
+            31.6,
+            120.3
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    },
+    {
+      "id": "kuaiji",
+      "name": "会稽",
+      "faction": "shu_sun",
+      "seed": [
+        29.9,
+        120.5
+      ],
+      "size": 2.2,
+      "cities": [
+        {
+          "name": "山阴",
+          "coord": [
+            30.0,
+            120.6
+          ],
+          "capital": true,
+          "level": 2
+        },
+        {
+          "name": "鄮",
+          "coord": [
+            29.9,
+            121.8
+          ],
+          "level": 3
+        },
+        {
+          "name": "鄞",
+          "coord": [
+            29.8,
+            121.5
+          ],
+          "level": 3
+        },
+        {
+          "name": "句章",
+          "coord": [
+            30.0,
+            121.4
+          ],
+          "level": 3
+        },
+        {
+          "name": "余姚",
+          "coord": [
+            30.0,
+            121.2
+          ],
+          "level": 3
+        },
+        {
+          "name": "上虞",
+          "coord": [
+            30.0,
+            120.9
+          ],
+          "level": 3
+        },
+        {
+          "name": "剡",
+          "coord": [
+            29.6,
+            120.8
+          ],
+          "level": 3
+        },
+        {
+          "name": "诸暨",
+          "coord": [
+            29.7,
+            120.2
+          ],
+          "level": 3
+        },
+        {
+          "name": "乌伤",
+          "coord": [
+            29.3,
+            120.1
+          ],
+          "level": 3
+        },
+        {
+          "name": "太末",
+          "coord": [
+            29.0,
+            119.2
+          ],
+          "level": 3
+        },
+        {
+          "name": "章安",
+          "coord": [
+            28.7,
+            121.4
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    },
+    {
+      "id": "yuzhang",
+      "name": "豫章",
+      "faction": "shu_sun",
+      "seed": [
+        28.3,
+        115.9
+      ],
+      "size": 2.2,
+      "cities": [
+        {
+          "name": "南昌",
+          "coord": [
+            28.68,
+            115.89
+          ],
+          "capital": true,
+          "level": 1
+        },
+        {
+          "name": "建城",
+          "coord": [
+            28.3,
+            115.5
+          ],
+          "level": 3
+        },
+        {
+          "name": "新淦",
+          "coord": [
+            27.8,
+            115.4
+          ],
+          "level": 3
+        },
+        {
+          "name": "宜春",
+          "coord": [
+            27.8,
+            114.4
+          ],
+          "level": 3
+        },
+        {
+          "name": "庐陵",
+          "coord": [
+            27.1,
+            115.0
+          ],
+          "level": 3
+        },
+        {
+          "name": "赣",
+          "coord": [
+            25.9,
+            114.9
+          ],
+          "level": 3
+        },
+        {
+          "name": "雩都",
+          "coord": [
+            25.9,
+            115.5
+          ],
+          "level": 3
+        },
+        {
+          "name": "南野",
+          "coord": [
+            25.3,
+            114.8
+          ],
+          "level": 3
+        },
+        {
+          "name": "鄱阳",
+          "coord": [
+            29.2,
+            117.0
+          ],
+          "level": 3
+        },
+        {
+          "name": "柴桑",
+          "coord": [
+            29.7,
+            116.0
+          ],
+          "level": 3
+        },
+        {
+          "name": "艾",
+          "coord": [
+            29.0,
+            114.5
+          ],
+          "level": 3
+        },
+        {
+          "name": "海昏",
+          "coord": [
+            29.1,
+            115.8
+          ],
+          "level": 3
+        },
+        {
+          "name": "平都",
+          "coord": [
+            27.4,
+            115.2
+          ],
+          "level": 3
+        },
+        {
+          "name": "石阳",
+          "coord": [
+            27.7,
+            115.2
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    },
+    {
+      "id": "poyang",
+      "name": "鄱阳",
+      "faction": "shu_sun",
+      "seed": [
+        29.2,
+        117
+      ],
+      "size": 1.2,
+      "cities": [
+        {
+          "name": "鄱阳",
+          "coord": [
+            29.2,
+            117.0
+          ],
+          "capital": true,
+          "level": 2
+        },
+        {
+          "name": "广昌",
+          "coord": [
+            29.3,
+            116.9
+          ],
+          "level": 3
+        },
+        {
+          "name": "乐安",
+          "coord": [
+            29.0,
+            116.8
+          ],
+          "level": 3
+        },
+        {
+          "name": "余汗",
+          "coord": [
+            28.7,
+            116.7
+          ],
+          "level": 3
+        },
+        {
+          "name": "鄡阳",
+          "coord": [
+            29.1,
+            116.4
+          ],
+          "level": 3
+        },
+        {
+          "name": "历陵",
+          "coord": [
+            29.0,
+            115.8
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    },
+    {
+      "id": "luling",
+      "name": "庐陵",
+      "faction": "shu_sun",
+      "seed": [
+        27.1,
+        115
+      ],
+      "size": 1.3,
+      "cities": [
+        {
+          "name": "庐陵",
+          "coord": [
+            27.1,
+            115.0
+          ],
+          "capital": true,
+          "level": 2
+        },
+        {
+          "name": "西昌",
+          "coord": [
+            27.0,
+            115.1
+          ],
+          "level": 3
+        },
+        {
+          "name": "石阳",
+          "coord": [
+            27.7,
+            115.2
+          ],
+          "level": 3
+        },
+        {
+          "name": "新兴",
+          "coord": [
+            26.8,
+            114.8
+          ],
+          "level": 3
+        },
+        {
+          "name": "南野",
+          "coord": [
+            25.3,
+            114.8
+          ],
+          "level": 3
+        },
+        {
+          "name": "赣",
+          "coord": [
+            25.9,
+            114.9
+          ],
+          "level": 3
+        },
+        {
+          "name": "雩都",
+          "coord": [
+            25.9,
+            115.5
+          ],
+          "level": 3
+        },
+        {
+          "name": "平都",
+          "coord": [
+            27.4,
+            115.2
+          ],
+          "level": 3
+        },
+        {
+          "name": "兴平",
+          "coord": [
+            26.9,
+            115.3
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    },
+    {
+      "id": "linchuan",
+      "name": "临川",
+      "faction": "shu_sun",
+      "seed": [
+        27.8,
+        116.5
+      ],
+      "size": 1,
+      "cities": [
+        {
+          "name": "临汝",
+          "coord": [
+            27.8,
+            116.5
+          ],
+          "capital": true,
+          "level": 2
+        },
+        {
+          "name": "南城",
+          "coord": [
+            27.6,
+            116.6
+          ],
+          "level": 3
+        },
+        {
+          "name": "南丰",
+          "coord": [
+            27.2,
+            116.5
+          ],
+          "level": 3
+        },
+        {
+          "name": "东兴",
+          "coord": [
+            28.0,
+            116.8
+          ],
+          "level": 3
+        },
+        {
+          "name": "西平",
+          "coord": [
+            27.5,
+            116.3
+          ],
+          "level": 3
+        },
+        {
+          "name": "永城",
+          "coord": [
+            27.9,
+            116.4
+          ],
+          "level": 3
+        },
+        {
+          "name": "宜黄",
+          "coord": [
+            27.3,
+            116.2
+          ],
+          "level": 3
+        },
+        {
+          "name": "安浦",
+          "coord": [
+            27.7,
+            116.2
+          ],
+          "level": 3
+        },
+        {
+          "name": "新建",
+          "coord": [
+            28.0,
+            116.3
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    },
+    {
+      "id": "xindu",
+      "name": "新都",
+      "faction": "shu_sun",
+      "seed": [
+        29.9,
+        118.3
+      ],
+      "size": 1.1,
+      "cities": [
+        {
+          "name": "始新",
+          "coord": [
+            29.9,
+            118.3
+          ],
+          "capital": true,
+          "level": 2
+        },
+        {
+          "name": "黟",
+          "coord": [
+            29.9,
+            118.0
+          ],
+          "level": 3
+        },
+        {
+          "name": "歙",
+          "coord": [
+            30.0,
+            118.4
+          ],
+          "level": 3
+        },
+        {
+          "name": "新定",
+          "coord": [
+            29.7,
+            118.4
+          ],
+          "level": 3
+        },
+        {
+          "name": "黎阳",
+          "coord": [
+            29.8,
+            118.5
+          ],
+          "level": 3
+        },
+        {
+          "name": "休阳",
+          "coord": [
+            29.7,
+            118.1
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    },
+    {
+      "id": "linhai",
+      "name": "临海",
+      "faction": "shu_sun",
+      "seed": [
+        28.7,
+        121.4
+      ],
+      "size": 1.2,
+      "cities": [
+        {
+          "name": "章安",
+          "coord": [
+            28.7,
+            121.4
+          ],
+          "capital": true,
+          "level": 2
+        },
+        {
+          "name": "永宁",
+          "coord": [
+            28.0,
+            120.7
+          ],
+          "level": 3
+        },
+        {
+          "name": "松阳",
+          "coord": [
+            28.5,
+            119.5
+          ],
+          "level": 3
+        },
+        {
+          "name": "始丰",
+          "coord": [
+            29.1,
+            120.9
+          ],
+          "level": 3
+        },
+        {
+          "name": "临海",
+          "coord": [
+            28.9,
+            121.1
+          ],
+          "level": 3
+        },
+        {
+          "name": "安阳",
+          "coord": [
+            27.8,
+            120.6
+          ],
+          "level": 3
+        },
+        {
+          "name": "罗江",
+          "coord": [
+            27.6,
+            120.5
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    },
+    {
+      "id": "jianan_wu",
+      "name": "建安",
+      "faction": "shu_sun",
+      "seed": [
+        26.9,
+        118.4
+      ],
+      "size": 1.5,
+      "cities": [
+        {
+          "name": "建安",
+          "coord": [
+            26.9,
+            118.4
+          ],
+          "capital": true,
+          "level": 2
+        },
+        {
+          "name": "南平",
+          "coord": [
+            26.7,
+            118.2
+          ],
+          "level": 3
+        },
+        {
+          "name": "将乐",
+          "coord": [
+            26.8,
+            117.5
+          ],
+          "level": 3
+        },
+        {
+          "name": "建平",
+          "coord": [
+            27.5,
+            118.2
+          ],
+          "level": 3
+        },
+        {
+          "name": "邵武",
+          "coord": [
+            27.3,
+            117.5
+          ],
+          "level": 3
+        },
+        {
+          "name": "吴兴",
+          "coord": [
+            26.8,
+            118.6
+          ],
+          "level": 3
+        },
+        {
+          "name": "侯官",
+          "coord": [
+            26.1,
+            119.3
+          ],
+          "level": 3
+        },
+        {
+          "name": "东安",
+          "coord": [
+            27.0,
+            118.8
+          ],
+          "level": 3
+        },
+        {
+          "name": "昭武",
+          "coord": [
+            27.2,
+            117.7
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    },
+    {
+      "id": "piling_wu",
+      "name": "毗陵",
+      "faction": "shu_sun",
+      "seed": [
+        31.8,
+        120
+      ],
+      "size": 0.8,
+      "cities": [
+        {
+          "name": "毗陵",
+          "coord": [
+            31.8,
+            120.0
+          ],
+          "capital": true,
+          "level": 2
+        },
+        {
+          "name": "丹徒",
+          "coord": [
+            32.2,
+            119.4
+          ],
+          "level": 3
+        },
+        {
+          "name": "曲阿",
+          "coord": [
+            32.0,
+            119.6
+          ],
+          "level": 3
+        },
+        {
+          "name": "无锡",
+          "coord": [
+            31.6,
+            120.3
+          ],
+          "level": 3
+        },
+        {
+          "name": "阳羡",
+          "coord": [
+            31.4,
+            119.8
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    },
+    {
+      "id": "nanyang",
+      "name": "南阳",
+      "faction": "zhang_xiu",
+      "seed": [
+        33,
+        112.5
+      ],
+      "size": 2,
+      "cities": [
+        {
+          "name": "宛",
+          "coord": [
+            33.0,
+            112.53
+          ],
+          "capital": true,
+          "level": 1
+        },
+        {
+          "name": "新野",
+          "coord": [
+            32.6,
+            112.4
+          ],
+          "level": 3
+        },
+        {
+          "name": "邓",
+          "coord": [
+            32.7,
+            112.1
+          ],
+          "level": 3
+        },
+        {
+          "name": "随",
+          "coord": [
+            31.7,
+            113.4
+          ],
+          "level": 3
+        },
+        {
+          "name": "蔡阳",
+          "coord": [
+            32.2,
+            112.7
+          ],
+          "level": 3
+        },
+        {
+          "name": "安众",
+          "coord": [
+            32.9,
+            112.5
+          ],
+          "level": 3
+        },
+        {
+          "name": "穰",
+          "coord": [
+            32.8,
+            112.1
+          ],
+          "level": 3
+        },
+        {
+          "name": "涅阳",
+          "coord": [
+            33.1,
+            112.1
+          ],
+          "level": 3
+        },
+        {
+          "name": "育阳",
+          "coord": [
+            32.9,
+            112.3
+          ],
+          "level": 3
+        },
+        {
+          "name": "棘阳",
+          "coord": [
+            32.6,
+            112.5
+          ],
+          "level": 3
+        },
+        {
+          "name": "湖阳",
+          "coord": [
+            32.4,
+            112.7
+          ],
+          "level": 3
+        },
+        {
+          "name": "比阳",
+          "coord": [
+            32.7,
+            113.4
+          ],
+          "level": 3
+        },
+        {
+          "name": "雉",
+          "coord": [
+            33.3,
+            112.6
+          ],
+          "level": 3
+        },
+        {
+          "name": "鲁阳",
+          "coord": [
+            33.7,
+            112.9
+          ],
+          "level": 3
+        },
+        {
+          "name": "堵阳",
+          "coord": [
+            33.2,
+            112.8
+          ],
+          "level": 3
+        },
+        {
+          "name": "博望",
+          "coord": [
+            33.2,
+            112.7
+          ],
+          "level": 3
+        },
+        {
+          "name": "舞阴",
+          "coord": [
+            33.0,
+            113.0
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    },
+    {
+      "id": "nanjun",
+      "name": "南郡",
+      "faction": "liu_biao",
+      "seed": [
+        30.6,
+        112.2
+      ],
+      "size": 1.8,
+      "cities": [
+        {
+          "name": "江陵",
+          "coord": [
+            30.35,
+            112.19
+          ],
+          "capital": true,
+          "level": 1
+        },
+        {
+          "name": "襄阳",
+          "coord": [
+            32.04,
+            112.14
+          ],
+          "level": 1,
+          "capital": true
+        },
+        {
+          "name": "当阳",
+          "coord": [
+            30.8,
+            111.8
+          ],
+          "level": 3
+        },
+        {
+          "name": "华容",
+          "coord": [
+            29.8,
+            112.5
+          ],
+          "level": 3
+        },
+        {
+          "name": "枝江",
+          "coord": [
+            30.4,
+            111.7
+          ],
+          "level": 3
+        },
+        {
+          "name": "夷陵",
+          "coord": [
+            30.8,
+            111.3
+          ],
+          "level": 3
+        },
+        {
+          "name": "夷道",
+          "coord": [
+            30.4,
+            111.3
+          ],
+          "level": 3
+        },
+        {
+          "name": "秭归",
+          "coord": [
+            31.0,
+            110.7
+          ],
+          "level": 3
+        },
+        {
+          "name": "巫",
+          "coord": [
+            31.1,
+            110.0
+          ],
+          "level": 3
+        },
+        {
+          "name": "编",
+          "coord": [
+            30.5,
+            112.5
+          ],
+          "level": 3
+        },
+        {
+          "name": "州陵",
+          "coord": [
+            30.0,
+            113.6
+          ],
+          "level": 3
+        },
+        {
+          "name": "邔",
+          "coord": [
+            31.2,
+            112.3
+          ],
+          "level": 3
+        },
+        {
+          "name": "中卢",
+          "coord": [
+            31.5,
+            112.0
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    },
+    {
+      "id": "jiangxia_jing",
+      "name": "江夏",
+      "faction": "liu_biao",
+      "seed": [
+        30.7,
+        114.3
+      ],
+      "size": 1.6,
+      "cities": [
+        {
+          "name": "西陵",
+          "coord": [
+            30.8,
+            114.3
+          ],
+          "capital": true,
+          "level": 2
+        },
+        {
+          "name": "西阳",
+          "coord": [
+            32.5,
+            115.2
+          ],
+          "level": 3
+        },
+        {
+          "name": "邾",
+          "coord": [
+            30.4,
+            114.9
+          ],
+          "level": 3
+        },
+        {
+          "name": "轪",
+          "coord": [
+            30.5,
+            115.1
+          ],
+          "level": 3
+        },
+        {
+          "name": "鄂",
+          "coord": [
+            30.4,
+            114.9
+          ],
+          "level": 3
+        },
+        {
+          "name": "安陆",
+          "coord": [
+            31.0,
+            113.9
+          ],
+          "level": 3
+        },
+        {
+          "name": "沙羡",
+          "coord": [
+            30.6,
+            114.3
+          ],
+          "level": 3
+        },
+        {
+          "name": "蕲春",
+          "coord": [
+            30.2,
+            115.4
+          ],
+          "level": 3
+        },
+        {
+          "name": "云杜",
+          "coord": [
+            30.9,
+            113.5
+          ],
+          "level": 3
+        },
+        {
+          "name": "下雉",
+          "coord": [
+            29.8,
+            115.2
+          ],
+          "level": 3
+        },
+        {
+          "name": "竟陵",
+          "coord": [
+            30.9,
+            113.2
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    },
+    {
+      "id": "lingling",
+      "name": "零陵",
+      "faction": "liu_biao",
+      "seed": [
+        26.2,
+        111.8
+      ],
+      "size": 2,
+      "cities": [
+        {
+          "name": "泉陵",
+          "coord": [
+            26.2,
+            111.6
+          ],
+          "capital": true,
+          "level": 2
+        },
+        {
+          "name": "零陵",
+          "coord": [
+            25.7,
+            111.3
+          ],
+          "level": 3
+        },
+        {
+          "name": "营道",
+          "coord": [
+            25.6,
+            111.6
+          ],
+          "level": 3
+        },
+        {
+          "name": "营浦",
+          "coord": [
+            25.4,
+            111.5
+          ],
+          "level": 3
+        },
+        {
+          "name": "泠道",
+          "coord": [
+            25.5,
+            112.0
+          ],
+          "level": 3
+        },
+        {
+          "name": "洮阳",
+          "coord": [
+            26.0,
+            111.0
+          ],
+          "level": 3
+        },
+        {
+          "name": "夫夷",
+          "coord": [
+            26.8,
+            110.9
+          ],
+          "level": 3
+        },
+        {
+          "name": "都梁",
+          "coord": [
+            26.7,
+            110.7
+          ],
+          "level": 3
+        },
+        {
+          "name": "昭阳",
+          "coord": [
+            27.0,
+            111.4
+          ],
+          "level": 3
+        },
+        {
+          "name": "烝阳",
+          "coord": [
+            27.0,
+            112.0
+          ],
+          "level": 3
+        },
+        {
+          "name": "重安",
+          "coord": [
+            26.8,
+            112.0
+          ],
+          "level": 3
+        },
+        {
+          "name": "湘乡",
+          "coord": [
+            27.7,
+            112.3
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    },
+    {
+      "id": "guiyang",
+      "name": "桂阳",
+      "faction": "liu_biao",
+      "seed": [
+        25.8,
+        112.8
+      ],
+      "size": 1.8,
+      "cities": [
+        {
+          "name": "郴",
+          "coord": [
+            25.8,
+            113.0
+          ],
+          "capital": true,
+          "level": 2
+        },
+        {
+          "name": "桂阳",
+          "coord": [
+            25.5,
+            112.7
+          ],
+          "level": 3
+        },
+        {
+          "name": "便",
+          "coord": [
+            26.0,
+            112.9
+          ],
+          "level": 3
+        },
+        {
+          "name": "耒阳",
+          "coord": [
+            26.4,
+            112.8
+          ],
+          "level": 3
+        },
+        {
+          "name": "阴山",
+          "coord": [
+            25.5,
+            112.5
+          ],
+          "level": 3
+        },
+        {
+          "name": "南平",
+          "coord": [
+            25.5,
+            112.6
+          ],
+          "level": 3
+        },
+        {
+          "name": "临武",
+          "coord": [
+            25.3,
+            112.6
+          ],
+          "level": 3
+        },
+        {
+          "name": "曲江",
+          "coord": [
+            24.8,
+            113.6
+          ],
+          "level": 3
+        },
+        {
+          "name": "含洭",
+          "coord": [
+            24.3,
+            113.0
+          ],
+          "level": 3
+        },
+        {
+          "name": "浈阳",
+          "coord": [
+            24.2,
+            113.3
+          ],
+          "level": 3
+        },
+        {
+          "name": "汉宁",
+          "coord": [
+            25.6,
+            113.1
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    },
+    {
+      "id": "wuling",
+      "name": "武陵",
+      "faction": "liu_biao",
+      "seed": [
+        28.8,
+        111.3
+      ],
+      "size": 2.2,
+      "cities": [
+        {
+          "name": "临沅",
+          "coord": [
+            29.0,
+            111.7
+          ],
+          "capital": true,
+          "level": 2
+        },
+        {
+          "name": "索",
+          "coord": [
+            29.3,
+            111.9
+          ],
+          "level": 3
+        },
+        {
+          "name": "孱陵",
+          "coord": [
+            29.8,
+            112.1
+          ],
+          "level": 3
+        },
+        {
+          "name": "零阳",
+          "coord": [
+            29.5,
+            111.1
+          ],
+          "level": 3
+        },
+        {
+          "name": "充",
+          "coord": [
+            29.6,
+            110.3
+          ],
+          "level": 3
+        },
+        {
+          "name": "沅陵",
+          "coord": [
+            28.5,
+            110.4
+          ],
+          "level": 3
+        },
+        {
+          "name": "辰阳",
+          "coord": [
+            27.9,
+            110.2
+          ],
+          "level": 3
+        },
+        {
+          "name": "酉阳",
+          "coord": [
+            28.7,
+            108.8
+          ],
+          "level": 3
+        },
+        {
+          "name": "迁陵",
+          "coord": [
+            28.8,
+            109.5
+          ],
+          "level": 3
+        },
+        {
+          "name": "镡成",
+          "coord": [
+            27.0,
+            109.5
+          ],
+          "level": 3
+        },
+        {
+          "name": "沅南",
+          "coord": [
+            28.9,
+            111.5
+          ],
+          "level": 3
+        },
+        {
+          "name": "作唐",
+          "coord": [
+            29.6,
+            112.0
+          ],
+          "level": 3
+        },
+        {
+          "name": "很山",
+          "coord": [
+            30.5,
+            111.0
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    },
+    {
+      "id": "changsha",
+      "name": "长沙",
+      "faction": "liu_biao",
+      "seed": [
+        28.2,
+        113
+      ],
+      "size": 1.8,
+      "cities": [
+        {
+          "name": "临湘",
+          "coord": [
+            28.22,
+            112.94
+          ],
+          "capital": true,
+          "level": 2
+        },
+        {
+          "name": "攸",
+          "coord": [
+            27.3,
+            113.4
+          ],
+          "level": 3
+        },
+        {
+          "name": "荼陵",
+          "coord": [
+            27.1,
+            113.6
+          ],
+          "level": 3
+        },
+        {
+          "name": "安城",
+          "coord": [
+            27.4,
+            114.0
+          ],
+          "level": 3
+        },
+        {
+          "name": "酃",
+          "coord": [
+            26.9,
+            112.7
+          ],
+          "level": 3
+        },
+        {
+          "name": "湘南",
+          "coord": [
+            26.9,
+            112.5
+          ],
+          "level": 3
+        },
+        {
+          "name": "连道",
+          "coord": [
+            27.8,
+            112.2
+          ],
+          "level": 3
+        },
+        {
+          "name": "益阳",
+          "coord": [
+            28.6,
+            112.4
+          ],
+          "level": 3
+        },
+        {
+          "name": "下隽",
+          "coord": [
+            29.3,
+            113.9
+          ],
+          "level": 3
+        },
+        {
+          "name": "罗",
+          "coord": [
+            28.7,
+            113.3
+          ],
+          "level": 3
+        },
+        {
+          "name": "醴陵",
+          "coord": [
+            27.8,
+            113.5
+          ],
+          "level": 3
+        },
+        {
+          "name": "容陵",
+          "coord": [
+            26.7,
+            112.9
+          ],
+          "level": 3
+        },
+        {
+          "name": "昭陵",
+          "coord": [
+            27.2,
+            111.6
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    },
+    {
+      "id": "yidu",
+      "name": "宜都",
+      "faction": "liu_biao",
+      "seed": [
+        30.8,
+        111.3
+      ],
+      "size": 1,
+      "cities": [
+        {
+          "name": "夷陵",
+          "coord": [
+            30.8,
+            111.3
+          ],
+          "capital": true,
+          "level": 2
+        },
+        {
+          "name": "夷道",
+          "coord": [
+            30.4,
+            111.3
+          ],
+          "level": 3
+        },
+        {
+          "name": "佷山",
+          "coord": [
+            30.5,
+            111.0
+          ],
+          "level": 3
+        },
+        {
+          "name": "秭归",
+          "coord": [
+            31.0,
+            110.7
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    },
+    {
+      "id": "hengyang",
+      "name": "衡阳",
+      "faction": "liu_biao",
+      "seed": [
+        27.2,
+        112.2
+      ],
+      "size": 1.2,
+      "cities": [
+        {
+          "name": "湘南",
+          "coord": [
+            26.9,
+            112.5
+          ],
+          "capital": true,
+          "level": 2
+        },
+        {
+          "name": "湘乡",
+          "coord": [
+            27.7,
+            112.3
+          ],
+          "level": 3
+        },
+        {
+          "name": "重安",
+          "coord": [
+            26.8,
+            112.0
+          ],
+          "level": 3
+        },
+        {
+          "name": "烝阳",
+          "coord": [
+            27.0,
+            112.0
+          ],
+          "level": 3
+        },
+        {
+          "name": "衡阳",
+          "coord": [
+            27.2,
+            112.2
+          ],
+          "level": 3
+        },
+        {
+          "name": "连道",
+          "coord": [
+            27.8,
+            112.2
+          ],
+          "level": 3
+        },
+        {
+          "name": "益阳",
+          "coord": [
+            28.6,
+            112.4
+          ],
+          "level": 3
+        },
+        {
+          "name": "新阳",
+          "coord": [
+            28.3,
+            112.1
+          ],
+          "level": 3
+        },
+        {
+          "name": "湘西",
+          "coord": [
+            28.2,
+            112.5
+          ],
+          "level": 3
+        },
+        {
+          "name": "临蒸",
+          "coord": [
+            26.9,
+            112.7
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    },
+    {
+      "id": "xiangdong",
+      "name": "湘东",
+      "faction": "liu_biao",
+      "seed": [
+        26.9,
+        112.7
+      ],
+      "size": 1,
+      "cities": [
+        {
+          "name": "酃",
+          "coord": [
+            26.9,
+            112.7
+          ],
+          "capital": true,
+          "level": 2
+        },
+        {
+          "name": "茶陵",
+          "coord": [
+            27.1,
+            113.6
+          ],
+          "level": 3
+        },
+        {
+          "name": "梨阳",
+          "coord": [
+            26.6,
+            112.6
+          ],
+          "level": 3
+        },
+        {
+          "name": "新平",
+          "coord": [
+            27.0,
+            112.8
+          ],
+          "level": 3
+        },
+        {
+          "name": "新宁",
+          "coord": [
+            26.7,
+            112.8
+          ],
+          "level": 3
+        },
+        {
+          "name": "阴山",
+          "coord": [
+            26.8,
+            112.9
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    },
+    {
+      "id": "nanxiang",
+      "name": "南乡",
+      "faction": "liu_biao",
+      "seed": [
+        32.9,
+        111.5
+      ],
+      "size": 1,
+      "cities": [
+        {
+          "name": "南乡",
+          "coord": [
+            32.9,
+            111.5
+          ],
+          "capital": true,
+          "level": 2
+        },
+        {
+          "name": "顺阳",
+          "coord": [
+            33.0,
+            111.6
+          ],
+          "level": 3
+        },
+        {
+          "name": "丹水",
+          "coord": [
+            33.3,
+            111.2
+          ],
+          "level": 3
+        },
+        {
+          "name": "淅阳",
+          "coord": [
+            33.2,
+            111.4
+          ],
+          "level": 3
+        },
+        {
+          "name": "武当",
+          "coord": [
+            32.4,
+            111.1
+          ],
+          "level": 3
+        },
+        {
+          "name": "阴",
+          "coord": [
+            32.8,
+            111.3
+          ],
+          "level": 3
+        },
+        {
+          "name": "筑阳",
+          "coord": [
+            32.3,
+            111.6
+          ],
+          "level": 3
+        },
+        {
+          "name": "酂",
+          "coord": [
+            32.6,
+            111.5
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    },
+    {
+      "id": "yiyang_jing",
+      "name": "义阳",
+      "faction": "zhang_xiu",
+      "seed": [
+        32.2,
+        113.7
+      ],
+      "size": 1,
+      "cities": [
+        {
+          "name": "安昌",
+          "coord": [
+            32.2,
+            113.7
+          ],
+          "capital": true,
+          "level": 2
+        },
+        {
+          "name": "平氏",
+          "coord": [
+            32.4,
+            113.5
+          ],
+          "level": 3
+        },
+        {
+          "name": "义阳",
+          "coord": [
+            32.1,
+            113.8
+          ],
+          "level": 3
+        },
+        {
+          "name": "棘阳",
+          "coord": [
+            32.6,
+            112.5
+          ],
+          "level": 3
+        },
+        {
+          "name": "朝阳",
+          "coord": [
+            32.3,
+            112.4
+          ],
+          "level": 3
+        },
+        {
+          "name": "蔡阳",
+          "coord": [
+            32.2,
+            112.7
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    },
+    {
+      "id": "xincheng",
+      "name": "新城",
+      "faction": "zhang_lu",
+      "seed": [
+        32,
+        110.9
+      ],
+      "size": 1.2,
+      "cities": [
+        {
+          "name": "房陵",
+          "coord": [
+            32.0,
+            110.9
+          ],
+          "capital": true,
+          "level": 2
+        },
+        {
+          "name": "筑阳",
+          "coord": [
+            32.3,
+            111.6
+          ],
+          "level": 3
+        },
+        {
+          "name": "沶乡",
+          "coord": [
+            31.7,
+            111.0
+          ],
+          "level": 3
+        },
+        {
+          "name": "昌魏",
+          "coord": [
+            31.8,
+            110.7
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    },
+    {
+      "id": "weixing",
+      "name": "魏兴",
+      "faction": "zhang_lu",
+      "seed": [
+        32.6,
+        109.3
+      ],
+      "size": 1.3,
+      "cities": [
+        {
+          "name": "西城",
+          "coord": [
+            32.7,
+            109.3
+          ],
+          "capital": true,
+          "level": 2
+        },
+        {
+          "name": "安阳",
+          "coord": [
+            32.8,
+            109.4
+          ],
+          "level": 3
+        },
+        {
+          "name": "锡",
+          "coord": [
+            32.7,
+            110.2
+          ],
+          "level": 3
+        },
+        {
+          "name": "平阳",
+          "coord": [
+            32.3,
+            109.6
+          ],
+          "level": 3
+        },
+        {
+          "name": "旬阳",
+          "coord": [
+            32.8,
+            109.4
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    },
+    {
+      "id": "shangyong",
+      "name": "上庸",
+      "faction": "zhang_lu",
+      "seed": [
+        32.3,
+        110.1
+      ],
+      "size": 1,
+      "cities": [
+        {
+          "name": "上庸",
+          "coord": [
+            32.3,
+            110.1
+          ],
+          "capital": true,
+          "level": 2
+        },
+        {
+          "name": "北巫",
+          "coord": [
+            31.8,
+            109.9
+          ],
+          "level": 3
+        },
+        {
+          "name": "武陵",
+          "coord": [
+            32.2,
+            110.0
+          ],
+          "level": 3
+        },
+        {
+          "name": "安富",
+          "coord": [
+            32.4,
+            110.0
+          ],
+          "level": 3
+        },
+        {
+          "name": "微阳",
+          "coord": [
+            32.1,
+            109.8
+          ],
+          "level": 3
+        },
+        {
+          "name": "广昌",
+          "coord": [
+            32.5,
+            109.9
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    },
+    {
+      "id": "fangling_jing",
+      "name": "房陵",
+      "faction": "zhang_lu",
+      "seed": [
+        32,
+        110.9
+      ],
+      "size": 0.9,
+      "cities": [
+        {
+          "name": "房陵",
+          "coord": [
+            32.0,
+            110.9
+          ],
+          "capital": true,
+          "level": 2
+        },
+        {
+          "name": "房陵南",
+          "coord": [
+            31.9,
+            110.9
+          ],
+          "level": 3
+        },
+        {
+          "name": "房陵北",
+          "coord": [
+            32.1,
+            110.9
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    },
+    {
+      "id": "xijun_jing",
+      "name": "锡郡",
+      "faction": "zhang_lu",
+      "seed": [
+        32.7,
+        110.2
+      ],
+      "size": 0.7,
+      "cities": [
+        {
+          "name": "锡",
+          "coord": [
+            32.7,
+            110.2
+          ],
+          "capital": true,
+          "level": 2
+        },
+        {
+          "name": "郧乡",
+          "coord": [
+            32.8,
+            110.3
+          ],
+          "level": 3
+        },
+        {
+          "name": "锡南",
+          "coord": [
+            32.6,
+            110.2
+          ],
+          "level": 3
+        },
+        {
+          "name": "锡北",
+          "coord": [
+            32.8,
+            110.2
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    },
+    {
+      "id": "henanyin",
+      "name": "河南尹",
+      "faction": "cao",
+      "seed": [
+        34.67,
+        112.45
+      ],
+      "size": 1.5,
+      "cities": [
+        {
+          "name": "洛阳",
+          "coord": [
+            34.67,
+            112.45
+          ],
+          "capital": true,
+          "level": 0
+        },
+        {
+          "name": "河南",
+          "coord": [
+            34.7,
+            112.5
+          ],
+          "level": 3
+        },
+        {
+          "name": "巩",
+          "coord": [
+            34.7,
+            113.0
+          ],
+          "level": 3
+        },
+        {
+          "name": "河阴",
+          "coord": [
+            34.8,
+            112.6
+          ],
+          "level": 3
+        },
+        {
+          "name": "成皋",
+          "coord": [
+            34.8,
+            113.2
+          ],
+          "level": 3
+        },
+        {
+          "name": "缑氏",
+          "coord": [
+            34.6,
+            112.9
+          ],
+          "level": 3
+        },
+        {
+          "name": "新城",
+          "coord": [
+            34.5,
+            112.3
+          ],
+          "level": 3
+        },
+        {
+          "name": "偃师",
+          "coord": [
+            34.7,
+            112.8
+          ],
+          "level": 3
+        },
+        {
+          "name": "梁",
+          "coord": [
+            34.5,
+            112.4
+          ],
+          "level": 3
+        },
+        {
+          "name": "新郑",
+          "coord": [
+            34.4,
+            113.7
+          ],
+          "level": 3
+        },
+        {
+          "name": "密",
+          "coord": [
+            34.5,
+            113.4
+          ],
+          "level": 3
+        },
+        {
+          "name": "京",
+          "coord": [
+            34.7,
+            113.2
+          ],
+          "level": 3
+        },
+        {
+          "name": "阳翟",
+          "coord": [
+            34.2,
+            113.5
+          ],
+          "level": 3
+        },
+        {
+          "name": "卷",
+          "coord": [
+            35.0,
+            113.6
+          ],
+          "level": 3
+        },
+        {
+          "name": "原武",
+          "coord": [
+            35.0,
+            113.9
+          ],
+          "level": 3
+        },
+        {
+          "name": "荥阳",
+          "coord": [
+            34.8,
+            113.4
+          ],
+          "level": 3
+        },
+        {
+          "name": "开封",
+          "coord": [
+            34.8,
+            114.3
+          ],
+          "level": 3
+        },
+        {
+          "name": "中牟",
+          "coord": [
+            34.7,
+            114.0
+          ],
+          "level": 3
+        },
+        {
+          "name": "苑陵",
+          "coord": [
+            34.6,
+            113.8
+          ],
+          "level": 3
+        },
+        {
+          "name": "平阴",
+          "coord": [
+            34.8,
+            112.4
+          ],
+          "level": 3
+        },
+        {
+          "name": "谷城",
+          "coord": [
+            34.8,
+            112.3
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《续汉书·郡国志》"
+    },
+    {
+      "id": "jingzhao",
+      "name": "京兆",
+      "faction": "ma_teng",
+      "seed": [
+        34.2,
+        109
+      ],
+      "size": 1.3,
+      "cities": [
+        {
+          "name": "长安",
+          "coord": [
+            34.27,
+            108.95
+          ],
+          "capital": true,
+          "level": 0
+        },
+        {
+          "name": "霸陵",
+          "coord": [
+            34.3,
+            109.2
+          ],
+          "level": 3
+        },
+        {
+          "name": "杜陵",
+          "coord": [
+            34.2,
+            109.0
+          ],
+          "level": 3
+        },
+        {
+          "name": "蓝田",
+          "coord": [
+            34.2,
+            109.3
+          ],
+          "level": 3
+        },
+        {
+          "name": "郑",
+          "coord": [
+            34.4,
+            109.7
+          ],
+          "level": 3
+        },
+        {
+          "name": "新丰",
+          "coord": [
+            34.4,
+            109.3
+          ],
+          "level": 3
+        },
+        {
+          "name": "华阴",
+          "coord": [
+            34.6,
+            110.1
+          ],
+          "level": 3
+        },
+        {
+          "name": "湖",
+          "coord": [
+            34.5,
+            110.2
+          ],
+          "level": 3
+        },
+        {
+          "name": "下邽",
+          "coord": [
+            34.5,
+            109.5
+          ],
+          "level": 3
+        },
+        {
+          "name": "上洛",
+          "coord": [
+            33.9,
+            109.9
+          ],
+          "level": 3
+        },
+        {
+          "name": "商",
+          "coord": [
+            33.8,
+            110.0
+          ],
+          "level": 3
+        },
+        {
+          "name": "阴槃",
+          "coord": [
+            34.5,
+            109.0
+          ],
+          "level": 3
+        },
+        {
+          "name": "万年",
+          "coord": [
+            34.6,
+            109.3
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    },
+    {
+      "id": "fengyi",
+      "name": "冯翊",
+      "faction": "ma_teng",
+      "seed": [
+        35.05,
+        110.2
+      ],
+      "size": 1.4,
+      "cities": [
+        {
+          "name": "临晋",
+          "coord": [
+            35.0,
+            110.2
+          ],
+          "capital": true,
+          "level": 2
+        },
+        {
+          "name": "高陵",
+          "coord": [
+            34.5,
+            109.1
+          ],
+          "level": 3
+        },
+        {
+          "name": "池阳",
+          "coord": [
+            34.6,
+            108.8
+          ],
+          "level": 3
+        },
+        {
+          "name": "云阳",
+          "coord": [
+            34.9,
+            108.7
+          ],
+          "level": 3
+        },
+        {
+          "name": "祋祤",
+          "coord": [
+            34.9,
+            109.0
+          ],
+          "level": 3
+        },
+        {
+          "name": "频阳",
+          "coord": [
+            34.9,
+            109.2
+          ],
+          "level": 3
+        },
+        {
+          "name": "万年",
+          "coord": [
+            34.6,
+            109.3
+          ],
+          "level": 3
+        },
+        {
+          "name": "莲勺",
+          "coord": [
+            34.7,
+            109.6
+          ],
+          "level": 3
+        },
+        {
+          "name": "重泉",
+          "coord": [
+            34.9,
+            109.5
+          ],
+          "level": 3
+        },
+        {
+          "name": "郃阳",
+          "coord": [
+            35.0,
+            110.2
+          ],
+          "level": 3
+        },
+        {
+          "name": "夏阳",
+          "coord": [
+            35.5,
+            110.5
+          ],
+          "level": 3
+        },
+        {
+          "name": "衙",
+          "coord": [
+            35.3,
+            110.0
+          ],
+          "level": 3
+        },
+        {
+          "name": "粟邑",
+          "coord": [
+            35.2,
+            109.4
+          ],
+          "level": 3
+        },
+        {
+          "name": "下邽",
+          "coord": [
+            34.5,
+            109.5
+          ],
+          "level": 3
+        },
+        {
+          "name": "栩",
+          "coord": [
+            35.2,
+            108.6
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    },
+    {
+      "id": "fufeng",
+      "name": "扶风",
+      "faction": "ma_teng",
+      "seed": [
+        34.4,
+        108
+      ],
+      "size": 1.5,
+      "cities": [
+        {
+          "name": "槐里",
+          "coord": [
+            34.2,
+            108.6
+          ],
+          "capital": true,
+          "level": 2
+        },
+        {
+          "name": "茂陵",
+          "coord": [
+            34.3,
+            108.7
+          ],
+          "level": 3
+        },
+        {
+          "name": "平陵",
+          "coord": [
+            34.3,
+            108.6
+          ],
+          "level": 3
+        },
+        {
+          "name": "武功",
+          "coord": [
+            34.3,
+            108.1
+          ],
+          "level": 3
+        },
+        {
+          "name": "郿",
+          "coord": [
+            34.3,
+            107.8
+          ],
+          "level": 3
+        },
+        {
+          "name": "陈仓",
+          "coord": [
+            34.4,
+            107.4
+          ],
+          "level": 3
+        },
+        {
+          "name": "雍",
+          "coord": [
+            34.5,
+            107.2
+          ],
+          "level": 3
+        },
+        {
+          "name": "栒邑",
+          "coord": [
+            35.1,
+            108.3
+          ],
+          "level": 3
+        },
+        {
+          "name": "漆",
+          "coord": [
+            35.3,
+            107.9
+          ],
+          "level": 3
+        },
+        {
+          "name": "杜阳",
+          "coord": [
+            34.7,
+            107.4
+          ],
+          "level": 3
+        },
+        {
+          "name": "汧",
+          "coord": [
+            34.6,
+            106.9
+          ],
+          "level": 3
+        },
+        {
+          "name": "渝麋",
+          "coord": [
+            34.6,
+            107.2
+          ],
+          "level": 3
+        },
+        {
+          "name": "美阳",
+          "coord": [
+            34.4,
+            108.0
+          ],
+          "level": 3
+        },
+        {
+          "name": "好畤",
+          "coord": [
+            34.6,
+            108.2
+          ],
+          "level": 3
+        },
+        {
+          "name": "安陵",
+          "coord": [
+            34.3,
+            108.7
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    },
+    {
+      "id": "xinping",
+      "name": "新平",
+      "faction": "ma_teng",
+      "seed": [
+        35.2,
+        107.8
+      ],
+      "size": 0.9,
+      "cities": [
+        {
+          "name": "漆",
+          "coord": [
+            35.3,
+            107.9
+          ],
+          "capital": true,
+          "level": 2
+        },
+        {
+          "name": "鹑觚",
+          "coord": [
+            35.2,
+            107.8
+          ],
+          "level": 3
+        },
+        {
+          "name": "漆南",
+          "coord": [
+            35.2,
+            107.9
+          ],
+          "level": 3
+        },
+        {
+          "name": "漆北",
+          "coord": [
+            35.4,
+            107.9
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    },
+    {
+      "id": "anding",
+      "name": "安定",
+      "faction": "ma_teng",
+      "seed": [
+        35.4,
+        107.5
+      ],
+      "size": 1.5,
+      "cities": [
+        {
+          "name": "临泾",
+          "coord": [
+            35.4,
+            107.5
+          ],
+          "capital": true,
+          "level": 2
+        },
+        {
+          "name": "高平",
+          "coord": [
+            35.7,
+            106.6
+          ],
+          "level": 3
+        },
+        {
+          "name": "朝那",
+          "coord": [
+            35.8,
+            106.7
+          ],
+          "level": 3
+        },
+        {
+          "name": "乌氏",
+          "coord": [
+            35.6,
+            106.6
+          ],
+          "level": 3
+        },
+        {
+          "name": "阴盘",
+          "coord": [
+            35.4,
+            107.4
+          ],
+          "level": 3
+        },
+        {
+          "name": "彭阳",
+          "coord": [
+            35.8,
+            107.3
+          ],
+          "level": 3
+        },
+        {
+          "name": "鹑觚",
+          "coord": [
+            35.2,
+            107.8
+          ],
+          "level": 3
+        },
+        {
+          "name": "泾阳",
+          "coord": [
+            35.0,
+            107.1
+          ],
+          "level": 3
+        },
+        {
+          "name": "三水",
+          "coord": [
+            36.3,
+            106.8
+          ],
+          "level": 3
+        },
+        {
+          "name": "祖厉",
+          "coord": [
+            36.2,
+            104.7
+          ],
+          "level": 3
+        },
+        {
+          "name": "抚夷",
+          "coord": [
+            35.8,
+            107.2
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    },
+    {
+      "id": "guangwei",
+      "name": "广魏",
+      "faction": "ma_teng",
+      "seed": [
+        34.8,
+        106.2
+      ],
+      "size": 1.2,
+      "cities": [
+        {
+          "name": "临渭",
+          "coord": [
+            34.7,
+            106.2
+          ],
+          "capital": true,
+          "level": 2
+        },
+        {
+          "name": "平襄",
+          "coord": [
+            35.0,
+            105.3
+          ],
+          "level": 3
+        },
+        {
+          "name": "略阳",
+          "coord": [
+            35.1,
+            106.2
+          ],
+          "level": 3
+        },
+        {
+          "name": "清水",
+          "coord": [
+            34.7,
+            106.1
+          ],
+          "level": 3
+        },
+        {
+          "name": "陇",
+          "coord": [
+            34.8,
+            106.6
+          ],
+          "level": 3
+        },
+        {
+          "name": "阿阳",
+          "coord": [
+            35.0,
+            105.8
+          ],
+          "level": 3
+        },
+        {
+          "name": "成纪",
+          "coord": [
+            35.0,
+            105.8
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    },
+    {
+      "id": "tianshui",
+      "name": "天水",
+      "faction": "ma_teng",
+      "seed": [
+        34.6,
+        105.7
+      ],
+      "size": 1.3,
+      "cities": [
+        {
+          "name": "冀",
+          "coord": [
+            34.8,
+            105.7
+          ],
+          "capital": true,
+          "level": 2
+        },
+        {
+          "name": "上邽",
+          "coord": [
+            34.6,
+            105.7
+          ],
+          "level": 3
+        },
+        {
+          "name": "西县",
+          "coord": [
+            34.3,
+            105.8
+          ],
+          "level": 3
+        },
+        {
+          "name": "望垣",
+          "coord": [
+            34.7,
+            105.9
+          ],
+          "level": 3
+        },
+        {
+          "name": "阿阳",
+          "coord": [
+            35.0,
+            105.8
+          ],
+          "level": 3
+        },
+        {
+          "name": "略阳",
+          "coord": [
+            35.1,
+            106.2
+          ],
+          "level": 3
+        },
+        {
+          "name": "勇士",
+          "coord": [
+            35.5,
+            104.2
+          ],
+          "level": 3
+        },
+        {
+          "name": "成纪",
+          "coord": [
+            35.0,
+            105.8
+          ],
+          "level": 3
+        },
+        {
+          "name": "显亲",
+          "coord": [
+            34.9,
+            105.8
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    },
+    {
+      "id": "nan'an",
+      "name": "南安",
+      "faction": "ma_teng",
+      "seed": [
+        34.7,
+        104.6
+      ],
+      "size": 1.2,
+      "cities": [
+        {
+          "name": "豲道",
+          "coord": [
+            34.8,
+            104.5
+          ],
+          "capital": true,
+          "level": 2
+        },
+        {
+          "name": "新兴",
+          "coord": [
+            34.9,
+            104.6
+          ],
+          "level": 3
+        },
+        {
+          "name": "中陶",
+          "coord": [
+            34.7,
+            104.7
+          ],
+          "level": 3
+        },
+        {
+          "name": "南安",
+          "coord": [
+            34.6,
+            104.8
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    },
+    {
+      "id": "longxi",
+      "name": "陇西",
+      "faction": "ma_teng",
+      "seed": [
+        35,
+        104.2
+      ],
+      "size": 1.5,
+      "cities": [
+        {
+          "name": "狄道",
+          "coord": [
+            35.4,
+            103.9
+          ],
+          "capital": true,
+          "level": 2
+        },
+        {
+          "name": "襄武",
+          "coord": [
+            35.0,
+            104.6
+          ],
+          "level": 3
+        },
+        {
+          "name": "临洮",
+          "coord": [
+            35.4,
+            103.9
+          ],
+          "level": 3
+        },
+        {
+          "name": "大夏",
+          "coord": [
+            35.5,
+            103.3
+          ],
+          "level": 3
+        },
+        {
+          "name": "河关",
+          "coord": [
+            35.7,
+            102.9
+          ],
+          "level": 3
+        },
+        {
+          "name": "枹罕",
+          "coord": [
+            35.6,
+            103.2
+          ],
+          "level": 3
+        },
+        {
+          "name": "白石",
+          "coord": [
+            35.7,
+            103.2
+          ],
+          "level": 3
+        },
+        {
+          "name": "安故",
+          "coord": [
+            35.3,
+            103.7
+          ],
+          "level": 3
+        },
+        {
+          "name": "氐道",
+          "coord": [
+            34.9,
+            104.0
+          ],
+          "level": 3
+        },
+        {
+          "name": "首阳",
+          "coord": [
+            35.1,
+            104.2
+          ],
+          "level": 3
+        },
+        {
+          "name": "大夏",
+          "coord": [
+            35.5,
+            103.3
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    },
+    {
+      "id": "jincheng",
+      "name": "金城",
+      "faction": "ma_teng",
+      "seed": [
+        36.3,
+        103.8
+      ],
+      "size": 1.6,
+      "cities": [
+        {
+          "name": "榆中",
+          "coord": [
+            36.1,
+            104.1
+          ],
+          "capital": true,
+          "level": 2
+        },
+        {
+          "name": "允吾",
+          "coord": [
+            36.0,
+            103.3
+          ],
+          "level": 3
+        },
+        {
+          "name": "金城",
+          "coord": [
+            36.1,
+            103.6
+          ],
+          "level": 3
+        },
+        {
+          "name": "令居",
+          "coord": [
+            36.5,
+            103.3
+          ],
+          "level": 3
+        },
+        {
+          "name": "枝阳",
+          "coord": [
+            36.3,
+            103.5
+          ],
+          "level": 3
+        },
+        {
+          "name": "允街",
+          "coord": [
+            36.4,
+            103.2
+          ],
+          "level": 3
+        },
+        {
+          "name": "浩亹",
+          "coord": [
+            36.7,
+            102.9
+          ],
+          "level": 3
+        },
+        {
+          "name": "破羌",
+          "coord": [
+            36.4,
+            102.5
+          ],
+          "level": 3
+        },
+        {
+          "name": "安夷",
+          "coord": [
+            36.3,
+            102.1
+          ],
+          "level": 3
+        },
+        {
+          "name": "临羌",
+          "coord": [
+            36.5,
+            101.8
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    },
+    {
+      "id": "xiping",
+      "name": "西平",
+      "faction": "ma_teng",
+      "seed": [
+        36.6,
+        102
+      ],
+      "size": 1,
+      "cities": [
+        {
+          "name": "西都",
+          "coord": [
+            36.6,
+            101.8
+          ],
+          "capital": true,
+          "level": 2
+        },
+        {
+          "name": "临羌",
+          "coord": [
+            36.5,
+            101.8
+          ],
+          "level": 3
+        },
+        {
+          "name": "破羌",
+          "coord": [
+            36.4,
+            102.5
+          ],
+          "level": 3
+        },
+        {
+          "name": "安夷",
+          "coord": [
+            36.3,
+            102.1
+          ],
+          "level": 3
+        },
+        {
+          "name": "长宁",
+          "coord": [
+            36.7,
+            101.9
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    },
+    {
+      "id": "wuwei",
+      "name": "武威",
+      "faction": "ma_teng",
+      "seed": [
+        38,
+        102.6
+      ],
+      "size": 1.8,
+      "cities": [
+        {
+          "name": "姑臧",
+          "coord": [
+            37.93,
+            102.64
+          ],
+          "capital": true,
+          "level": 1
+        },
+        {
+          "name": "张掖",
+          "coord": [
+            38.9,
+            100.7
+          ],
+          "level": 3
+        },
+        {
+          "name": "武威",
+          "coord": [
+            37.93,
+            102.64
+          ],
+          "level": 1,
+          "capital": true
+        },
+        {
+          "name": "休屠",
+          "coord": [
+            38.1,
+            102.8
+          ],
+          "level": 3
+        },
+        {
+          "name": "揟次",
+          "coord": [
+            38.1,
+            103.0
+          ],
+          "level": 3
+        },
+        {
+          "name": "鸾鸟",
+          "coord": [
+            38.2,
+            102.2
+          ],
+          "level": 3
+        },
+        {
+          "name": "扑褱",
+          "coord": [
+            38.0,
+            102.5
+          ],
+          "level": 3
+        },
+        {
+          "name": "媪围",
+          "coord": [
+            37.5,
+            104.0
+          ],
+          "level": 3
+        },
+        {
+          "name": "仓松",
+          "coord": [
+            37.6,
+            102.9
+          ],
+          "level": 3
+        },
+        {
+          "name": "宣威",
+          "coord": [
+            38.2,
+            103.3
+          ],
+          "level": 3
+        },
+        {
+          "name": "袓厉",
+          "coord": [
+            36.2,
+            104.7
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    },
+    {
+      "id": "zhangye_lz",
+      "name": "张掖",
+      "faction": "ma_teng",
+      "seed": [
+        38.9,
+        100.7
+      ],
+      "size": 1.8,
+      "cities": [
+        {
+          "name": "觻得",
+          "coord": [
+            38.9,
+            100.7
+          ],
+          "capital": true,
+          "level": 2
+        },
+        {
+          "name": "昭武",
+          "coord": [
+            39.1,
+            100.4
+          ],
+          "level": 3
+        },
+        {
+          "name": "删丹",
+          "coord": [
+            38.8,
+            101.1
+          ],
+          "level": 3
+        },
+        {
+          "name": "氐池",
+          "coord": [
+            38.8,
+            100.6
+          ],
+          "level": 3
+        },
+        {
+          "name": "屋兰",
+          "coord": [
+            39.0,
+            100.6
+          ],
+          "level": 3
+        },
+        {
+          "name": "日勒",
+          "coord": [
+            38.8,
+            101.3
+          ],
+          "level": 3
+        },
+        {
+          "name": "骊靬",
+          "coord": [
+            38.6,
+            101.6
+          ],
+          "level": 3
+        },
+        {
+          "name": "番和",
+          "coord": [
+            38.5,
+            102.1
+          ],
+          "level": 3
+        },
+        {
+          "name": "居延",
+          "coord": [
+            40.5,
+            100.1
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    },
+    {
+      "id": "jiuquan",
+      "name": "酒泉",
+      "faction": "ma_teng",
+      "seed": [
+        39.7,
+        98.7
+      ],
+      "size": 2.2,
+      "cities": [
+        {
+          "name": "禄福",
+          "coord": [
+            39.7,
+            98.7
+          ],
+          "capital": true,
+          "level": 2
+        },
+        {
+          "name": "表氏",
+          "coord": [
+            39.6,
+            99.3
+          ],
+          "level": 3
+        },
+        {
+          "name": "乐涫",
+          "coord": [
+            39.9,
+            98.8
+          ],
+          "level": 3
+        },
+        {
+          "name": "玉门",
+          "coord": [
+            40.2,
+            97.2
+          ],
+          "level": 3
+        },
+        {
+          "name": "会水",
+          "coord": [
+            40.3,
+            99.5
+          ],
+          "level": 3
+        },
+        {
+          "name": "延寿",
+          "coord": [
+            39.8,
+            98.6
+          ],
+          "level": 3
+        },
+        {
+          "name": "沙头",
+          "coord": [
+            40.2,
+            97.8
+          ],
+          "level": 3
+        },
+        {
+          "name": "安弥",
+          "coord": [
+            39.7,
+            98.9
+          ],
+          "level": 3
+        },
+        {
+          "name": "干齐",
+          "coord": [
+            40.4,
+            98.0
+          ],
+          "level": 3
+        },
+        {
+          "name": "延寿",
+          "coord": [
+            39.8,
+            98.6
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    },
+    {
+      "id": "dunhuang",
+      "name": "敦煌",
+      "faction": "ma_teng",
+      "seed": [
+        40.1,
+        94.8
+      ],
+      "size": 2.5,
+      "cities": [
+        {
+          "name": "敦煌",
+          "coord": [
+            40.14,
+            94.66
+          ],
+          "capital": true,
+          "level": 2
+        },
+        {
+          "name": "龙勒",
+          "coord": [
+            39.8,
+            94.5
+          ],
+          "level": 3
+        },
+        {
+          "name": "效谷",
+          "coord": [
+            40.2,
+            94.9
+          ],
+          "level": 3
+        },
+        {
+          "name": "广至",
+          "coord": [
+            40.4,
+            95.3
+          ],
+          "level": 3
+        },
+        {
+          "name": "宜禾",
+          "coord": [
+            40.3,
+            95.6
+          ],
+          "level": 3
+        },
+        {
+          "name": "冥安",
+          "coord": [
+            40.4,
+            95.9
+          ],
+          "level": 3
+        },
+        {
+          "name": "渊泉",
+          "coord": [
+            40.5,
+            96.2
+          ],
+          "level": 3
+        },
+        {
+          "name": "拼泉",
+          "coord": [
+            40.3,
+            96.5
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    },
+    {
+      "id": "xihai_liang",
+      "name": "西海",
+      "faction": "barbarian",
+      "seed": [
+        39.0,
+        100.5
+      ],
+      "size": 3.0,
+      "cities": [
+        {
+          "name": "居延",
+          "coord": [
+            40.5,
+            100.1
+          ],
+          "capital": true,
+          "level": 2
+        },
+        {
+          "name": "居延南",
+          "coord": [
+            40.4,
+            100.1
+          ],
+          "level": 3
+        },
+        {
+          "name": "居延北",
+          "coord": [
+            40.6,
+            100.1
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    },
+    {
+      "id": "hanzhong",
+      "name": "汉中",
+      "faction": "zhang_lu",
+      "seed": [
+        33.1,
+        107.0
+      ],
+      "size": 1.8,
+      "cities": [
+        {
+          "name": "南郑",
+          "coord": [
+            33.07,
+            107.03
+          ],
+          "capital": true,
+          "level": 2
+        },
+        {
+          "name": "褒中",
+          "coord": [
+            33.2,
+            106.9
+          ],
+          "level": 3
+        },
+        {
+          "name": "沔阳",
+          "coord": [
+            33.2,
+            106.7
+          ],
+          "level": 3
+        },
+        {
+          "name": "成固",
+          "coord": [
+            33.1,
+            107.3
+          ],
+          "level": 3
+        },
+        {
+          "name": "西城",
+          "coord": [
+            32.7,
+            109.3
+          ],
+          "level": 3
+        },
+        {
+          "name": "安阳",
+          "coord": [
+            32.8,
+            109.4
+          ],
+          "level": 3
+        },
+        {
+          "name": "锡",
+          "coord": [
+            32.7,
+            110.2
+          ],
+          "level": 3
+        },
+        {
+          "name": "上庸",
+          "coord": [
+            32.3,
+            110.1
+          ],
+          "level": 3
+        },
+        {
+          "name": "房陵",
+          "coord": [
+            32.0,
+            110.9
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    },
+    {
+      "id": "zhaozhu_shu",
+      "name": "梓潼",
+      "faction": "liu_zhang",
+      "seed": [
+        31.6,
+        105.1
+      ],
+      "size": 1.4,
+      "cities": [
+        {
+          "name": "梓潼",
+          "coord": [
+            31.6,
+            105.1
+          ],
+          "capital": true,
+          "level": 2
+        },
+        {
+          "name": "涪",
+          "coord": [
+            31.5,
+            104.8
+          ],
+          "level": 3
+        },
+        {
+          "name": "晋寿",
+          "coord": [
+            32.4,
+            105.9
+          ],
+          "level": 3
+        },
+        {
+          "name": "白水",
+          "coord": [
+            32.5,
+            105.3
+          ],
+          "level": 3
+        },
+        {
+          "name": "汉德",
+          "coord": [
+            32.1,
+            105.4
+          ],
+          "level": 3
+        },
+        {
+          "name": "剑阁",
+          "coord": [
+            32.0,
+            105.5
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    },
+    {
+      "id": "shujun",
+      "name": "蜀郡",
+      "faction": "liu_zhang",
+      "seed": [
+        30.7,
+        104.1
+      ],
+      "size": 1.4,
+      "cities": [
+        {
+          "name": "成都",
+          "coord": [
+            30.66,
+            104.07
+          ],
+          "capital": true,
+          "level": 1
+        },
+        {
+          "name": "广都",
+          "coord": [
+            30.5,
+            104.0
+          ],
+          "level": 3
+        },
+        {
+          "name": "新都",
+          "coord": [
+            30.8,
+            104.2
+          ],
+          "level": 3
+        },
+        {
+          "name": "郫",
+          "coord": [
+            30.8,
+            103.9
+          ],
+          "level": 3
+        },
+        {
+          "name": "繁",
+          "coord": [
+            30.9,
+            104.0
+          ],
+          "level": 3
+        },
+        {
+          "name": "江原",
+          "coord": [
+            30.6,
+            103.7
+          ],
+          "level": 3
+        },
+        {
+          "name": "临邛",
+          "coord": [
+            30.4,
+            103.5
+          ],
+          "level": 3
+        },
+        {
+          "name": "湔氐",
+          "coord": [
+            31.0,
+            103.6
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    },
+    {
+      "id": "guanghan",
+      "name": "广汉",
+      "faction": "liu_zhang",
+      "seed": [
+        31.0,
+        104.4
+      ],
+      "size": 1.4,
+      "cities": [
+        {
+          "name": "雒",
+          "coord": [
+            31.0,
+            104.4
+          ],
+          "capital": true,
+          "level": 2
+        },
+        {
+          "name": "绵竹",
+          "coord": [
+            31.3,
+            104.2
+          ],
+          "level": 3
+        },
+        {
+          "name": "什邡",
+          "coord": [
+            31.1,
+            104.1
+          ],
+          "level": 3
+        },
+        {
+          "name": "新都",
+          "coord": [
+            30.8,
+            104.2
+          ],
+          "level": 3
+        },
+        {
+          "name": "郪",
+          "coord": [
+            30.7,
+            105.0
+          ],
+          "level": 3
+        },
+        {
+          "name": "广汉",
+          "coord": [
+            31.0,
+            104.6
+          ],
+          "level": 3
+        },
+        {
+          "name": "德阳",
+          "coord": [
+            31.1,
+            104.5
+          ],
+          "level": 3
+        },
+        {
+          "name": "五城",
+          "coord": [
+            31.1,
+            104.8
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    },
+    {
+      "id": "hanjia",
+      "name": "汉嘉",
+      "faction": "liu_zhang",
+      "seed": [
+        30.2,
+        103.0
+      ],
+      "size": 1.5,
+      "cities": [
+        {
+          "name": "汉嘉",
+          "coord": [
+            30.2,
+            103.0
+          ],
+          "capital": true,
+          "level": 2
+        },
+        {
+          "name": "徙",
+          "coord": [
+            30.2,
+            102.7
+          ],
+          "level": 3
+        },
+        {
+          "name": "严道",
+          "coord": [
+            29.8,
+            102.8
+          ],
+          "level": 3
+        },
+        {
+          "name": "旄牛",
+          "coord": [
+            29.6,
+            102.2
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    },
+    {
+      "id": "jiangyang",
+      "name": "江阳",
+      "faction": "liu_zhang",
+      "seed": [
+        28.9,
+        105.4
+      ],
+      "size": 1.2,
+      "cities": [
+        {
+          "name": "江阳",
+          "coord": [
+            28.9,
+            105.4
+          ],
+          "capital": true,
+          "level": 2
+        },
+        {
+          "name": "符",
+          "coord": [
+            28.8,
+            105.8
+          ],
+          "level": 3
+        },
+        {
+          "name": "汉安",
+          "coord": [
+            29.6,
+            105.2
+          ],
+          "level": 3
+        },
+        {
+          "name": "新乐",
+          "coord": [
+            28.6,
+            105.3
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    },
+    {
+      "id": "jianwei",
+      "name": "犍为",
+      "faction": "liu_zhang",
+      "seed": [
+        29.5,
+        103.8
+      ],
+      "size": 1.7,
+      "cities": [
+        {
+          "name": "武阳",
+          "coord": [
+            30.2,
+            103.9
+          ],
+          "capital": true,
+          "level": 2
+        },
+        {
+          "name": "资中",
+          "coord": [
+            29.8,
+            104.8
+          ],
+          "level": 3
+        },
+        {
+          "name": "牛鞞",
+          "coord": [
+            30.3,
+            104.6
+          ],
+          "level": 3
+        },
+        {
+          "name": "南安",
+          "coord": [
+            29.5,
+            103.8
+          ],
+          "level": 3
+        },
+        {
+          "name": "僰道",
+          "coord": [
+            28.8,
+            104.6
+          ],
+          "level": 3
+        },
+        {
+          "name": "南广",
+          "coord": [
+            28.2,
+            104.8
+          ],
+          "level": 3
+        },
+        {
+          "name": "朱提",
+          "coord": [
+            27.3,
+            103.7
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    },
+    {
+      "id": "zhuti",
+      "name": "朱提",
+      "faction": "liu_zhang",
+      "seed": [
+        27.3,
+        103.7
+      ],
+      "size": 1.2,
+      "cities": [
+        {
+          "name": "朱提",
+          "coord": [
+            27.3,
+            103.7
+          ],
+          "capital": true,
+          "level": 2
+        },
+        {
+          "name": "南广",
+          "coord": [
+            28.2,
+            104.8
+          ],
+          "level": 3
+        },
+        {
+          "name": "汉阳",
+          "coord": [
+            27.0,
+            104.0
+          ],
+          "level": 3
+        },
+        {
+          "name": "堂琅",
+          "coord": [
+            26.9,
+            103.2
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    },
+    {
+      "id": "yuexi",
+      "name": "越巂",
+      "faction": "liu_zhang",
+      "seed": [
+        28.2,
+        102.3
+      ],
+      "size": 2.0,
+      "cities": [
+        {
+          "name": "邛都",
+          "coord": [
+            28.2,
+            102.3
+          ],
+          "capital": true,
+          "level": 2
+        },
+        {
+          "name": "会无",
+          "coord": [
+            26.8,
+            102.3
+          ],
+          "level": 3
+        },
+        {
+          "name": "台登",
+          "coord": [
+            28.6,
+            102.2
+          ],
+          "level": 3
+        },
+        {
+          "name": "卑水",
+          "coord": [
+            27.9,
+            102.7
+          ],
+          "level": 3
+        },
+        {
+          "name": "三缝",
+          "coord": [
+            26.6,
+            102.1
+          ],
+          "level": 3
+        },
+        {
+          "name": "苏祁",
+          "coord": [
+            28.5,
+            102.0
+          ],
+          "level": 3
+        },
+        {
+          "name": "定莋",
+          "coord": [
+            27.7,
+            101.5
+          ],
+          "level": 3
+        },
+        {
+          "name": "阐",
+          "coord": [
+            28.0,
+            102.5
+          ],
+          "level": 3
+        },
+        {
+          "name": "潜街",
+          "coord": [
+            27.2,
+            102.6
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    },
+    {
+      "id": "zangke",
+      "name": "牂牁",
+      "faction": "liu_zhang",
+      "seed": [
+        26.3,
+        106.6
+      ],
+      "size": 2.0,
+      "cities": [
+        {
+          "name": "且兰",
+          "coord": [
+            26.3,
+            107.5
+          ],
+          "capital": true,
+          "level": 2
+        },
+        {
+          "name": "夜郎",
+          "coord": [
+            26.2,
+            105.7
+          ],
+          "level": 3
+        },
+        {
+          "name": "平夷",
+          "coord": [
+            27.2,
+            105.7
+          ],
+          "level": 3
+        },
+        {
+          "name": "毋敛",
+          "coord": [
+            25.6,
+            107.7
+          ],
+          "level": 3
+        },
+        {
+          "name": "谈指",
+          "coord": [
+            25.3,
+            105.8
+          ],
+          "level": 3
+        },
+        {
+          "name": "夜郎",
+          "coord": [
+            26.2,
+            105.7
+          ],
+          "level": 3
+        },
+        {
+          "name": "同并",
+          "coord": [
+            24.9,
+            103.8
+          ],
+          "level": 3
+        },
+        {
+          "name": "谈稿",
+          "coord": [
+            25.0,
+            104.3
+          ],
+          "level": 3
+        },
+        {
+          "name": "漏江",
+          "coord": [
+            24.6,
+            103.8
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    },
+    {
+      "id": "jianing",
+      "name": "建宁/益州",
+      "faction": "liu_zhang",
+      "seed": [
+        25.0,
+        103.8
+      ],
+      "size": 2.0,
+      "cities": [
+        {
+          "name": "味县",
+          "coord": [
+            25.5,
+            103.8
+          ],
+          "capital": true,
+          "level": 2
+        },
+        {
+          "name": "滇池",
+          "coord": [
+            24.8,
+            102.7
+          ],
+          "level": 3
+        },
+        {
+          "name": "胜休",
+          "coord": [
+            24.5,
+            102.9
+          ],
+          "level": 3
+        },
+        {
+          "name": "俞元",
+          "coord": [
+            24.7,
+            102.8
+          ],
+          "level": 3
+        },
+        {
+          "name": "律高",
+          "coord": [
+            24.5,
+            103.8
+          ],
+          "level": 3
+        },
+        {
+          "name": "贲古",
+          "coord": [
+            23.5,
+            103.1
+          ],
+          "level": 3
+        },
+        {
+          "name": "毋棳",
+          "coord": [
+            24.3,
+            103.3
+          ],
+          "level": 3
+        },
+        {
+          "name": "谷昌",
+          "coord": [
+            25.0,
+            102.8
+          ],
+          "level": 3
+        },
+        {
+          "name": "牧靡",
+          "coord": [
+            25.6,
+            103.1
+          ],
+          "level": 3
+        },
+        {
+          "name": "同濑",
+          "coord": [
+            25.1,
+            104.0
+          ],
+          "level": 3
+        },
+        {
+          "name": "昆泽",
+          "coord": [
+            24.9,
+            103.3
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    },
+    {
+      "id": "yongchang",
+      "name": "永昌",
+      "faction": "liu_zhang",
+      "seed": [
+        25.1,
+        99.2
+      ],
+      "size": 3.0,
+      "cities": [
+        {
+          "name": "不韦",
+          "coord": [
+            25.1,
+            99.2
+          ],
+          "capital": true,
+          "level": 2
+        },
+        {
+          "name": "巂唐",
+          "coord": [
+            25.4,
+            98.6
+          ],
+          "level": 3
+        },
+        {
+          "name": "比苏",
+          "coord": [
+            26.0,
+            99.4
+          ],
+          "level": 3
+        },
+        {
+          "name": "楪榆",
+          "coord": [
+            25.6,
+            100.2
+          ],
+          "level": 3
+        },
+        {
+          "name": "邪龙",
+          "coord": [
+            25.1,
+            100.2
+          ],
+          "level": 3
+        },
+        {
+          "name": "云南",
+          "coord": [
+            25.5,
+            100.6
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    },
+    {
+      "id": "yunnan_nz",
+      "name": "云南",
+      "faction": "liu_zhang",
+      "seed": [
+        25.5,
+        100.6
+      ],
+      "size": 1.8,
+      "cities": [
+        {
+          "name": "云南",
+          "coord": [
+            25.5,
+            100.6
+          ],
+          "capital": true,
+          "level": 2
+        },
+        {
+          "name": "梇栋",
+          "coord": [
+            25.5,
+            101.5
+          ],
+          "level": 3
+        },
+        {
+          "name": "青蛉",
+          "coord": [
+            26.1,
+            101.6
+          ],
+          "level": 3
+        },
+        {
+          "name": "姑复",
+          "coord": [
+            26.6,
+            100.7
+          ],
+          "level": 3
+        },
+        {
+          "name": "邪龙",
+          "coord": [
+            25.1,
+            100.2
+          ],
+          "level": 3
+        },
+        {
+          "name": "楪榆",
+          "coord": [
+            25.6,
+            100.2
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    },
+    {
+      "id": "xinggu",
+      "name": "兴古",
+      "faction": "liu_zhang",
+      "seed": [
+        23.8,
+        104.5
+      ],
+      "size": 2.0,
+      "cities": [
+        {
+          "name": "宛温",
+          "coord": [
+            24.1,
+            104.8
+          ],
+          "capital": true,
+          "level": 2
+        },
+        {
+          "name": "句町",
+          "coord": [
+            23.7,
+            105.7
+          ],
+          "level": 3
+        },
+        {
+          "name": "镡封",
+          "coord": [
+            23.5,
+            104.6
+          ],
+          "level": 3
+        },
+        {
+          "name": "胜休",
+          "coord": [
+            24.5,
+            102.9
+          ],
+          "level": 3
+        },
+        {
+          "name": "贲古",
+          "coord": [
+            23.5,
+            103.1
+          ],
+          "level": 3
+        },
+        {
+          "name": "汉兴",
+          "coord": [
+            23.0,
+            105.0
+          ],
+          "level": 3
+        },
+        {
+          "name": "进乘",
+          "coord": [
+            23.2,
+            104.0
+          ],
+          "level": 3
+        },
+        {
+          "name": "西随",
+          "coord": [
+            23.3,
+            103.5
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    },
+    {
+      "id": "bajun",
+      "name": "巴郡",
+      "faction": "liu_zhang",
+      "seed": [
+        29.6,
+        106.5
+      ],
+      "size": 1.6,
+      "cities": [
+        {
+          "name": "江州",
+          "coord": [
+            29.6,
+            106.5
+          ],
+          "capital": true,
+          "level": 2
+        },
+        {
+          "name": "垫江",
+          "coord": [
+            30.0,
+            106.9
+          ],
+          "level": 3
+        },
+        {
+          "name": "临江",
+          "coord": [
+            30.4,
+            108.0
+          ],
+          "level": 3
+        },
+        {
+          "name": "枳",
+          "coord": [
+            29.7,
+            107.3
+          ],
+          "level": 3
+        },
+        {
+          "name": "平都",
+          "coord": [
+            29.9,
+            107.8
+          ],
+          "level": 3
+        },
+        {
+          "name": "乐城",
+          "coord": [
+            29.3,
+            106.0
+          ],
+          "level": 3
+        },
+        {
+          "name": "常安",
+          "coord": [
+            29.5,
+            107.0
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    },
+    {
+      "id": "badong",
+      "name": "巴东",
+      "faction": "liu_zhang",
+      "seed": [
+        31.0,
+        110.0
+      ],
+      "size": 1.4,
+      "cities": [
+        {
+          "name": "永安/白帝城",
+          "coord": [
+            31.0,
+            109.6
+          ],
+          "capital": true,
+          "level": 2
+        },
+        {
+          "name": "鱼复",
+          "coord": [
+            31.0,
+            109.6
+          ],
+          "level": 3
+        },
+        {
+          "name": "朐忍",
+          "coord": [
+            30.8,
+            108.9
+          ],
+          "level": 3
+        },
+        {
+          "name": "南浦",
+          "coord": [
+            30.5,
+            108.4
+          ],
+          "level": 3
+        },
+        {
+          "name": "汉丰",
+          "coord": [
+            31.2,
+            108.5
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    },
+    {
+      "id": "fuling",
+      "name": "涪陵",
+      "faction": "liu_zhang",
+      "seed": [
+        29.7,
+        107.5
+      ],
+      "size": 1.5,
+      "cities": [
+        {
+          "name": "涪陵",
+          "coord": [
+            29.7,
+            107.5
+          ],
+          "capital": true,
+          "level": 2
+        },
+        {
+          "name": "丹兴",
+          "coord": [
+            29.5,
+            108.7
+          ],
+          "level": 3
+        },
+        {
+          "name": "汉葭",
+          "coord": [
+            29.3,
+            108.3
+          ],
+          "level": 3
+        },
+        {
+          "name": "万宁",
+          "coord": [
+            29.0,
+            107.7
+          ],
+          "level": 3
+        },
+        {
+          "name": "汉发",
+          "coord": [
+            29.6,
+            108.2
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    },
+    {
+      "id": "wudu_shu",
+      "name": "武都",
+      "faction": "ma_teng",
+      "seed": [
+        33.4,
+        104.9
+      ],
+      "size": 1.6,
+      "cities": [
+        {
+          "name": "下辨",
+          "coord": [
+            33.5,
+            105.2
+          ],
+          "capital": true,
+          "level": 2
+        },
+        {
+          "name": "武都道",
+          "coord": [
+            33.3,
+            104.9
+          ],
+          "level": 3
+        },
+        {
+          "name": "上禄",
+          "coord": [
+            33.8,
+            105.4
+          ],
+          "level": 3
+        },
+        {
+          "name": "故道",
+          "coord": [
+            33.9,
+            106.6
+          ],
+          "level": 3
+        },
+        {
+          "name": "河池",
+          "coord": [
+            33.8,
+            106.1
+          ],
+          "level": 3
+        },
+        {
+          "name": "沮",
+          "coord": [
+            33.2,
+            106.2
+          ],
+          "level": 3
+        },
+        {
+          "name": "羌道",
+          "coord": [
+            33.5,
+            104.3
+          ],
+          "level": 3
+        },
+        {
+          "name": "平乐",
+          "coord": [
+            33.6,
+            105.0
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    },
+    {
+      "id": "yinping_shu",
+      "name": "阴平",
+      "faction": "liu_zhang",
+      "seed": [
+        32.7,
+        104.7
+      ],
+      "size": 1.2,
+      "cities": [
+        {
+          "name": "阴平",
+          "coord": [
+            32.7,
+            104.7
+          ],
+          "capital": true,
+          "level": 2
+        },
+        {
+          "name": "广武",
+          "coord": [
+            32.5,
+            104.6
+          ],
+          "level": 3
+        },
+        {
+          "name": "刚氐",
+          "coord": [
+            32.4,
+            104.9
+          ],
+          "level": 3
+        },
+        {
+          "name": "甸氐",
+          "coord": [
+            32.9,
+            104.4
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    },
+    {
+      "id": "nanhai",
+      "name": "南海",
+      "faction": "shi_xie",
+      "seed": [
+        23.1,
+        113.3
+      ],
+      "size": 1.8,
+      "cities": [
+        {
+          "name": "番禺",
+          "coord": [
+            23.13,
+            113.26
+          ],
+          "capital": true,
+          "level": 2
+        },
+        {
+          "name": "博罗",
+          "coord": [
+            23.2,
+            114.3
+          ],
+          "level": 3
+        },
+        {
+          "name": "龙川",
+          "coord": [
+            24.1,
+            115.3
+          ],
+          "level": 3
+        },
+        {
+          "name": "四会",
+          "coord": [
+            23.4,
+            112.7
+          ],
+          "level": 3
+        },
+        {
+          "name": "中宿",
+          "coord": [
+            23.7,
+            113.0
+          ],
+          "level": 3
+        },
+        {
+          "name": "增城",
+          "coord": [
+            23.3,
+            113.8
+          ],
+          "level": 3
+        },
+        {
+          "name": "揭阳",
+          "coord": [
+            23.5,
+            116.3
+          ],
+          "level": 3
+        },
+        {
+          "name": "阳山",
+          "coord": [
+            24.5,
+            112.6
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    },
+    {
+      "id": "cangwu",
+      "name": "苍梧",
+      "faction": "liu_biao",
+      "seed": [
+        23.5,
+        111.3
+      ],
+      "size": 1.7,
+      "cities": [
+        {
+          "name": "广信",
+          "coord": [
+            23.5,
+            111.3
+          ],
+          "capital": true,
+          "level": 2
+        },
+        {
+          "name": "谢沐",
+          "coord": [
+            25.1,
+            111.4
+          ],
+          "level": 3
+        },
+        {
+          "name": "高要",
+          "coord": [
+            23.0,
+            112.5
+          ],
+          "level": 3
+        },
+        {
+          "name": "封阳",
+          "coord": [
+            23.8,
+            111.5
+          ],
+          "level": 3
+        },
+        {
+          "name": "临贺",
+          "coord": [
+            24.4,
+            111.8
+          ],
+          "level": 3
+        },
+        {
+          "name": "端溪",
+          "coord": [
+            23.1,
+            111.5
+          ],
+          "level": 3
+        },
+        {
+          "name": "冯乘",
+          "coord": [
+            25.0,
+            111.3
+          ],
+          "level": 3
+        },
+        {
+          "name": "富川",
+          "coord": [
+            24.8,
+            111.3
+          ],
+          "level": 3
+        },
+        {
+          "name": "荔浦",
+          "coord": [
+            24.4,
+            110.4
+          ],
+          "level": 3
+        },
+        {
+          "name": "猛陵",
+          "coord": [
+            23.4,
+            110.8
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    },
+    {
+      "id": "yulin",
+      "name": "郁林",
+      "faction": "barbarian",
+      "seed": [
+        23.1,
+        109.5
+      ],
+      "size": 2.0,
+      "cities": [
+        {
+          "name": "布山",
+          "coord": [
+            23.1,
+            109.5
+          ],
+          "capital": true,
+          "level": 2
+        },
+        {
+          "name": "安广",
+          "coord": [
+            23.3,
+            108.8
+          ],
+          "level": 3
+        },
+        {
+          "name": "阿林",
+          "coord": [
+            23.4,
+            110.2
+          ],
+          "level": 3
+        },
+        {
+          "name": "广郁",
+          "coord": [
+            23.2,
+            108.6
+          ],
+          "level": 3
+        },
+        {
+          "name": "中溜",
+          "coord": [
+            23.0,
+            108.5
+          ],
+          "level": 3
+        },
+        {
+          "name": "桂林",
+          "coord": [
+            24.4,
+            109.5
+          ],
+          "level": 3
+        },
+        {
+          "name": "潭中",
+          "coord": [
+            24.3,
+            109.4
+          ],
+          "level": 3
+        },
+        {
+          "name": "临尘",
+          "coord": [
+            22.8,
+            107.7
+          ],
+          "level": 3
+        },
+        {
+          "name": "定周",
+          "coord": [
+            24.5,
+            108.4
+          ],
+          "level": 3
+        },
+        {
+          "name": "增食",
+          "coord": [
+            23.4,
+            108.0
+          ],
+          "level": 3
+        },
+        {
+          "name": "领方",
+          "coord": [
+            23.2,
+            108.9
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    },
+    {
+      "id": "hepu",
+      "name": "合浦",
+      "faction": "shi_xie",
+      "seed": [
+        21.7,
+        109.2
+      ],
+      "size": 1.8,
+      "cities": [
+        {
+          "name": "合浦",
+          "coord": [
+            21.7,
+            109.2
+          ],
+          "capital": true,
+          "level": 2
+        },
+        {
+          "name": "徐闻",
+          "coord": [
+            20.3,
+            110.2
+          ],
+          "level": 3
+        },
+        {
+          "name": "高凉",
+          "coord": [
+            21.9,
+            111.0
+          ],
+          "level": 3
+        },
+        {
+          "name": "临允",
+          "coord": [
+            22.4,
+            111.7
+          ],
+          "level": 3
+        },
+        {
+          "name": "朱卢",
+          "coord": [
+            20.9,
+            110.2
+          ],
+          "level": 3
+        },
+        {
+          "name": "南平",
+          "coord": [
+            22.3,
+            110.9
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    },
+    {
+      "id": "gaoliang",
+      "name": "高凉",
+      "faction": "barbarian",
+      "seed": [
+        21.9,
+        111.0
+      ],
+      "size": 1.2,
+      "cities": [
+        {
+          "name": "安宁",
+          "coord": [
+            21.9,
+            111.0
+          ],
+          "capital": true,
+          "level": 2
+        },
+        {
+          "name": "高凉",
+          "coord": [
+            21.8,
+            111.8
+          ],
+          "level": 3
+        },
+        {
+          "name": "思平",
+          "coord": [
+            22.1,
+            111.2
+          ],
+          "level": 3
+        },
+        {
+          "name": "海安",
+          "coord": [
+            20.8,
+            110.2
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    },
+    {
+      "id": "jiaozhi",
+      "name": "交趾",
+      "faction": "shi_xie",
+      "seed": [
+        21.0,
+        106.5
+      ],
+      "size": 2.0,
+      "cities": [
+        {
+          "name": "龙编",
+          "coord": [
+            21.04,
+            106.41
+          ],
+          "capital": true,
+          "level": 1
+        },
+        {
+          "name": "羸𨻻",
+          "coord": [
+            21.1,
+            106.2
+          ],
+          "level": 3
+        },
+        {
+          "name": "安定",
+          "coord": [
+            21.2,
+            106.1
+          ],
+          "level": 3
+        },
+        {
+          "name": "苟漏",
+          "coord": [
+            20.9,
+            106.0
+          ],
+          "level": 3
+        },
+        {
+          "name": "麋泠",
+          "coord": [
+            21.3,
+            105.8
+          ],
+          "level": 3
+        },
+        {
+          "name": "曲阳",
+          "coord": [
+            21.1,
+            106.6
+          ],
+          "level": 3
+        },
+        {
+          "name": "北带",
+          "coord": [
+            21.4,
+            106.4
+          ],
+          "level": 3
+        },
+        {
+          "name": "稽徐",
+          "coord": [
+            20.8,
+            106.4
+          ],
+          "level": 3
+        },
+        {
+          "name": "西于",
+          "coord": [
+            21.5,
+            105.5
+          ],
+          "level": 3
+        },
+        {
+          "name": "朱䳒",
+          "coord": [
+            20.6,
+            106.2
+          ],
+          "level": 3
+        },
+        {
+          "name": "望海",
+          "coord": [
+            21.2,
+            106.7
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    },
+    {
+      "id": "jiuzhen",
+      "name": "九真",
+      "faction": "shi_xie",
+      "seed": [
+        19.6,
+        105.7
+      ],
+      "size": 1.8,
+      "cities": [
+        {
+          "name": "胥浦",
+          "coord": [
+            19.6,
+            105.7
+          ],
+          "capital": true,
+          "level": 2
+        },
+        {
+          "name": "居风",
+          "coord": [
+            19.5,
+            105.5
+          ],
+          "level": 3
+        },
+        {
+          "name": "咸懽",
+          "coord": [
+            19.3,
+            105.6
+          ],
+          "level": 3
+        },
+        {
+          "name": "无功",
+          "coord": [
+            19.8,
+            105.3
+          ],
+          "level": 3
+        },
+        {
+          "name": "无编",
+          "coord": [
+            19.4,
+            105.9
+          ],
+          "level": 3
+        },
+        {
+          "name": "移风",
+          "coord": [
+            19.7,
+            105.8
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    },
+    {
+      "id": "rinan",
+      "name": "日南",
+      "faction": "shi_xie",
+      "seed": [
+        17.5,
+        106.6
+      ],
+      "size": 2.0,
+      "cities": [
+        {
+          "name": "西卷",
+          "coord": [
+            17.5,
+            106.6
+          ],
+          "capital": true,
+          "level": 2
+        },
+        {
+          "name": "朱吾",
+          "coord": [
+            17.8,
+            106.8
+          ],
+          "level": 3
+        },
+        {
+          "name": "卢容",
+          "coord": [
+            17.2,
+            106.9
+          ],
+          "level": 3
+        },
+        {
+          "name": "象林",
+          "coord": [
+            15.9,
+            108.1
+          ],
+          "level": 3
+        },
+        {
+          "name": "比景",
+          "coord": [
+            17.8,
+            106.3
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    },
+    {
+      "id": "zhuya",
+      "name": "珠崖",
+      "faction": "barbarian",
+      "seed": [
+        20.0,
+        110.3
+      ],
+      "size": 1.2,
+      "cities": [
+        {
+          "name": "徐闻",
+          "coord": [
+            20.3,
+            110.2
+          ],
+          "capital": true,
+          "level": 2
+        },
+        {
+          "name": "珠官",
+          "coord": [
+            19.9,
+            110.4
+          ],
+          "level": 3
+        },
+        {
+          "name": "徐闻南",
+          "coord": [
+            20.2,
+            110.2
+          ],
+          "level": 3
+        },
+        {
+          "name": "徐闻北",
+          "coord": [
+            20.4,
+            110.2
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    },
+    {
+      "id": "henei",
+      "name": "河内",
+      "faction": "zhang_yang",
+      "seed": [
+        35.1,
+        113.1
+      ],
+      "size": 1.0,
+      "cities": [
+        {
+          "name": "怀县",
+          "coord": [
+            35.1,
+            113.1
+          ],
+          "capital": true,
+          "level": 2
+        },
+        {
+          "name": "武德",
+          "coord": [
+            35.05,
+            113.35
+          ],
+          "level": 3
+        },
+        {
+          "name": "州县",
+          "coord": [
+            35.08,
+            113.2
+          ],
+          "level": 3
+        },
+        {
+          "name": "平皋",
+          "coord": [
+            34.95,
+            113.45
+          ],
+          "level": 3
+        },
+        {
+          "name": "河阳",
+          "coord": [
+            34.92,
+            112.75
+          ],
+          "level": 3
+        },
+        {
+          "name": "沁水",
+          "coord": [
+            35.2,
+            112.3
+          ],
+          "level": 3
+        },
+        {
+          "name": "轵县",
+          "coord": [
+            35.18,
+            112.55
+          ],
+          "level": 3
+        },
+        {
+          "name": "山阳",
+          "coord": [
+            35.15,
+            112.8
+          ],
+          "level": 3
+        },
+        {
+          "name": "修武",
+          "coord": [
+            35.22,
+            113.45
+          ],
+          "level": 3
+        },
+        {
+          "name": "获嘉",
+          "coord": [
+            35.25,
+            113.7
+          ],
+          "level": 3
+        },
+        {
+          "name": "汲县",
+          "coord": [
+            35.4,
+            114.05
+          ],
+          "level": 3
+        },
+        {
+          "name": "共县",
+          "coord": [
+            35.45,
+            113.8
+          ],
+          "level": 3
+        },
+        {
+          "name": "朝歌",
+          "coord": [
+            35.72,
+            114.2
+          ],
+          "level": 3
+        },
+        {
+          "name": "荡阴",
+          "coord": [
+            35.92,
+            114.38
+          ],
+          "level": 3
+        },
+        {
+          "name": "林虑",
+          "coord": [
+            36.05,
+            113.85
+          ],
+          "level": 3
+        },
+        {
+          "name": "野王",
+          "coord": [
+            35.1,
+            112.85
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》（张杨割据）"
+    },
+    {
+      "id": "hedong",
+      "name": "河东",
+      "faction": "cao",
+      "seed": [
+        35.12,
+        111.02
+      ],
+      "size": 1.1,
+      "cities": [
+        {
+          "name": "安邑",
+          "coord": [
+            35.12,
+            111.02
+          ],
+          "capital": true,
+          "level": 2
+        },
+        {
+          "name": "闻喜",
+          "coord": [
+            35.35,
+            111.22
+          ],
+          "level": 3
+        },
+        {
+          "name": "猗氏",
+          "coord": [
+            35.15,
+            110.85
+          ],
+          "level": 3
+        },
+        {
+          "name": "解县",
+          "coord": [
+            35.02,
+            110.88
+          ],
+          "level": 3
+        },
+        {
+          "name": "蒲坂",
+          "coord": [
+            34.88,
+            110.5
+          ],
+          "level": 3
+        },
+        {
+          "name": "河北",
+          "coord": [
+            35.08,
+            110.65
+          ],
+          "level": 3
+        },
+        {
+          "name": "濩泽",
+          "coord": [
+            35.45,
+            112.25
+          ],
+          "level": 3
+        },
+        {
+          "name": "端氏",
+          "coord": [
+            35.68,
+            112.38
+          ],
+          "level": 3
+        },
+        {
+          "name": "临汾",
+          "coord": [
+            36.08,
+            111.52
+          ],
+          "level": 3
+        },
+        {
+          "name": "垣县",
+          "coord": [
+            35.3,
+            111.75
+          ],
+          "level": 3
+        },
+        {
+          "name": "皮氏",
+          "coord": [
+            35.6,
+            110.72
+          ],
+          "level": 3
+        },
+        {
+          "name": "绛邑",
+          "coord": [
+            35.7,
+            111.35
+          ],
+          "level": 3
+        },
+        {
+          "name": "永安",
+          "coord": [
+            35.5,
+            111.7
+          ],
+          "level": 3
+        },
+        {
+          "name": "杨县",
+          "coord": [
+            35.8,
+            111.6
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》（王邑守河东）"
+    },
+    {
+      "id": "hongnong",
+      "name": "弘农",
+      "faction": "cao",
+      "seed": [
+        34.6,
+        110.75
+      ],
+      "size": 1.1,
+      "cities": [
+        {
+          "name": "弘农",
+          "coord": [
+            34.6,
+            110.75
+          ],
+          "capital": true,
+          "level": 2
+        },
+        {
+          "name": "湖县",
+          "coord": [
+            34.52,
+            110.45
+          ],
+          "level": 3
+        },
+        {
+          "name": "陕县",
+          "coord": [
+            34.72,
+            111.18
+          ],
+          "level": 3
+        },
+        {
+          "name": "黾池",
+          "coord": [
+            34.78,
+            111.75
+          ],
+          "level": 3
+        },
+        {
+          "name": "新安",
+          "coord": [
+            34.73,
+            111.95
+          ],
+          "level": 3
+        },
+        {
+          "name": "宜阳",
+          "coord": [
+            34.55,
+            112.1
+          ],
+          "level": 3
+        },
+        {
+          "name": "卢氏",
+          "coord": [
+            34.05,
+            111.05
+          ],
+          "level": 3
+        },
+        {
+          "name": "华阴",
+          "coord": [
+            34.57,
+            110.08
+          ],
+          "level": 3
+        },
+        {
+          "name": "桃林",
+          "coord": [
+            34.55,
+            110.3
+          ],
+          "level": 3
+        }
+      ],
+      "source": "《后汉书·郡国志》"
+    }
+  ]
+}

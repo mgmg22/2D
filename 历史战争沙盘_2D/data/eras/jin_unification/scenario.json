@@ -1,0 +1,2694 @@
+{
+  "eraId": "jin_unification",
+  "title": "三家归晋",
+  "startYear": 263,
+  "endYear": 280,
+  "phases": [
+    {
+      "id": "phase1",
+      "name": "第一阶段：伐蜀之役",
+      "startYear": 263,
+      "endYear": 264,
+      "color": "#C0392B"
+    },
+    {
+      "id": "phase2",
+      "name": "第二阶段：钟会之乱",
+      "startYear": 264,
+      "endYear": 264,
+      "color": "#E67E22"
+    },
+    {
+      "id": "phase3",
+      "name": "第三阶段：魏晋嬗代",
+      "startYear": 265,
+      "endYear": 266,
+      "color": "#8E44AD"
+    },
+    {
+      "id": "phase4",
+      "name": "第四阶段：晋吴对峙",
+      "startYear": 266,
+      "endYear": 279,
+      "color": "#2E86C1"
+    },
+    {
+      "id": "phase5",
+      "name": "第五阶段：灭吴之战",
+      "startYear": 279,
+      "endYear": 280,
+      "color": "#C0392B"
+    }
+  ],
+  "factionColors": {
+    "wei": "#3D5A80",
+    "shu": "#2E8B2E",
+    "wu": "#1A6BB5",
+    "jin": "#5D3FD3",
+    "barbarian": "#757575"
+  },
+  "events": [
+    {
+      "id": "shao_dingji_fashu",
+      "title": "司马昭定计伐蜀",
+      "eraDate": "魏景元四年·夏五月",
+      "year": 263,
+      "month": 5,
+      "phase": "phase1",
+      "type": "political",
+      "coord": [
+        34.65,
+        112.45
+      ],
+      "zoom": 6,
+      "description": "司马昭不顾众臣反对，采纳钟会建议，决意伐蜀。征西将军邓艾多次上书以为不可，司马昭以师纂为艾司马喻旨，艾乃奉命。",
+      "sources": [
+        {
+          "book": "三国志·魏书·三少帝纪",
+          "quote": "夏五月，诏曰：'蜀，蕞尔小国，土狭民寡，而姜维虐用其众……今征西将军邓艾督诸军，趣甘松、沓中以罗取维；雍州刺史诸葛绪督诸军趣武都、高楼，首尾踧讨；又镇西将军钟会由骆谷伐蜀。'"
+        },
+        {
+          "book": "晋书·文帝纪",
+          "quote": "夏五月，帝将伐蜀，乃谋众曰：'自定寿春已来，息役六年，治兵缮甲，以拟二虏……今宜先取蜀……'"
+        },
+        {
+          "book": "三国志·魏书·钟会传",
+          "quote": "景元三年冬，以会为镇西将军、假节都督关中诸军事。"
+        }
+      ],
+      "figures": [
+        {
+          "name": "司马昭",
+          "role": "大将军、录尚书事",
+          "faction": "wei"
+        },
+        {
+          "name": "邓艾",
+          "role": "征西将军",
+          "faction": "wei"
+        },
+        {
+          "name": "钟会",
+          "role": "镇西将军",
+          "faction": "wei"
+        },
+        {
+          "name": "诸葛绪",
+          "role": "雍州刺史",
+          "faction": "wei"
+        }
+      ]
+    },
+    {
+      "id": "shao_sanlu_chushi",
+      "title": "三路大军出师伐蜀",
+      "eraDate": "魏景元四年·秋八月",
+      "year": 263,
+      "month": 8,
+      "phase": "phase1",
+      "type": "military",
+      "coord": [
+        34.25,
+        108.95
+      ],
+      "zoom": 6,
+      "description": "魏军兵分三路大举伐蜀：邓艾率三万人自狄道趋甘松、沓中牵制姜维；诸葛绪率三万人自祁山趋武街桥头，绝维归路；钟会统十余万众分从斜谷、骆谷、子午谷趣汉中。廷尉卫瓘持节监艾、会军事。",
+      "sources": [
+        {
+          "book": "三国志·魏书·钟会传",
+          "quote": "四年秋，乃下诏使邓艾、诸葛绪各统诸军三万余人，艾趣甘松、沓中连缀维，绪趣武街、桥头绝维归路。会统十余万众，分从斜谷、骆谷入。"
+        },
+        {
+          "book": "三国志·魏书·三少帝纪",
+          "quote": "秋八月，军发洛阳，大赉将士，陈师誓众。"
+        }
+      ],
+      "figures": [
+        {
+          "name": "邓艾",
+          "role": "征西将军（西路）",
+          "faction": "wei"
+        },
+        {
+          "name": "诸葛绪",
+          "role": "雍州刺史（中路）",
+          "faction": "wei"
+        },
+        {
+          "name": "钟会",
+          "role": "镇西将军（东路主力）",
+          "faction": "wei"
+        },
+        {
+          "name": "卫瓘",
+          "role": "廷尉、监军",
+          "faction": "wei"
+        }
+      ],
+      "forces": [
+        {
+          "commander": "邓艾",
+          "count": "三万余人",
+          "faction": "wei",
+          "role": "西路，自狄道趋沓中牵制姜维"
+        },
+        {
+          "commander": "诸葛绪",
+          "count": "三万余人",
+          "faction": "wei",
+          "role": "中路，自祁山趋桥头绝维归路"
+        },
+        {
+          "commander": "钟会",
+          "count": "十余万",
+          "faction": "wei",
+          "role": "东路主力，自长安入斜谷骆谷子午谷攻汉中"
+        }
+      ],
+      "routes": [
+        {
+          "commander": "邓艾",
+          "color": "#C0392B",
+          "path": [
+            [
+              35.3,
+              103.8
+            ],
+            [
+              33.8,
+              103.5
+            ]
+          ],
+          "pathNames": [
+            "狄道",
+            "沓中"
+          ]
+        },
+        {
+          "commander": "诸葛绪",
+          "color": "#E67E22",
+          "path": [
+            [
+              33.7,
+              105.0
+            ],
+            [
+              33.4,
+              104.9
+            ],
+            [
+              32.6,
+              104.9
+            ]
+          ],
+          "pathNames": [
+            "祁山",
+            "武都",
+            "桥头"
+          ]
+        },
+        {
+          "commander": "钟会",
+          "color": "#8B0000",
+          "path": [
+            [
+              34.25,
+              108.95
+            ],
+            [
+              33.07,
+              107.03
+            ]
+          ],
+          "pathNames": [
+            "长安",
+            "汉中"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shao_dengai_zhuji_qiangchuankou",
+      "title": "邓艾追击姜维于强川口",
+      "eraDate": "魏景元四年·秋九月",
+      "year": 263,
+      "month": 9,
+      "phase": "phase1",
+      "type": "battle",
+      "coord": [
+        33.8,
+        103.5
+      ],
+      "zoom": 7,
+      "description": "邓艾追姜维至强川口，大战，维败走。维还闻钟会已入汉中，遂引还。艾进军阴平，欲从阴平邪径奇袭。",
+      "sources": [
+        {
+          "book": "三国志·魏书·邓艾传",
+          "quote": "艾进军阴平，使章武太守、南安太守、陇西太守及维故将留 provision，邀击维于强川口。维败走。"
+        },
+        {
+          "book": "资治通鉴·魏纪十",
+          "quote": "邓艾进至阴平，简锐卒欲从汉德阳入江由左儋道诣涪。"
+        }
+      ],
+      "figures": [
+        {
+          "name": "邓艾",
+          "role": "征西将军",
+          "faction": "wei"
+        },
+        {
+          "name": "邓忠",
+          "role": "艾子，惠唐亭侯",
+          "faction": "wei"
+        },
+        {
+          "name": "姜维",
+          "role": "蜀大将军",
+          "faction": "shu"
+        }
+      ],
+      "routes": [
+        {
+          "commander": "邓艾",
+          "color": "#C0392B",
+          "path": [
+            [
+              35.1,
+              103.8
+            ],
+            [
+              34.3,
+              103.6
+            ],
+            [
+              33.8,
+              103.5
+            ]
+          ],
+          "pathNames": [
+            "狄道",
+            "强川口",
+            "沓中"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shao_hanzhong_xianluo",
+      "title": "汉中陷落",
+      "eraDate": "魏景元四年·秋九月",
+      "year": 263,
+      "month": 9,
+      "phase": "phase1",
+      "type": "battle",
+      "coord": [
+        33.07,
+        107.03
+      ],
+      "zoom": 7,
+      "description": "钟会大军入汉中，蜀监军王含守乐城，护军蒋斌守汉城，会使荀恺围汉城、李辅围乐城。会径过西趣阳安关，蜀守将蒋舒开城出降，傅佥格斗而死。钟会长驱而前，大得库藏积谷。",
+      "sources": [
+        {
+          "book": "三国志·蜀书·姜维传",
+          "quote": "钟会攻围汉、乐二城，遣别将进攻关口，蒋舒开城出降，傅佥格斗而死。"
+        },
+        {
+          "book": "三国志·魏书·钟会传",
+          "quote": "会使护军荀恺、前将军李辅各统万人，恺围汉城，辅围乐城。会径过，西出阳安口，遣人祭诸葛亮之墓。"
+        }
+      ],
+      "figures": [
+        {
+          "name": "钟会",
+          "role": "镇西将军",
+          "faction": "wei"
+        },
+        {
+          "name": "蒋舒",
+          "role": "蜀武兴督（叛降）",
+          "faction": "shu"
+        },
+        {
+          "name": "傅佥",
+          "role": "蜀关中都督（战死）",
+          "faction": "shu"
+        }
+      ],
+      "routes": [
+        {
+          "commander": "钟会",
+          "color": "#8B0000",
+          "path": [
+            [
+              33.07,
+              107.03
+            ],
+            [
+              32.9,
+              105.8
+            ]
+          ],
+          "pathNames": [
+            "汉中",
+            "阳安关"
+          ]
+        }
+      ],
+      "territoryChange": {
+        "from": "shu",
+        "to": "wei",
+        "provinces": [
+          "jun_hanzhong"
+        ]
+      }
+    },
+    {
+      "id": "shao_jiangwei_shoujiange",
+      "title": "姜维退守剑阁",
+      "eraDate": "魏景元四年·秋九月",
+      "year": 263,
+      "month": 9,
+      "phase": "phase1",
+      "type": "military",
+      "coord": [
+        32.0,
+        105.5
+      ],
+      "zoom": 7,
+      "description": "姜维闻钟会诸军已入汉中，引退还。邓艾追至强川口大战，维败走。维诈取道雍州，北出孔函谷诱诸葛绪退军三十里，因得还，从桥头过至阴平，合集士众，赴关城。闻关城已破，退保剑阁拒钟会。",
+      "sources": [
+        {
+          "book": "三国志·蜀书·姜维传",
+          "quote": "维等初闻瞻破，或闻后主欲固守成都，或闻欲东入吴，或闻欲南入建宁，于是引军由广汉、郪道以审虚实。"
+        },
+        {
+          "book": "资治通鉴·魏纪十",
+          "quote": "姜维退屯剑阁以拒会……剑阁道险，会攻之不克。"
+        }
+      ],
+      "figures": [
+        {
+          "name": "姜维",
+          "role": "蜀大将军",
+          "faction": "shu"
+        },
+        {
+          "name": "钟会",
+          "role": "魏镇西将军",
+          "faction": "wei"
+        },
+        {
+          "name": "诸葛绪",
+          "role": "魏雍州刺史",
+          "faction": "wei"
+        },
+        {
+          "name": "邓艾",
+          "role": "魏征西将军",
+          "faction": "wei"
+        }
+      ],
+      "routes": [
+        {
+          "commander": "姜维",
+          "color": "#2E8B2E",
+          "path": [
+            [
+              33.8,
+              103.5
+            ],
+            [
+              32.7,
+              104.7
+            ],
+            [
+              32.0,
+              105.5
+            ]
+          ],
+          "pathNames": [
+            "沓中",
+            "阴平",
+            "剑阁"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shao_zhonghui_gongjiange_buk",
+      "title": "钟会攻剑阁不克",
+      "eraDate": "魏景元四年·冬十月",
+      "year": 263,
+      "month": 10,
+      "phase": "phase1",
+      "type": "battle",
+      "coord": [
+        32.0,
+        105.5
+      ],
+      "zoom": 7,
+      "description": "钟会前至剑阁，攻关，不克。剑阁道险，维列营守险，会攻之不能下。粮运县远，将议还。会与卫瓘谋曰：'维已拒险，吾前不得进，后不得退，粮县远，宜且引还。'艾以为可从阴平径出剑阁西百里。",
+      "sources": [
+        {
+          "book": "三国志·魏书·钟会传",
+          "quote": "会前至剑阁，维守险，会攻之不克。"
+        },
+        {
+          "book": "资治通鉴·魏纪十",
+          "quote": "会不能克，粮运县远，将议还。"
+        }
+      ],
+      "figures": [
+        {
+          "name": "钟会",
+          "role": "镇西将军",
+          "faction": "wei"
+        },
+        {
+          "name": "姜维",
+          "role": "蜀大将军",
+          "faction": "shu"
+        },
+        {
+          "name": "卫瓘",
+          "role": "廷尉、监军",
+          "faction": "wei"
+        }
+      ]
+    },
+    {
+      "id": "shao_toudou_yinping",
+      "title": "邓艾偷渡阴平",
+      "eraDate": "魏景元四年·冬十月",
+      "year": 263,
+      "month": 10,
+      "phase": "phase1",
+      "type": "battle",
+      "coord": [
+        32.7,
+        104.7
+      ],
+      "zoom": 7,
+      "description": "钟会攻剑阁不克，粮运县远，将议还。邓艾上言请从阴平由邪径经汉德阳亭趣涪，出剑阁西百里，去成都三百余里，奇兵冲其腹心。艾自阴平道行无人之地七百余里，凿山通道，造作桥阁。山高谷深，至为艰险，又粮运将匮，频于危殆。艾以毡自裹，推转而下。将士皆攀木缘崖，鱼贯而进。",
+      "sources": [
+        {
+          "book": "三国志·魏书·邓艾传",
+          "quote": "冬十月，艾自阴平道行无人之地七百余里，凿山通道，造作桥阁。山高谷深，至为艰险，又粮运将匮，频于危殆。艾以毡自裹，推转而下。将士皆攀木缘崖，鱼贯而进。"
+        },
+        {
+          "book": "三国志·魏书·邓艾传",
+          "quote": "艾上言：'今贼摧折，宜遂乘之，从阴平由邪径经汉德阳亭趣涪，出剑阁西百里，去成都三百余里，奇兵冲其腹心。'"
+        }
+      ],
+      "figures": [
+        {
+          "name": "邓艾",
+          "role": "征西将军",
+          "faction": "wei"
+        },
+        {
+          "name": "邓忠",
+          "role": "艾子、惠唐亭侯",
+          "faction": "wei"
+        }
+      ],
+      "routes": [
+        {
+          "commander": "邓艾",
+          "color": "#C0392B",
+          "path": [
+            [
+              32.7,
+              104.7
+            ],
+            [
+              32.5,
+              104.6
+            ],
+            [
+              32.3,
+              104.7
+            ],
+            [
+              32.2,
+              104.8
+            ]
+          ],
+          "pathNames": [
+            "阴平",
+            "景谷道",
+            "德阳亭",
+            "江油"
+          ]
+        },
+        {
+          "commander": "邓忠（先锋）",
+          "color": "#E74C3C",
+          "path": [
+            [
+              32.7,
+              104.7
+            ],
+            [
+              32.6,
+              104.9
+            ],
+            [
+              32.4,
+              105.0
+            ],
+            [
+              32.2,
+              104.8
+            ]
+          ],
+          "pathNames": [
+            "阴平",
+            "摩天岭",
+            "青川",
+            "江油"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shao_jiangyou_xiang",
+      "title": "江油守将马邈降魏",
+      "eraDate": "魏景元四年·冬十月",
+      "year": 263,
+      "month": 10,
+      "phase": "phase1",
+      "type": "military",
+      "coord": [
+        32.2,
+        104.8
+      ],
+      "zoom": 8,
+      "description": "邓艾奇兵突至江油，蜀守将马邈不战而降。马邈本为江油督，闻艾至即降。诸葛瞻督诸军拒艾，至涪停住不进。尚书郎黄崇劝瞻速行据险，无令敌得入平地，瞻犹豫未纳。",
+      "sources": [
+        {
+          "book": "三国志·魏书·邓艾传",
+          "quote": "先登至江由，蜀守将马邈降。"
+        },
+        {
+          "book": "三国志·蜀书·黄权传",
+          "quote": "崇屡劝瞻宜速行据险，无令敌得入平地。瞻犹与未纳，崇至于流涕。"
+        }
+      ],
+      "figures": [
+        {
+          "name": "邓艾",
+          "role": "征西将军",
+          "faction": "wei"
+        },
+        {
+          "name": "马邈",
+          "role": "蜀江油督（降）",
+          "faction": "shu"
+        },
+        {
+          "name": "诸葛瞻",
+          "role": "蜀行都护卫将军",
+          "faction": "shu"
+        },
+        {
+          "name": "黄崇",
+          "role": "蜀尚书郎（黄权子）",
+          "faction": "shu"
+        }
+      ],
+      "territoryChange": {
+        "from": "shu",
+        "to": "wei",
+        "provinces": [
+          "jun_yinping"
+        ]
+      }
+    },
+    {
+      "id": "shao_mianzhu_zhizhan",
+      "title": "绵竹之战——诸葛瞻战死",
+      "eraDate": "魏景元四年·冬十一月",
+      "year": 263,
+      "month": 11,
+      "phase": "phase1",
+      "type": "battle",
+      "coord": [
+        31.3,
+        104.2
+      ],
+      "zoom": 7,
+      "description": "邓艾长驱而前，诸葛瞻退至绵竹，列阵待艾。艾遣子惠唐亭侯邓忠等出其右，司马师纂等出其左。忠、纂战不利，并退还，曰：'贼未可击。'艾怒曰：'存亡之分，在此一举，何不可之有？'将斩之。忠、纂驰还更战，大破蜀兵，斩瞻及尚书张遵、黄崇等。瞻子尚叹曰：'父子荷国重恩，不早斩黄皓，使败国殄民，用生何为！'策马冒阵而死。",
+      "sources": [
+        {
+          "book": "三国志·魏书·邓艾传",
+          "quote": "忠、纂驰还更战，大破之，斩瞻及尚书张遵等首，进军到雒。"
+        },
+        {
+          "book": "三国志·蜀书·诸葛亮传",
+          "quote": "遂战，大败，临陈死，时年三十七。众皆离散，艾长驱至成都。"
+        },
+        {
+          "book": "华阳国志·卷七",
+          "quote": "瞻长子尚叹曰：'父子荷国重恩，不早斩黄皓，以致倾败，用生何为！'乃驰赴魏军而死。"
+        }
+      ],
+      "figures": [
+        {
+          "name": "邓艾",
+          "role": "征西将军",
+          "faction": "wei"
+        },
+        {
+          "name": "诸葛瞻",
+          "role": "蜀行都护卫将军（诸葛亮子，战死）",
+          "faction": "shu"
+        },
+        {
+          "name": "诸葛尚",
+          "role": "瞻长子（战死）",
+          "faction": "shu"
+        },
+        {
+          "name": "邓忠",
+          "role": "惠唐亭侯（艾子）",
+          "faction": "wei"
+        },
+        {
+          "name": "师纂",
+          "role": "司马",
+          "faction": "wei"
+        },
+        {
+          "name": "张遵",
+          "role": "蜀尚书（张飞孙，战死）",
+          "faction": "shu"
+        },
+        {
+          "name": "黄崇",
+          "role": "蜀尚书郎（战死）",
+          "faction": "shu"
+        }
+      ],
+      "territoryChange": {
+        "from": "shu",
+        "to": "wei",
+        "provinces": [
+          "jun_guanghan",
+          "jun_zitong"
+        ]
+      },
+      "routes": [
+        {
+          "commander": "邓艾（主力）",
+          "color": "#C0392B",
+          "path": [
+            [
+              32.2,
+              104.8
+            ],
+            [
+              31.8,
+              104.6
+            ],
+            [
+              31.3,
+              104.2
+            ]
+          ],
+          "pathNames": [
+            "江油",
+            "涪县",
+            "绵竹"
+          ]
+        },
+        {
+          "commander": "邓忠（左翼）",
+          "color": "#E74C3C",
+          "path": [
+            [
+              32.2,
+              104.8
+            ],
+            [
+              31.9,
+              104.9
+            ],
+            [
+              31.4,
+              104.4
+            ],
+            [
+              31.3,
+              104.2
+            ]
+          ],
+          "pathNames": [
+            "江油",
+            "梓潼",
+            "雒县方向",
+            "绵竹"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shao_dengai_zhiluo_xiakong",
+      "title": "邓艾军至雒县，蜀廷震恐",
+      "eraDate": "魏景元四年·冬十一月",
+      "year": 263,
+      "month": 11,
+      "phase": "phase1",
+      "type": "military",
+      "coord": [
+        31.0,
+        104.3
+      ],
+      "zoom": 7,
+      "description": "邓艾既破诸葛瞻于绵竹，长驱至雒。蜀朝廷震恐，不知所为。光禄大夫谯周劝后主降，曰：'陛下若欲保宗庙，不如早降，可得封爵。若东入吴，终为臣虏；若南入建宁，费祎、董允或不可恃。'后主从之。北地王谌怒曰：'若理穷力屈，祸败将及，便当父子君臣背城一战，同死社稷！'后主不纳。",
+      "sources": [
+        {
+          "book": "三国志·蜀书·后主传",
+          "quote": "艾至雒，后主遣使奉玺绶笺降。"
+        },
+        {
+          "book": "三国志·蜀书·谯周传",
+          "quote": "周劝后主降，曰：'陛下若欲保宗庙，不如早降。若东入吴，终为臣虏；若南入建宁，亦必不免。'"
+        },
+        {
+          "book": "华阳国志·卷七",
+          "quote": "北地王谌怒曰：'若理穷力屈，便当父子君臣背城一战，同死社稷！'后主不纳。"
+        }
+      ],
+      "figures": [
+        {
+          "name": "谯周",
+          "role": "光禄大夫（劝降）",
+          "faction": "shu"
+        },
+        {
+          "name": "刘禅",
+          "role": "后主",
+          "faction": "shu"
+        },
+        {
+          "name": "刘谌",
+          "role": "北地王（主战，后自杀殉国）",
+          "faction": "shu"
+        }
+      ]
+    },
+    {
+      "id": "shao_liushan_chuxiang",
+      "title": "刘禅出降，蜀汉灭亡",
+      "eraDate": "魏景元四年·冬十一月",
+      "year": 263,
+      "month": 11,
+      "phase": "phase1",
+      "type": "succession",
+      "coord": [
+        30.65,
+        104.07
+      ],
+      "zoom": 7,
+      "description": "邓艾至雒，刘禅遣使奉玺绶笺降。艾至成都北，后主率太子诸王及群臣六十余人面缚舆榇诣军门。艾解缚焚榇，延见焉。后主敕降于姜维等。自刘备建安十九年(214)取蜀至刘禅亡国，凡五十年；自刘备章武元年(221)称帝，立国共四十三年。蜀亡，得户二十八万，口九十四万，甲士十万二千，吏四万人。",
+      "sources": [
+        {
+          "book": "三国志·蜀书·后主传",
+          "quote": "是日，北地王谌伤国之亡，先杀妻子，次以自杀。奉书曰：'辄敕群帅投戈释甲，官府帑藏一无所毁。百姓布野，余粮栖亩，以俟后来之惠，全元元之命。'……后主舆榇自缚，诣军垒门。艾解缚焚榇，延请相见。"
+        },
+        {
+          "book": "三国志·魏书·邓艾传",
+          "quote": "艾至成都，禅率太子诸王及群臣六十余人面缚舆榇诣军门，艾执节解缚焚榇，受而宥之。"
+        },
+        {
+          "book": "资治通鉴·魏纪十",
+          "quote": "禅又遣太常张峻、益州别驾汝超受节度，遣太仆蒋显别敕姜维使降钟会。"
+        }
+      ],
+      "figures": [
+        {
+          "name": "刘禅",
+          "role": "蜀汉后主（出降）",
+          "faction": "shu"
+        },
+        {
+          "name": "邓艾",
+          "role": "征西将军",
+          "faction": "wei"
+        },
+        {
+          "name": "刘谌",
+          "role": "北地王（禅子，自杀殉国）",
+          "faction": "shu"
+        },
+        {
+          "name": "姜维",
+          "role": "蜀大将军（奉敕降）",
+          "faction": "shu"
+        }
+      ],
+      "territoryChange": {
+        "from": "shu",
+        "to": "wei",
+        "provinces": [
+          "jun_shujun",
+          "jun_bajun",
+          "jun_baxi",
+          "jun_badong",
+          "jun_fuling",
+          "jun_qianwei",
+          "jun_jiangyang",
+          "jun_wenshan",
+          "jun_hanjia",
+          "jun_zhuti",
+          "jun_zangke",
+          "jun_yuexi",
+          "jun_jianning",
+          "jun_yongchang",
+          "jun_yunnan",
+          "jun_xinggu",
+          "jun_wudu"
+        ]
+      }
+    },
+    {
+      "id": "shao_liushan_dongqian",
+      "title": "刘禅举家东迁洛阳",
+      "eraDate": "魏景元四年·冬十二月",
+      "year": 263,
+      "month": 12,
+      "phase": "phase1",
+      "type": "political",
+      "coord": [
+        34.65,
+        112.45
+      ],
+      "zoom": 6,
+      "description": "后主举家东迁，既至洛阳。策命刘禅为行骠骑将军、封安乐县公，食邑万户、赐绢万匹、奴婢百人。司马昭与之宴，作蜀技，旁人皆感怆，禅喜笑自若。昭谓贾充曰：'人之无情，乃至于是！虽使诸葛亮在，不能辅之久全，况姜维邪！'禅谥思公。蜀汉自建安十九年取蜀，凡五十年；自章武元年称帝，立国四十三年。",
+      "sources": [
+        {
+          "book": "三国志·蜀书·后主传",
+          "quote": "后主举家东迁洛阳，时建兴元年也。策曰：'惟朝廷所以存抚之厚，必尽疆理之远。'"
+        },
+        {
+          "book": "资治通鉴·魏纪十",
+          "quote": "司马昭与禅宴，为之作蜀技，旁人皆为之感怆，而禅喜笑自若。"
+        }
+      ],
+      "figures": [
+        {
+          "name": "刘禅",
+          "role": "安乐县公（降魏）",
+          "faction": "shu"
+        },
+        {
+          "name": "司马昭",
+          "role": "晋公",
+          "faction": "wei"
+        },
+        {
+          "name": "贾充",
+          "role": "晋中护军",
+          "faction": "wei"
+        }
+      ]
+    },
+    {
+      "id": "shao_jiangwei_xiangzhonghui",
+      "title": "姜维假降钟会",
+      "eraDate": "魏景元四年·冬十二月",
+      "year": 263,
+      "month": 12,
+      "phase": "phase1",
+      "type": "political",
+      "coord": [
+        31.5,
+        104.8
+      ],
+      "zoom": 7,
+      "description": "姜维初闻瞻破，未知后主消息，乃引军东入于巴。钟会自涪进军至成都。维至郪，得后主敕令，乃令军士悉降，送节传于胡烈，便从东道诣钟会降。会素与维厚，谓长史杜预曰：'以伯约比中土名士，公休、太初不能胜也。'维见会有雄志，乃诈降，欲构成魏乱以图复蜀。",
+      "sources": [
+        {
+          "book": "三国志·蜀书·姜维传",
+          "quote": "维初闻瞻破，或闻后主欲固守成都，或闻欲东入吴，或闻欲南入建宁，于是引军由广汉、郪道以审虚实。寻被后主敕令，乃投戈放甲，诣会于涪军前，将士咸怒，拔刀斫石。"
+        },
+        {
+          "book": "华阳国志·卷七",
+          "quote": "维教会诛北来诸将，既死，徐欲杀会，尽坑魏兵，还复蜀祚。"
+        }
+      ],
+      "figures": [
+        {
+          "name": "姜维",
+          "role": "蜀大将军（假降以图复蜀）",
+          "faction": "shu"
+        },
+        {
+          "name": "钟会",
+          "role": "魏镇西将军",
+          "faction": "wei"
+        },
+        {
+          "name": "杜预",
+          "role": "钟会长史",
+          "faction": "wei"
+        }
+      ]
+    },
+    {
+      "id": "shao_dengai_chengdu_fengbai",
+      "title": "邓艾入成都，承制封拜",
+      "eraDate": "魏景元四年·十二月",
+      "year": 263,
+      "month": 12,
+      "phase": "phase2",
+      "type": "political",
+      "coord": [
+        30.65,
+        104.07
+      ],
+      "zoom": 7,
+      "description": "邓艾入成都，自以为功高，承制拜刘禅行骠骑将军，蜀群司各随高下拜为王官。以师纂领益州刺史，牵弘等领蜀中诸郡。艾言于司马昭曰：'兵有先声而后实者，今因平蜀之势以乘吴，吴人必震恐，席卷之时也。'昭使卫瓘喻艾：'事当须报，不宜辄行。'艾不纳。",
+      "sources": [
+        {
+          "book": "三国志·魏书·邓艾传",
+          "quote": "艾入成都，禅率太子诸王及群臣面缚舆榇诣军门。"
+        },
+        {
+          "book": "资治通鉴·魏纪十",
+          "quote": "艾言于司马昭曰：'兵有先声而后实者，今因平蜀之势以乘吴。'"
+        }
+      ],
+      "figures": [
+        {
+          "name": "邓艾",
+          "role": "太尉",
+          "faction": "wei"
+        },
+        {
+          "name": "刘禅",
+          "role": "行骠骑将军",
+          "faction": "shu"
+        },
+        {
+          "name": "师纂",
+          "role": "益州刺史",
+          "faction": "wei"
+        }
+      ]
+    },
+    {
+      "id": "shao_dengai_shanquan",
+      "title": "邓艾专权擅封",
+      "eraDate": "魏景元四年·十二月",
+      "year": 263,
+      "month": 12,
+      "phase": "phase2",
+      "type": "political",
+      "coord": [
+        30.65,
+        104.07
+      ],
+      "zoom": 7,
+      "description": "邓艾入成都，依邓禹故事，承制拜刘禅行骠骑将军，蜀群司各随高下拜为王官，或领艾官属。以师纂领益州刺史，陇西太守牵弘等领蜀中诸郡。艾深自矜伐，谓蜀士大夫曰：'诸君赖遭某，故得有今日耳。如遇吴汉之徒，已殄灭矣。'又曰：'姜维自一时雄儿也，与某相值，故穷耳。'有识者笑之。",
+      "sources": [
+        {
+          "book": "三国志·魏书·邓艾传",
+          "quote": "辄依邓禹故事，承制拜禅行骠骑将军，太子奉车、诸王驸马都尉。蜀群司各随高下拜为王官，或领艾官属。"
+        },
+        {
+          "book": "三国志·魏书·邓艾传",
+          "quote": "艾深自矜伐，谓蜀士大夫曰：'诸君赖遭某，故得有今日耳。若遇吴汉之徒，已殄灭矣。'"
+        }
+      ],
+      "figures": [
+        {
+          "name": "邓艾",
+          "role": "太尉（新晋封）",
+          "faction": "wei"
+        },
+        {
+          "name": "司马昭",
+          "role": "晋公、相国",
+          "faction": "wei"
+        },
+        {
+          "name": "刘禅",
+          "role": "行骠骑将军",
+          "faction": "shu"
+        }
+      ]
+    },
+    {
+      "id": "shao_zhonghui_bai_ai",
+      "title": "钟会、卫瓘密白邓艾反状",
+      "eraDate": "魏咸熙元年·春正月",
+      "year": 264,
+      "month": 1,
+      "phase": "phase2",
+      "type": "political",
+      "coord": [
+        30.65,
+        104.07
+      ],
+      "zoom": 7,
+      "description": "钟会内负异志，见邓艾承制专事，益忌之。会与卫瓘密白艾所作悖逆，言艾'承制专擅，所善者辄假，所恶者辄夺，又与蜀人深交'。朝廷信之，诏以槛车征艾。",
+      "sources": [
+        {
+          "book": "三国志·魏书·钟会传",
+          "quote": "会内有异志，因艾承制专事，密白艾有反状。"
+        },
+        {
+          "book": "晋书·卫瓘传",
+          "quote": "会与瓘密白艾所作悖逆。"
+        }
+      ],
+      "figures": [
+        {
+          "name": "钟会",
+          "role": "司徒",
+          "faction": "wei"
+        },
+        {
+          "name": "卫瓘",
+          "role": "廷尉、监军",
+          "faction": "wei"
+        },
+        {
+          "name": "邓艾",
+          "role": "太尉（被告）",
+          "faction": "wei"
+        }
+      ]
+    },
+    {
+      "id": "shao_zhonghui_moumou",
+      "title": "钟会姜维密谋",
+      "eraDate": "魏咸熙元年·春正月",
+      "year": 264,
+      "month": 1,
+      "phase": "phase2",
+      "type": "political",
+      "coord": [
+        30.65,
+        104.07
+      ],
+      "zoom": 7,
+      "description": "钟会内有异志，姜维知之，欲构成扰乱，乃说会曰：'闻君自淮南已来，算无遗策……今复定蜀，威德振世，民高其功，主畏其谋，欲以此安归乎！……何不效法陶朱公泛舟绝迹，全功保身乎？'——会犹豫未决，既而决意谋反。",
+      "sources": [
+        {
+          "book": "三国志·蜀书·姜维传",
+          "quote": "会既构邓艾，艾槛车征，因将维等诣成都，自称益州牧以叛。欲授维兵五万人，使为前驱。"
+        },
+        {
+          "book": "资治通鉴·魏纪十",
+          "quote": "姜维欲使会尽杀北来诸将，已因杀会，尽坑魏兵，复立汉主。"
+        }
+      ],
+      "figures": [
+        {
+          "name": "钟会",
+          "role": "司徒（新晋封，密谋叛）",
+          "faction": "wei"
+        },
+        {
+          "name": "姜维",
+          "role": "蜀降将（说会谋反以图复蜀）",
+          "faction": "shu"
+        },
+        {
+          "name": "司马昭",
+          "role": "晋公",
+          "faction": "wei"
+        }
+      ]
+    },
+    {
+      "id": "shao_weiguan_shouai",
+      "title": "卫瓘收捕邓艾",
+      "eraDate": "魏咸熙元年·春正月",
+      "year": 264,
+      "month": 1,
+      "phase": "phase2",
+      "type": "military",
+      "coord": [
+        30.65,
+        104.07
+      ],
+      "zoom": 7,
+      "description": "钟会、卫瓘密奏邓艾所作悖逆。诏书槛车征艾。会遣卫瓘先入成都收艾，欲令艾杀瓘，因以罪艾。瓘夜至成都，檄艾所统诸将称诏收艾，一无所问，余皆不问。平旦开门，瓘乘使者车径入艾寝处，艾卧未起，父子俱被执。艾仰天叹曰：'艾忠臣也，一至此乎！'",
+      "sources": [
+        {
+          "book": "三国志·魏书·邓艾传",
+          "quote": "会内有异志，因邓艾承制专事，密白艾有反状，于是诏书槛车征艾。"
+        },
+        {
+          "book": "晋书·卫瓘传",
+          "quote": "会以瓘兵少，欲令艾杀瓘，因加艾罪。瓘知欲危己，然不可得而距，乃夜至成都，檄艾所统诸将。"
+        }
+      ],
+      "figures": [
+        {
+          "name": "卫瓘",
+          "role": "廷尉、监军",
+          "faction": "wei"
+        },
+        {
+          "name": "邓艾",
+          "role": "太尉（被收捕）",
+          "faction": "wei"
+        },
+        {
+          "name": "钟会",
+          "role": "司徒（密谋）",
+          "faction": "wei"
+        }
+      ]
+    },
+    {
+      "id": "shao_zhonghui_fan",
+      "title": "钟会据成都反",
+      "eraDate": "魏咸熙元年·春正月",
+      "year": 264,
+      "month": 1,
+      "phase": "phase2",
+      "type": "battle",
+      "coord": [
+        30.65,
+        104.07
+      ],
+      "zoom": 7,
+      "description": "钟会至成都，送邓艾赴洛阳。会所惮惟艾，艾既擒，会遂决意反。会以郭太后遗诏为名，起兵废司马昭。景元五年正月十五日，会于成都朝堂为太后发哀，称太后遗诏使起兵废文王。欲使姜维将五万人出斜谷为前驱，会自将大众随其后。会欲从姜维言尽杀北来诸将，犹豫未决。",
+      "sources": [
+        {
+          "book": "三国志·魏书·钟会传",
+          "quote": "会所惮惟艾，艾既禽而会寻至，独统大众，威震西土。自谓功名盖世，不可复为人下，加猛将锐卒皆在己手，遂谋反。"
+        },
+        {
+          "book": "资治通鉴·魏纪十",
+          "quote": "丁丑，会悉请护军、郡守、牙门骑督以上及蜀之故官，为太后发哀于蜀朝堂，矫太后遗诏，使会起兵废文王，皆班示坐上人。"
+        }
+      ],
+      "figures": [
+        {
+          "name": "钟会",
+          "role": "司徒（据成都叛）",
+          "faction": "wei"
+        },
+        {
+          "name": "姜维",
+          "role": "伪蜀大将军（会授兵五万）",
+          "faction": "shu"
+        },
+        {
+          "name": "胡烈",
+          "role": "魏护军（被拘）",
+          "faction": "wei"
+        }
+      ]
+    },
+    {
+      "id": "shao_zhonghui_fasang",
+      "title": "钟会发丧矫诏，拘禁诸将",
+      "eraDate": "魏咸熙元年·正月十五",
+      "year": 264,
+      "month": 1,
+      "phase": "phase2",
+      "type": "political",
+      "coord": [
+        30.65,
+        104.07
+      ],
+      "zoom": 7,
+      "description": "正月十五日，会于蜀朝堂为郭太后发哀，矫太后遗诏使起兵废文王。会召诸将及蜀旧官至朝堂，示以遗诏，使署名。诸将不从，会遂闭城门宫门，严兵围守，劫制众将。胡烈给亲兵出，语其子渊曰：'会已掘大坑、作白棓数千，欲尽杀外军。'",
+      "sources": [
+        {
+          "book": "三国志·魏书·钟会传",
+          "quote": "会于朝堂为太后发哀，矫遗诏使起兵废文王。"
+        },
+        {
+          "book": "资治通鉴·魏纪十",
+          "quote": "会悉请护军、郡守、牙门骑督以上及蜀之故官，为太后发哀于蜀朝堂。"
+        }
+      ],
+      "figures": [
+        {
+          "name": "钟会",
+          "role": "司徒（矫诏反）",
+          "faction": "wei"
+        },
+        {
+          "name": "姜维",
+          "role": "伪蜀大将军",
+          "faction": "shu"
+        },
+        {
+          "name": "胡烈",
+          "role": "护军（被拘，传信出）",
+          "faction": "wei"
+        }
+      ]
+    },
+    {
+      "id": "shao_chengdubingbian",
+      "title": "成都兵变——钟会姜维被杀",
+      "eraDate": "魏咸熙元年·春正月",
+      "year": 264,
+      "month": 1,
+      "phase": "phase2",
+      "type": "battle",
+      "coord": [
+        30.65,
+        104.07
+      ],
+      "zoom": 7,
+      "description": "钟会拘胡烈等诸将于益州诸曹屋中，闭城门宫门，严兵围守。胡烈给亲兵出语其子渊，言会已作大坑、白棓数千，欲槌杀外兵。一夜传相告，皆遍。十八日日中，胡烈军兵与烈儿渊擂鼓出门，诸军兵不期皆鼓噪出，争先赴城。姜维率会左右战，手杀五六人，众既格斩维，争赴杀会。会时年四十，将士死者数百人。邓艾本营将士追出艾槛车迎还，卫瓘遣田续讨艾，斩艾父子于绵竹西。",
+      "sources": [
+        {
+          "book": "三国志·魏书·钟会传",
+          "quote": "姜维率会左右战，手杀五六人，众既格斩维，争赴杀会。会时年四十，将士死者数百人。"
+        },
+        {
+          "book": "三国志·魏书·邓艾传",
+          "quote": "艾父子既囚，钟会至成都，先送艾，然后作乱。会已死，艾本营将士追出艾槛车，迎还。瓘遣田续等讨艾，遇于绵竹西，斩之。"
+        },
+        {
+          "book": "三国志·蜀书·姜维传",
+          "quote": "魏将士愤怒，杀会及维，维妻子皆伏诛。"
+        }
+      ],
+      "figures": [
+        {
+          "name": "钟会",
+          "role": "叛逆（被杀）",
+          "faction": "wei"
+        },
+        {
+          "name": "姜维",
+          "role": "伪蜀大将军（被杀，年六十三）",
+          "faction": "shu"
+        },
+        {
+          "name": "卫瓘",
+          "role": "监军",
+          "faction": "wei"
+        },
+        {
+          "name": "胡烈",
+          "role": "护军",
+          "faction": "wei"
+        },
+        {
+          "name": "胡渊",
+          "role": "烈子",
+          "faction": "wei"
+        },
+        {
+          "name": "邓艾",
+          "role": "太尉（被田续杀于绵竹西）",
+          "faction": "wei"
+        },
+        {
+          "name": "田续",
+          "role": "瓘将",
+          "faction": "wei"
+        }
+      ]
+    },
+    {
+      "id": "shao_dengai_beisha",
+      "title": "邓艾父子被杀于绵竹西",
+      "eraDate": "魏咸熙元年·正月十八",
+      "year": 264,
+      "month": 1,
+      "phase": "phase2",
+      "type": "death",
+      "coord": [
+        31.3,
+        104.2
+      ],
+      "zoom": 7,
+      "description": "钟会死，邓艾本营将士追出艾槛车迎还。卫瓘惧艾还必报己，乃遣田续等追之。续本为艾所叱，衔之。遇艾于绵竹西，斩之。艾子忠亦死。艾时年六十八。初，艾梦登高山，望水中有二日，一赤一白，白者颓。占者曰：'此吉兆也。'后果验。",
+      "sources": [
+        {
+          "book": "三国志·魏书·邓艾传",
+          "quote": "瓘遣田续等讨艾，遇于绵竹西，斩之。子忠，与艾俱死。"
+        },
+        {
+          "book": "资治通鉴·魏纪十",
+          "quote": "卫瓘遣田续追艾，遇于绵竹西，斩之。"
+        }
+      ],
+      "figures": [
+        {
+          "name": "邓艾",
+          "role": "太尉（被杀，年六十八）",
+          "faction": "wei"
+        },
+        {
+          "name": "邓忠",
+          "role": "艾子（被杀）",
+          "faction": "wei"
+        },
+        {
+          "name": "卫瓘",
+          "role": "廷尉",
+          "faction": "wei"
+        },
+        {
+          "name": "田续",
+          "role": "瓘将（追杀艾）",
+          "faction": "wei"
+        }
+      ]
+    },
+    {
+      "id": "shao_sunhao_jiwei",
+      "title": "孙皓嗣位为吴主",
+      "eraDate": "吴永安七年·秋七月",
+      "year": 264,
+      "month": 8,
+      "phase": "phase3",
+      "type": "succession",
+      "coord": [
+        32.05,
+        118.78
+      ],
+      "zoom": 6,
+      "description": "吴景帝孙休薨，时年三十。丞相濮阳兴、左将军张布以蜀汉初亡，交趾数叛，国内震惧，欲立长君，遂迎立乌程侯孙皓（废太子孙和子，孙权之孙）。皓即位时年二十三。改元元兴。初即位时发优诏，恤士民，开仓廪，振贫乏，科出宫女以配无妻者，禽兽养于苑中者皆放之，当时翕然称为明主。",
+      "sources": [
+        {
+          "book": "三国志·吴书·三嗣主传",
+          "quote": "休薨，是月，蜀并于魏。……遂迎立皓，时年二十三。改元，大赦。是岁，于魏咸熙元年也。"
+        },
+        {
+          "book": "资治通鉴·魏纪十",
+          "quote": "初，皓之立，发优诏，恤士民，开仓廪，振贫乏，科出宫女以配无妻，禽兽扰于苑者皆放之。当时翕然称为明主。"
+        }
+      ],
+      "figures": [
+        {
+          "name": "孙皓",
+          "role": "乌程侯（吴末帝，嗣位）",
+          "faction": "wu"
+        },
+        {
+          "name": "濮阳兴",
+          "role": "吴丞相",
+          "faction": "wu"
+        },
+        {
+          "name": "张布",
+          "role": "吴左将军",
+          "faction": "wu"
+        }
+      ]
+    },
+    {
+      "id": "shao_simazhao_jinwang",
+      "title": "司马昭进位晋王，加九锡",
+      "eraDate": "魏咸熙元年·九月",
+      "year": 264,
+      "month": 9,
+      "phase": "phase3",
+      "type": "political",
+      "coord": [
+        34.65,
+        112.45
+      ],
+      "zoom": 6,
+      "description": "灭蜀之功归于昭，诏以昭为相国，封晋王，加九锡，建天子旌旗，出警入跸，乘金根车，驾六马。昭固辞九锡者九，乃受。立子炎为晋世子。",
+      "sources": [
+        {
+          "book": "晋书·文帝纪",
+          "quote": "秋九月，太尉上言历数在晋，乃命有司建天子旌旗，出警入跸。"
+        },
+        {
+          "book": "资治通鉴·魏纪十",
+          "quote": "诏以昭为相国、晋王，加九锡。"
+        }
+      ],
+      "figures": [
+        {
+          "name": "司马昭",
+          "role": "晋王、相国",
+          "faction": "wei"
+        },
+        {
+          "name": "司马炎",
+          "role": "晋世子",
+          "faction": "wei"
+        }
+      ]
+    },
+    {
+      "id": "shao_simazhao_lishizi",
+      "title": "司马昭立子炎为世子",
+      "eraDate": "魏咸熙二年·春正月",
+      "year": 265,
+      "month": 1,
+      "phase": "phase3",
+      "type": "political",
+      "coord": [
+        34.65,
+        112.45
+      ],
+      "zoom": 6,
+      "description": "司马昭立中子炎为晋世子。昭初欲立弟攸，何曾等固争曰：'中抚军聪明神武，有超世之才，发委地，手过膝，此非人臣之相也。'昭遂立炎。",
+      "sources": [
+        {
+          "book": "晋书·武帝纪",
+          "quote": "昭立炎为世子。"
+        },
+        {
+          "book": "资治通鉴·晋纪一",
+          "quote": "初，文帝以景帝无子，欲立攸为世子。何曾等固争乃止。"
+        }
+      ],
+      "figures": [
+        {
+          "name": "司马昭",
+          "role": "晋王",
+          "faction": "wei"
+        },
+        {
+          "name": "司马炎",
+          "role": "晋世子",
+          "faction": "wei"
+        },
+        {
+          "name": "司马攸",
+          "role": "昭弟（未立）",
+          "faction": "wei"
+        },
+        {
+          "name": "何曾",
+          "role": "晋丞相",
+          "faction": "wei"
+        }
+      ]
+    },
+    {
+      "id": "shao_simazhao_hong",
+      "title": "司马昭薨",
+      "eraDate": "魏咸熙二年·秋八月",
+      "year": 265,
+      "month": 8,
+      "phase": "phase3",
+      "type": "death",
+      "coord": [
+        34.65,
+        112.45
+      ],
+      "zoom": 6,
+      "description": "晋王司马昭薨，时年五十五。昭于景元四年（263）十月灭蜀后进位晋王，加九锡，建天子旌旗，出警入跸，乘金根车，驾六马。谥曰文王，葬崇阳陵。昭子炎嗣为相国、晋王。",
+      "sources": [
+        {
+          "book": "晋书·文帝纪",
+          "quote": "秋八月辛卯，帝崩于露寝，时年五十五。"
+        },
+        {
+          "book": "三国志·魏书·三少帝纪",
+          "quote": "秋八月辛卯，相国晋王昭薨。"
+        }
+      ],
+      "figures": [
+        {
+          "name": "司马昭",
+          "role": "晋王、相国（薨，年五十五）",
+          "faction": "wei"
+        },
+        {
+          "name": "司马炎",
+          "role": "昭世子、嗣位晋王",
+          "faction": "wei"
+        }
+      ]
+    },
+    {
+      "id": "shao_simayan_shiwei",
+      "title": "司马炎受禅代魏，晋朝建立",
+      "eraDate": "魏咸熙二年·冬十二月（泰始元年）",
+      "year": 265,
+      "month": 12,
+      "phase": "phase3",
+      "type": "succession",
+      "coord": [
+        34.65,
+        112.45
+      ],
+      "zoom": 6,
+      "description": "十二月壬戌（十三日），魏帝曹奂禅位于晋王司马炎。丙寅（十七日），炎即皇帝位于南郊，是为晋武帝。大赦，改元泰始。封魏帝为陈留王，宫于邺；追尊宣王司马懿为宣皇帝，景王司马师为景皇帝，文王司马昭为文皇帝。曹魏自文帝曹丕黄初元年(220)代汉，至陈留王奂禅位，历五帝，共四十六年。",
+      "sources": [
+        {
+          "book": "晋书·武帝纪",
+          "quote": "泰始元年冬十二月丙寅，设坛于南郊，百僚在位及匈奴南单于四夷会者数万人，柴燎告类于上帝……于是即皇帝位。"
+        },
+        {
+          "book": "三国志·魏书·三少帝纪",
+          "quote": "十二月壬戌，天禄永终，历数在晋。诏群公卿士具仪设坛于南郊，使使者奉皇帝玺绶册，禅位于晋嗣王，如汉魏故事。"
+        }
+      ],
+      "figures": [
+        {
+          "name": "司马炎",
+          "role": "晋武帝（受禅即位）",
+          "faction": "jin"
+        },
+        {
+          "name": "曹奂",
+          "role": "魏元帝（陈留王，禅位）",
+          "faction": "wei"
+        }
+      ],
+      "territoryChange": {
+        "from": "wei",
+        "to": "jin",
+        "provinces": [
+          "jun_henan_yin",
+          "jun_hedong",
+          "jun_henei",
+          "jun_hongnong",
+          "jun_pingyang",
+          "jun_yingchuan",
+          "jun_runan",
+          "jun_liangguo",
+          "jun_peiguo",
+          "jun_qiaojun",
+          "jun_chenjun",
+          "jun_lujun",
+          "jun_yiyang_wei",
+          "jun_anfeng",
+          "jun_weijun",
+          "jun_julu",
+          "jun_zhaoguo",
+          "jun_changshan",
+          "jun_zhongshan",
+          "jun_anping",
+          "jun_hejian",
+          "jun_bohai",
+          "jun_qinghe",
+          "jun_pingyuan",
+          "jun_leling",
+          "jun_yangping",
+          "jun_guangping",
+          "jun_chenliu",
+          "jun_dongjun",
+          "jun_dongping",
+          "jun_rencheng",
+          "jun_taishan",
+          "jun_jibei",
+          "jun_shanyang",
+          "jun_jiyin",
+          "jun_dongguan_wei",
+          "jun_xiapi",
+          "jun_pengcheng",
+          "jun_donghai",
+          "jun_langya",
+          "jun_guangling_wei",
+          "jun_qiguo",
+          "jun_jinan",
+          "jun_lean",
+          "jun_beihai",
+          "jun_donglai",
+          "jun_chengyang",
+          "jun_changguang",
+          "jun_jincheng",
+          "jun_xiping",
+          "jun_wuwei",
+          "jun_zhangye",
+          "jun_jiuquan",
+          "jun_dunhuang",
+          "jun_xihai",
+          "jun_xijun",
+          "jun_jingzhao",
+          "jun_fengyi",
+          "jun_fufeng",
+          "jun_beidi",
+          "jun_xinping",
+          "jun_anding",
+          "jun_guangwei",
+          "jun_tianshui",
+          "jun_nanan",
+          "jun_longxi",
+          "jun_taiyuan",
+          "jun_shangdang",
+          "jun_xihe",
+          "jun_yanmen",
+          "jun_xinxing",
+          "jun_leeping",
+          "jun_fanyang",
+          "jun_yanguo",
+          "jun_yuyang",
+          "jun_youbeiping",
+          "jun_liaoxi",
+          "jun_daijun",
+          "jun_shanggu",
+          "jun_changli",
+          "jun_nanyang",
+          "jun_nanxiang",
+          "jun_xiangyang",
+          "jun_jiangxia_wei",
+          "jun_weixing",
+          "jun_xincheng",
+          "jun_huainan",
+          "jun_lujiang_wei",
+          "jun_liaodong",
+          "jun_xuantu",
+          "jun_lelng",
+          "jun_daifang"
+        ]
+      }
+    },
+    {
+      "id": "shao_yanghu_zhenxiangyang",
+      "title": "羊祜镇襄阳",
+      "eraDate": "晋泰始五年·春二月",
+      "year": 269,
+      "month": 2,
+      "phase": "phase4",
+      "type": "military",
+      "coord": [
+        32.04,
+        112.14
+      ],
+      "zoom": 6,
+      "description": "晋武帝有灭吴之志，以尚书左仆射羊祜为都督荆州诸军事，假节，散骑常侍，卫将军，出镇襄阳。祜绥怀远近，甚得江、汉之心，与吴人开布大信，降者欲去皆听之。减戍逻之卒，以垦田八百余顷。祜之始至也，军无百日之粮；及至季年，有十年之积。",
+      "sources": [
+        {
+          "book": "晋书·羊祜传",
+          "quote": "帝将有灭吴之志，以祜为都督荆州诸军事、假节，散骑常侍、卫将军如故。祜率营兵出镇南夏，开设庠序，绥怀远近，甚得江汉之心。"
+        },
+        {
+          "book": "资治通鉴·晋纪一",
+          "quote": "祜至襄阳，甚得江、汉之心。"
+        }
+      ],
+      "figures": [
+        {
+          "name": "羊祜",
+          "role": "晋尚书左仆射、都督荆州诸军事",
+          "faction": "jin"
+        },
+        {
+          "name": "司马炎",
+          "role": "晋武帝",
+          "faction": "jin"
+        }
+      ]
+    },
+    {
+      "id": "shao_sunhao_baozheng",
+      "title": "孙皓暴政日甚",
+      "eraDate": "吴建衡二年·秋",
+      "year": 270,
+      "month": 8,
+      "phase": "phase4",
+      "type": "internal",
+      "coord": [
+        32.05,
+        118.78
+      ],
+      "zoom": 6,
+      "description": "孙皓初即位发优诏，后渐暴虐，夺人土地，掘人坟墓。中书令贺邵因中风不能言，皓疑其托疾，拷掠至死。侍中韦昭以直谏见杀。左丞相陆凯病笃，上疏谏皓二十余事，皓不纳。凯卒，皓恨其直言，徙其家。",
+      "sources": [
+        {
+          "book": "三国志·吴书·三嗣主传",
+          "quote": "皓既得志，粗暴骄盈，多忌讳，好酒色，大小失望。"
+        },
+        {
+          "book": "资治通鉴·晋纪一",
+          "quote": "吴主既得志，粗暴骄盈，多忌讳，好酒色，大小失望。"
+        }
+      ],
+      "figures": [
+        {
+          "name": "孙皓",
+          "role": "吴末帝",
+          "faction": "wu"
+        },
+        {
+          "name": "贺邵",
+          "role": "中书令（被杀）",
+          "faction": "wu"
+        },
+        {
+          "name": "韦昭",
+          "role": "侍中（被杀）",
+          "faction": "wu"
+        },
+        {
+          "name": "陆凯",
+          "role": "左丞相",
+          "faction": "wu"
+        }
+      ]
+    },
+    {
+      "id": "shao_jinwu_yanghu_mimou",
+      "title": "晋武帝与羊祜密谋伐吴",
+      "eraDate": "晋泰始七年·冬",
+      "year": 271,
+      "month": 11,
+      "phase": "phase4",
+      "type": "political",
+      "coord": [
+        34.65,
+        112.45
+      ],
+      "zoom": 6,
+      "description": "武帝召羊祜入朝，密问伐吴之计。祜曰：'今江淮之险不如剑阁，孙皓之暴过于刘禅，吴人之困甚于巴蜀。而大晋兵力盛于往时，宜乘此时平壹四海。'武帝然之，然朝议多不同，贾充、荀勖尤以为不可。祜出镇襄阳，经营荆州，为日后伐吴做准备。",
+      "sources": [
+        {
+          "book": "晋书·羊祜传",
+          "quote": "帝将有灭吴之志，以祜为都督荆州诸军事。"
+        },
+        {
+          "book": "资治通鉴·晋纪一",
+          "quote": "帝与羊祜密谋伐吴，朝议多以为不可。"
+        }
+      ],
+      "figures": [
+        {
+          "name": "司马炎",
+          "role": "晋武帝",
+          "faction": "jin"
+        },
+        {
+          "name": "羊祜",
+          "role": "都督荆州诸军事",
+          "faction": "jin"
+        },
+        {
+          "name": "贾充",
+          "role": "太尉（反对）",
+          "faction": "jin"
+        }
+      ]
+    },
+    {
+      "id": "shao_xiling_zhizhan",
+      "title": "西陵之战——陆抗平定步阐叛",
+      "eraDate": "晋泰始八年·冬十一月（吴凤凰元年）",
+      "year": 272,
+      "month": 11,
+      "phase": "phase4",
+      "type": "battle",
+      "coord": [
+        30.7,
+        111.3
+      ],
+      "zoom": 7,
+      "description": "吴西陵督步阐据城叛降晋。吴镇军大将军陆抗闻之，即部分诸军径赴西陵，筑严围以困阐，内以围阐，外以御晋兵。晋车骑将军羊祜率师向江陵，巴东监军徐胤率水军诣建平，荆州刺史杨肇至西陵救阐。陆抗破杨肇于西陵，肇败走；羊祜等皆引军还。抗遂拔西陵，诛步阐及同谋将吏数十人，皆夷三族。",
+      "sources": [
+        {
+          "book": "三国志·吴书·陆逊传",
+          "quote": "凤皇元年，西陵督步阐据城以叛，遣使降晋。抗闻之，日部分诸军，令将军左奕、吾彦、蔡贡等径赴西陵，敕军营更筑严围。"
+        },
+        {
+          "book": "资治通鉴·晋纪二",
+          "quote": "陆抗下令诸军击之，矢石雨下，肇众死者相属。肇计屈，夜遁。抗遂拔西陵，诛阐及同谋将吏数十人，皆夷三族。"
+        }
+      ],
+      "figures": [
+        {
+          "name": "陆抗",
+          "role": "吴镇军大将军，都督信陵、西陵、夷道、乐乡、公安诸军事",
+          "faction": "wu"
+        },
+        {
+          "name": "步阐",
+          "role": "吴西陵督（叛降晋，后被诛）",
+          "faction": "wu"
+        },
+        {
+          "name": "羊祜",
+          "role": "晋车骑将军",
+          "faction": "jin"
+        },
+        {
+          "name": "杨肇",
+          "role": "晋荆州刺史",
+          "faction": "jin"
+        }
+      ],
+      "routes": [
+        {
+          "commander": "羊祜",
+          "color": "#5D3FD3",
+          "path": [
+            [
+              32.04,
+              112.14
+            ],
+            [
+              30.33,
+              112.18
+            ]
+          ],
+          "pathNames": [
+            "襄阳",
+            "江陵"
+          ]
+        },
+        {
+          "commander": "杨肇",
+          "color": "#7B68EE",
+          "path": [
+            [
+              32.04,
+              112.14
+            ],
+            [
+              30.7,
+              111.3
+            ]
+          ],
+          "pathNames": [
+            "荆州",
+            "西陵"
+          ]
+        },
+        {
+          "commander": "陆抗",
+          "color": "#1A6BB5",
+          "path": [
+            [
+              30.6,
+              111.5
+            ],
+            [
+              30.7,
+              111.3
+            ]
+          ],
+          "pathNames": [
+            "乐乡",
+            "西陵"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shao_yanghu_lukang_duizhi",
+      "title": "羊祜与陆抗边境对峙，以德怀远",
+      "eraDate": "晋泰始九年·秋",
+      "year": 273,
+      "month": 9,
+      "phase": "phase4",
+      "type": "internal",
+      "coord": [
+        32.04,
+        112.14
+      ],
+      "zoom": 6,
+      "description": "羊祜镇襄阳，与吴陆抗对峙。祜绥怀远近，每交战必约日期，不为掩袭。抗遗祜酒，祜饮之不疑。抗疾，祜馈之药，抗亦服之。人多谏抗，抗曰：'岂有鸩人羊叔子哉！'二境边晏然，商旅往来无阻。",
+      "sources": [
+        {
+          "book": "晋书·羊祜传",
+          "quote": "祜与陆抗相对，使命交通。抗遗祜酒，祜饮之不疑。抗疾，祜馈之药，抗亦服之。"
+        },
+        {
+          "book": "资治通鉴·晋纪二",
+          "quote": "抗遗祜酒，祜饮之不疑。抗疾，祜馈之药，抗亦服之。"
+        }
+      ],
+      "figures": [
+        {
+          "name": "羊祜",
+          "role": "晋征南大将军",
+          "faction": "jin"
+        },
+        {
+          "name": "陆抗",
+          "role": "吴大司马",
+          "faction": "wu"
+        }
+      ]
+    },
+    {
+      "id": "shao_lukang_zu",
+      "title": "陆抗卒",
+      "eraDate": "晋泰始十年·秋（吴凤凰三年）",
+      "year": 274,
+      "month": 7,
+      "phase": "phase4",
+      "type": "death",
+      "coord": [
+        30.6,
+        111.5
+      ],
+      "zoom": 7,
+      "description": "吴大司马、荆州牧陆抗病卒，时年四十九。陆抗为陆逊之子，深谋有断，镇守荆州与晋羊祜对峙，边境宴然。抗临终上疏劝孙皓加强西陵、建平守备，以为'西陵、建平，国之蕃表，既处下流，受敌二境……若敌泛舟顺流，舳舻千里，星奔电迈，俄然行至，非可恃援他部以救倒县也。此乃社稷安危之机，非徒封疆侵陵小害也。'皓不纳。",
+      "sources": [
+        {
+          "book": "三国志·吴书·陆逊传",
+          "quote": "秋遂卒，子晏嗣。晏及弟景、玄、机、云分领抗兵。"
+        },
+        {
+          "book": "资治通鉴·晋纪二",
+          "quote": "吴大司马陆抗疾病，上疏曰：'西陵、建平，国之蕃表……若敌泛舟顺流，星奔电迈，非可恃援他部以救倒县也。此乃社稷安危之机也。'"
+        }
+      ],
+      "figures": [
+        {
+          "name": "陆抗",
+          "role": "吴大司马、荆州牧（卒，年四十九）",
+          "faction": "wu"
+        },
+        {
+          "name": "孙皓",
+          "role": "吴末帝",
+          "faction": "wu"
+        }
+      ]
+    },
+    {
+      "id": "shao_yanghu_shangshu",
+      "title": "羊祜上疏请伐吴",
+      "eraDate": "晋咸宁二年·冬十月",
+      "year": 276,
+      "month": 10,
+      "phase": "phase4",
+      "type": "political",
+      "coord": [
+        32.04,
+        112.14
+      ],
+      "zoom": 6,
+      "description": "晋征南大将军羊祜上疏请伐吴，言：'今江淮之险不如剑阁，孙皓之暴过于刘禅，吴人之困甚于巴蜀，而大晋兵力盛于往时，不于此际平壹四海，而更阻兵相守，使天下困于征戍，经历盛衰，不可长久也。'晋武帝深纳之，然议者多不同，贾充、荀勖、冯紞等反对派，唯度支尚书杜预、中书令张华等赞成。",
+      "sources": [
+        {
+          "book": "晋书·羊祜传",
+          "quote": "祜上疏请伐吴曰：'今江淮之难，不过剑阁；山川之险，不过岷汉；孙皓之暴，侈于刘禅；吴人之困，甚于巴蜀。而大晋兵众，多于前世；资储器械，盛于往时……'帝深纳之。"
+        },
+        {
+          "book": "资治通鉴·晋纪二",
+          "quote": "会秦、凉二州击鲜卑树机能，久未平，祜复表曰：'吴平则胡自定，但当速济大功耳。'议者多不同，祜叹曰：'天下不如意事，十常居七八。'"
+        }
+      ],
+      "figures": [
+        {
+          "name": "羊祜",
+          "role": "晋征南大将军",
+          "faction": "jin"
+        },
+        {
+          "name": "司马炎",
+          "role": "晋武帝",
+          "faction": "jin"
+        },
+        {
+          "name": "贾充",
+          "role": "晋太尉（反对伐吴）",
+          "faction": "jin"
+        },
+        {
+          "name": "杜预",
+          "role": "晋度支尚书（赞成）",
+          "faction": "jin"
+        },
+        {
+          "name": "张华",
+          "role": "晋中书令（赞成）",
+          "faction": "jin"
+        }
+      ]
+    },
+    {
+      "id": "shao_jinwu_juece_fawu",
+      "title": "晋武帝决策伐吴，张华赞成",
+      "eraDate": "晋咸宁三年·冬",
+      "year": 277,
+      "month": 11,
+      "phase": "phase4",
+      "type": "political",
+      "coord": [
+        34.65,
+        112.45
+      ],
+      "zoom": 6,
+      "description": "羊祜上疏后，武帝召群臣议。贾充、荀勖、冯紞等力谏不可。中书令张华曰：'吴主淫凶，国将亡矣。今天时人事皆顺，可一举而定。'武帝大悦，然仍犹豫。会益州刺史王濬上疏请伐吴，武帝意乃决。",
+      "sources": [
+        {
+          "book": "晋书·张华传",
+          "quote": "华曰：'吴主淫凶，国将亡矣。今天时人事皆顺。'帝大悦。"
+        },
+        {
+          "book": "资治通鉴·晋纪二",
+          "quote": "张华曰：'吴主淫凶，国将亡矣。今天时人事皆顺，可一举而定。'"
+        }
+      ],
+      "figures": [
+        {
+          "name": "张华",
+          "role": "中书令（主战）",
+          "faction": "jin"
+        },
+        {
+          "name": "贾充",
+          "role": "太尉（反对）",
+          "faction": "jin"
+        },
+        {
+          "name": "王濬",
+          "role": "益州刺史（请战）",
+          "faction": "jin"
+        },
+        {
+          "name": "司马炎",
+          "role": "晋武帝",
+          "faction": "jin"
+        }
+      ]
+    },
+    {
+      "id": "shao_yanghu_binggu_duyu_dai",
+      "title": "羊祜病卒，杜预代之",
+      "eraDate": "晋咸宁四年·冬十一月",
+      "year": 278,
+      "month": 11,
+      "phase": "phase4",
+      "type": "death",
+      "coord": [
+        34.65,
+        112.45
+      ],
+      "zoom": 6,
+      "description": "羊祜病笃，入朝面陈伐吴之计。帝遣张华问筹策，祜曰：'孙皓暴虐已甚，于今可不战而克。'疾笃，乃举杜预自代。十一月，祜卒，时年五十八。武帝素服哭之，甚哀。南州民闻祜卒，为之罢市，巷哭声相接。吴守边将士亦为之泣。祜好游岘山，襄阳人建碑立庙于其地，岁时祭祀，望其碑者无不流涕，因谓之'堕泪碑'。以杜预为镇南大将军、都督荆州诸军事。",
+      "sources": [
+        {
+          "book": "晋书·羊祜传",
+          "quote": "疾渐笃，乃举杜预自代。寻卒，时年五十八。帝素服哭之，甚哀。……南州人征市日闻祜丧，莫不号恸，罢市，巷哭者声相接。吴守边将士亦为之泣。"
+        },
+        {
+          "book": "资治通鉴·晋纪二",
+          "quote": "襄阳人建碑立庙于岘山，岁时祭祀，望其碑者无不流涕，因谓之堕泪碑。"
+        }
+      ],
+      "figures": [
+        {
+          "name": "羊祜",
+          "role": "征南大将军（卒，年五十八）",
+          "faction": "jin"
+        },
+        {
+          "name": "杜预",
+          "role": "晋镇南大将军，代祜镇荆州",
+          "faction": "jin"
+        },
+        {
+          "name": "司马炎",
+          "role": "晋武帝",
+          "faction": "jin"
+        }
+      ]
+    },
+    {
+      "id": "shao_wangjun_zao_louchuan",
+      "title": "王濬造楼船于蜀，练水军七年",
+      "eraDate": "晋咸宁五年·秋八月",
+      "year": 279,
+      "month": 8,
+      "phase": "phase5",
+      "type": "internal",
+      "coord": [
+        30.65,
+        104.07
+      ],
+      "zoom": 6,
+      "description": "王濬为益州刺史，在蜀地造大船连舫，方百二十步，受二千余人。以木为城，起楼橹，开四出门，其上皆得驰马往来。又画鹢首怪兽于船首，以惧江神。舟楫之盛，自古未有。濬在蜀七年，日夕修船练卒。",
+      "sources": [
+        {
+          "book": "晋书·王濬传",
+          "quote": "濬乃作大船连舫，方百二十步，受二千余人。以木为城，起楼橹，开四出门，其上皆得驰马往来。"
+        },
+        {
+          "book": "资治通鉴·晋纪三",
+          "quote": "濬作大船连舫，方百二十步，受二千余人。舟楫之盛，自古未有。"
+        }
+      ],
+      "figures": [
+        {
+          "name": "王濬",
+          "role": "龙骧将军、益州刺史",
+          "faction": "jin"
+        }
+      ]
+    },
+    {
+      "id": "shao_liulu_fawu",
+      "title": "六路大军伐吴",
+      "eraDate": "晋咸宁五年·冬十一月",
+      "year": 279,
+      "month": 11,
+      "phase": "phase5",
+      "type": "military",
+      "coord": [
+        34.65,
+        112.45
+      ],
+      "zoom": 5,
+      "description": "晋武帝大举伐吴，遣镇军将军琅邪王司马伷出涂中，安东将军王浑出江西，建威将军王戎出武昌，平南将军胡奋出夏口，镇南大将军杜预出江陵，龙骧将军王濬、巴东监军唐彬下巴蜀，东西凡二十余万。以太尉贾充为使持节、假黄钺、大都督，冠军将军杨济副之，帅中军南屯襄阳，为诸军节度。",
+      "sources": [
+        {
+          "book": "晋书·武帝纪",
+          "quote": "十一月，大举伐吴，遣镇军将军、琅邪王伷出涂中，安东将军王浑出江西，建威将军王戎出武昌，平南将军胡奋出夏口，镇南大将军杜预出江陵，龙骧将军王濬、广武将军唐彬率巴蜀之卒浮江而下，东西凡二十余万。"
+        },
+        {
+          "book": "资治通鉴·晋纪三",
+          "quote": "东西凡二十余万。命贾充为使持节、假黄钺、大都督……充固陈伐吴不利，且自言衰老，不堪元帅之任。帝曰：'君若不行，吾便自出。'充不得已，乃受节钺。"
+        }
+      ],
+      "figures": [
+        {
+          "name": "司马炎",
+          "role": "晋武帝",
+          "faction": "jin"
+        },
+        {
+          "name": "贾充",
+          "role": "大都督",
+          "faction": "jin"
+        },
+        {
+          "name": "司马伷",
+          "role": "琅邪王、镇军将军（涂中）",
+          "faction": "jin"
+        },
+        {
+          "name": "王浑",
+          "role": "安东将军（江西）",
+          "faction": "jin"
+        },
+        {
+          "name": "王戎",
+          "role": "建威将军（武昌）",
+          "faction": "jin"
+        },
+        {
+          "name": "胡奋",
+          "role": "平南将军（夏口）",
+          "faction": "jin"
+        },
+        {
+          "name": "杜预",
+          "role": "镇南大将军（江陵）",
+          "faction": "jin"
+        },
+        {
+          "name": "王濬",
+          "role": "龙骧将军（巴蜀水军）",
+          "faction": "jin"
+        },
+        {
+          "name": "唐彬",
+          "role": "广武将军",
+          "faction": "jin"
+        }
+      ],
+      "routes": [
+        {
+          "commander": "司马伷",
+          "color": "#5D3FD3",
+          "path": [
+            [
+              34.3,
+              117.97
+            ],
+            [
+              32.3,
+              118.4
+            ]
+          ],
+          "pathNames": [
+            "下邳",
+            "涂中"
+          ]
+        },
+        {
+          "commander": "王浑",
+          "color": "#6A5ACD",
+          "path": [
+            [
+              32.58,
+              116.78
+            ],
+            [
+              31.6,
+              118.4
+            ]
+          ],
+          "pathNames": [
+            "寿春",
+            "横江"
+          ]
+        },
+        {
+          "commander": "王戎",
+          "color": "#7B68EE",
+          "path": [
+            [
+              32.04,
+              112.14
+            ],
+            [
+              30.35,
+              114.87
+            ]
+          ],
+          "pathNames": [
+            "豫州",
+            "武昌"
+          ]
+        },
+        {
+          "commander": "胡奋",
+          "color": "#8470DB",
+          "path": [
+            [
+              32.04,
+              112.14
+            ],
+            [
+              30.5,
+              114.3
+            ]
+          ],
+          "pathNames": [
+            "荆州",
+            "夏口"
+          ]
+        },
+        {
+          "commander": "杜预",
+          "color": "#5D3FD3",
+          "path": [
+            [
+              32.04,
+              112.14
+            ],
+            [
+              30.33,
+              112.18
+            ]
+          ],
+          "pathNames": [
+            "襄阳",
+            "江陵"
+          ]
+        },
+        {
+          "commander": "王濬",
+          "color": "#9370DB",
+          "path": [
+            [
+              30.65,
+              104.07
+            ],
+            [
+              31.0,
+              109.5
+            ],
+            [
+              30.7,
+              111.3
+            ],
+            [
+              32.05,
+              118.78
+            ]
+          ],
+          "pathNames": [
+            "成都",
+            "巴东",
+            "三峡",
+            "建业"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shao_wangjun_xiaxia",
+      "title": "王濬楼船出三峡，克西陵",
+      "eraDate": "晋太康元年·春二月",
+      "year": 280,
+      "month": 2,
+      "phase": "phase5",
+      "type": "battle",
+      "coord": [
+        30.7,
+        111.3
+      ],
+      "zoom": 7,
+      "description": "王濬率巴东水军顺流而下，连克吴丹阳、西陵、荆门、夷道诸城。吴人于江碛要害之处，并以铁锁横截之；又作铁锥长丈余，暗置江中以逆拒舟舰。濬作大筏数十，方百余步，缚草为人，被甲持杖，令善水者以筏先行，遇铁锥，锥辄著筏而去。又作火炬，长十余丈，大数十围，灌以麻油，在船前，遇锁，燃炬烧之，须臾，融液断绝，于是船无所碍。遂克西陵，获吴镇南将军留宪；克荆门、夷道。",
+      "sources": [
+        {
+          "book": "晋书·王濬传",
+          "quote": "吴人于江险碛要害之处，并以铁锁横截之，又作铁锥长丈余，暗置江中，以逆距船。……濬乃作火炬，长十余丈，大数十围，灌以麻油，在船前，遇锁，然炬烧之，须臾，融液断绝，于是船无所碍。"
+        },
+        {
+          "book": "资治通鉴·晋纪三",
+          "quote": "二月戊午，王濬、唐彬击破吴丹阳监盛纪。庚申，濬克西陵，杀吴都督留宪等。壬戌，克荆门、夷道二城。"
+        }
+      ],
+      "figures": [
+        {
+          "name": "王濬",
+          "role": "龙骧将军，益梁二州诸军事",
+          "faction": "jin"
+        },
+        {
+          "name": "唐彬",
+          "role": "广武将军",
+          "faction": "jin"
+        },
+        {
+          "name": "留宪",
+          "role": "吴西陵督（战死）",
+          "faction": "wu"
+        }
+      ],
+      "routes": [
+        {
+          "commander": "王濬",
+          "color": "#5D3FD3",
+          "path": [
+            [
+              30.65,
+              104.07
+            ],
+            [
+              29.55,
+              106.55
+            ],
+            [
+              31.0,
+              109.5
+            ],
+            [
+              30.7,
+              111.3
+            ]
+          ],
+          "pathNames": [
+            "成都",
+            "巴东",
+            "三峡",
+            "西陵"
+          ]
+        }
+      ],
+      "territoryChange": {
+        "from": "wu",
+        "to": "jin",
+        "provinces": [
+          "jun_yidu",
+          "jun_jianping"
+        ]
+      }
+    },
+    {
+      "id": "shao_duyu_qujiangling",
+      "title": "杜预取江陵，沅湘以南归降",
+      "eraDate": "晋太康元年·春二月",
+      "year": 280,
+      "month": 2,
+      "phase": "phase5",
+      "type": "battle",
+      "coord": [
+        30.33,
+        112.18
+      ],
+      "zoom": 7,
+      "description": "杜预遣牙门周旨等率奇兵八百泛舟夜渡江，袭乐乡，多张旗帜，起火巴山，吴都督孙歆震恐。预进克江陵，斩吴督伍延。于是沅、湘以南，接于交、广，吴之州郡皆望风归命，奉送印绶。预仗节称诏而绥抚之。凡所斩及生获吴都督、监军十四，牙门、郡守百二十余人。",
+      "sources": [
+        {
+          "book": "晋书·杜预传",
+          "quote": "预以太康元年正月，陈兵于江陵，遣参军樊显、尹林、邓圭、襄阳太守周奇等率众循江西上……所过城邑，莫不束手。"
+        },
+        {
+          "book": "资治通鉴·晋纪三",
+          "quote": "杜预进攻江陵，甲戌，克之，斩伍延。于是沅、湘以南，接于交、广，州郡皆望风送印绶。"
+        }
+      ],
+      "figures": [
+        {
+          "name": "杜预",
+          "role": "镇南大将军",
+          "faction": "jin"
+        },
+        {
+          "name": "孙歆",
+          "role": "吴乐乡督（被虏）",
+          "faction": "wu"
+        },
+        {
+          "name": "伍延",
+          "role": "吴江陵督（战死）",
+          "faction": "wu"
+        }
+      ],
+      "territoryChange": {
+        "from": "wu",
+        "to": "jin",
+        "provinces": [
+          "jun_nanjun",
+          "jun_hengyang",
+          "jun_xiangdong",
+          "jun_lingling",
+          "jun_shian",
+          "jun_guiyang",
+          "jun_linhe",
+          "jun_wuling"
+        ]
+      }
+    },
+    {
+      "id": "shao_hengjiang_dazhan",
+      "title": "横江之战——王浑破吴中军",
+      "eraDate": "晋太康元年·春二月",
+      "year": 280,
+      "month": 2,
+      "phase": "phase5",
+      "type": "battle",
+      "coord": [
+        31.6,
+        118.4
+      ],
+      "zoom": 7,
+      "description": "吴主孙皓闻王浑南下，使丞相张悌督丹阳太守沈莹、护军孙震、副军师诸葛靓率众三万渡江逆战。至牛渚，沈莹劝悌坚守以待晋水军，悌不从，遂渡江。与晋扬州刺史周浚军战于版桥，吴兵大败。诸葛靓欲与悌俱去，悌不肯去，靓自往牵之，悌垂涕曰：'仲思，今日是我死日也。且我为儿童时，便为卿家丞相所拔，常恐不得其死，负名贤知顾。今以身徇社稷，复何遁邪！'靓流涕放之，去百余步，顾见为晋兵所杀，并斩震、莹等。",
+      "sources": [
+        {
+          "book": "三国志·吴书·三嗣主传",
+          "quote": "大司马、司徒丁固、司空孟仁卒。二月，王濬、唐彬等克丹阳城……濬又破吴兵于横江。"
+        },
+        {
+          "book": "资治通鉴·晋纪三",
+          "quote": "吴丞相军师张悌、护军孙震、丹阳太守沈莹帅众三万济江，围成阳都尉张乔于杨荷。……晋兵一齐进击，吴兵大败……诸葛靓帅数百人遁去，使过迎张悌，悌不肯去。……遂为晋兵所杀，并斩震、莹。"
+        }
+      ],
+      "figures": [
+        {
+          "name": "张悌",
+          "role": "吴丞相（战死）",
+          "faction": "wu"
+        },
+        {
+          "name": "王浑",
+          "role": "安东将军",
+          "faction": "jin"
+        },
+        {
+          "name": "沈莹",
+          "role": "吴丹阳太守（战死）",
+          "faction": "wu"
+        },
+        {
+          "name": "孙震",
+          "role": "吴护军（战死）",
+          "faction": "wu"
+        },
+        {
+          "name": "诸葛靓",
+          "role": "吴副军师（败走）",
+          "faction": "wu"
+        }
+      ],
+      "routes": [
+        {
+          "commander": "张悌",
+          "color": "#1A6BB5",
+          "path": [
+            [
+              32.05,
+              118.78
+            ],
+            [
+              31.6,
+              118.4
+            ]
+          ],
+          "pathNames": [
+            "建业",
+            "牛渚/横江"
+          ]
+        }
+      ],
+      "territoryChange": {
+        "from": "wu",
+        "to": "jin",
+        "provinces": [
+          "jun_danyang",
+          "jun_lujiang_wu"
+        ]
+      }
+    },
+    {
+      "id": "shao_wangjun_boshiitou",
+      "title": "王濬舟师入石头城",
+      "eraDate": "晋太康元年·春三月",
+      "year": 280,
+      "month": 3,
+      "phase": "phase5",
+      "type": "battle",
+      "coord": [
+        32.05,
+        118.8
+      ],
+      "zoom": 7,
+      "description": "王濬自武昌顺流径趣建业，戎卒八万，方舟百里，鼓噪入于石头。吴帝孙皓面缚舆榇，诣军门降。王濬解缚焚榇，延请相见。收其图籍，克州四，郡四十三，户五十二万三千，兵二十三万。濬入建业，其明日，王浑乃济江。自汉献帝初平元年(190)关东州郡起兵讨董卓，天下分裂者九十一年，至此复归一统。",
+      "sources": [
+        {
+          "book": "晋书·王濬传",
+          "quote": "濬自发蜀，兵不血刃，攻无坚城，夏口、武昌，无相支抗。于是顺流鼓棹，径造三山。皓遣游击将军张象率舟军万人御濬，象军望旗而降。……壬寅，濬入于石头。皓乃备亡国之礼，素车白马，肉袒面缚，衔璧牵羊……率伪太子瑾、瑾弟鲁王虔等二十一人，造于垒门。"
+        },
+        {
+          "book": "三国志·吴书·三嗣主传",
+          "quote": "壬申，王濬最先到，于是受皓之降，解缚焚榇，延请相见。"
+        },
+        {
+          "book": "资治通鉴·晋纪三",
+          "quote": "朝廷闻吴已平，群臣皆贺上寿。帝执爵流涕曰：'此羊太傅之功也。'"
+        }
+      ],
+      "figures": [
+        {
+          "name": "王濬",
+          "role": "龙骧将军",
+          "faction": "jin"
+        },
+        {
+          "name": "孙皓",
+          "role": "吴末帝（出降）",
+          "faction": "wu"
+        },
+        {
+          "name": "司马炎",
+          "role": "晋武帝",
+          "faction": "jin"
+        }
+      ],
+      "routes": [
+        {
+          "commander": "王濬",
+          "color": "#5D3FD3",
+          "path": [
+            [
+              30.35,
+              114.87
+            ],
+            [
+              29.7,
+              115.97
+            ],
+            [
+              32.05,
+              118.78
+            ]
+          ],
+          "pathNames": [
+            "武昌",
+            "顺流东下",
+            "石头城"
+          ]
+        }
+      ],
+      "territoryChange": {
+        "from": "wu",
+        "to": "jin",
+        "provinces": [
+          "jun_jiangxia_wu",
+          "jun_changsha",
+          "jun_tianmen",
+          "jun_xindu",
+          "jun_wujun",
+          "jun_kuaiji",
+          "jun_linhai",
+          "jun_jianan",
+          "jun_dongyang",
+          "jun_yuzhang",
+          "jun_poyang",
+          "jun_luling",
+          "jun_linchuan",
+          "jun_ancheng",
+          "jun_luling_nan",
+          "jun_chaisang",
+          "jun_nanhai",
+          "jun_cangwu",
+          "jun_yulin",
+          "jun_guilin",
+          "jun_gaoliang",
+          "jun_gaoxing",
+          "jun_hepu",
+          "jun_zhuya",
+          "jun_jiaozhi",
+          "jun_xinchang",
+          "jun_wuping",
+          "jun_jiuzhen",
+          "jun_jiude",
+          "jun_rinan"
+        ]
+      }
+    },
+    {
+      "id": "shao_sanfen_guiyi",
+      "title": "三分归一，天下一统",
+      "eraDate": "晋太康元年·夏五月",
+      "year": 280,
+      "month": 5,
+      "phase": "phase5",
+      "type": "succession",
+      "coord": [
+        34.65,
+        112.45
+      ],
+      "zoom": 5,
+      "description": "孙皓举家西迁，五月丁亥朔至洛阳。晋武帝大会文武属国使者，引见皓于殿上。皓登殿稽首，帝谓曰：'朕设此座以待卿久矣。'皓对曰：'臣于南方，亦设此座以待陛下。'帝大笑。赐号归命侯。自东汉末年黄巾之乱(184)以来，天下分裂近百年；自曹丕代汉(220)三国鼎立，凡六十年。至是晋武一统，改元太康，天下重归一统。帝诏曰：'自汉末以来，四海幅裂，刺史、太守内亲民事，外领兵马。今天下为一，当戢干戈，刺史分职，皆如汉氏故事。'史称'太康之治'。",
+      "sources": [
+        {
+          "book": "晋书·武帝纪",
+          "quote": "夏四月甲申，诏曰：'自董卓构难，四海分崩……今天下为一……其大赦天下，改元太康，赐酺五日，恤孤老困穷。'五月辛亥，封孙皓为归命侯。"
+        },
+        {
+          "book": "资治通鉴·晋纪三",
+          "quote": "庚寅，帝临轩，大会文武有位及四方使者，国子学生皆预焉。引见归命侯皓及吴降人……帝从容问散骑常侍薛莹孙皓所以亡，对曰：'皓昵近小人，刑罚放滥，大臣诸将，人不自保，此其所以亡也。'"
+        }
+      ],
+      "figures": [
+        {
+          "name": "司马炎",
+          "role": "晋武帝（一统天下）",
+          "faction": "jin"
+        },
+        {
+          "name": "孙皓",
+          "role": "归命侯（吴亡主）",
+          "faction": "wu"
+        }
+      ]
+    }
+  ]
+}

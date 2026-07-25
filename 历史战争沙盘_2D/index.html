@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Historical War Map 2D Simulator</title>
+  <link rel="stylesheet" href="vendor/leaflet.css" />
+  <link rel="stylesheet" href="css/style.css?v=28" />
+</head>
+<body>
+  <!-- 时代选择面板 -->
+  <div id="battle-selector">
+    <h2>历史战争2D地图沙盘</h2>
+    <div id="era-list"></div>
+  </div>
+
+  <!-- 地图容器 -->
+  <div id="map-container">
+    <div id="map"></div>
+  </div>
+
+  <!-- 底部信息面板 -->
+  <div id="control-panel">
+    <div id="campaign-info">
+      <span id="campaign-name">请选择时代</span>
+      <span id="era-description"></span>
+      <span id="era-status"></span>
+    </div>
+  </div>
+
+  <!-- 兵力信息面板 -->
+  <div id="troop-info">
+    <h4>势力信息</h4>
+    <div id="troop-list"></div>
+  </div>
+
+  <!-- 省份详情面板 -->
+  <div id="province-detail" class="hidden">
+    <button id="province-detail-close" aria-label="关闭">×</button>
+    <h3 id="province-detail-name"></h3>
+    <div id="province-detail-faction"></div>
+    <div id="province-detail-source"></div>
+    <h4>所辖城市</h4>
+    <ul id="province-detail-cities"></ul>
+  </div>
+
+  <!-- 剧情时间轴面板 -->
+  <div id="scenario-timeline" class="hidden">
+    <div class="timeline-header">三家归晋 <small>263-280</small></div>
+    <div class="timeline-phases" id="timeline-phases"></div>
+    <div class="timeline-controls">
+      <button id="btn-prev-event" title="上一事件">⏮</button>
+      <button id="btn-play-event" title="自动播放">▶</button>
+      <button id="btn-next-event" title="下一事件">⏭</button>
+      <button id="btn-close-event" title="关闭">✕</button>
+    </div>
+  </div>
+
+  <!-- 事件详情面板 -->
+  <div id="event-detail" class="hidden">
+    <button id="event-detail-close" aria-label="关闭">×</button>
+    <div id="event-title"></div>
+    <div id="event-meta">
+      <span id="event-date"></span>
+      <span id="event-type"></span>
+    </div>
+    <div id="event-desc"></div>
+    <div id="event-forces" class="event-section"></div>
+    <div id="event-figures" class="event-section"></div>
+    <div id="event-sources" class="event-section"></div>
+  </div>
+
+  <script src="vendor/leaflet.js"></script>
+  <script src="vendor/d3-delaunay.min.js"></script>
+  <script src="js/MapModule.js?v=28"></script>
+  <script src="js/ScenarioModule.js?v=28"></script>
+  <script src="js/UIController.js?v=28"></script>
+  <script src="js/main.js?v=28"></script>
+</body>
+</html>
